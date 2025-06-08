@@ -1,0 +1,6 @@
+20:26:35 INFO  : Registering command handlers for SDK TCF services
+20:26:35 INFO  : Launching XSCT server: xsct.bat -interactive C:\Xilinx\MyS_workspace\LedController\Sintesis\LedController\LedController.sdk\temp_xsdb_launch_script.tcl
+20:26:41 INFO  : XSCT server has started successfully.
+20:26:41 INFO  : Successfully done setting XSCT server connection channel  
+20:26:43 INFO  : Successfully done setting SDK workspace  
+20:26:43 INFO  : Processing command line option -hwspec C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper.hdf.

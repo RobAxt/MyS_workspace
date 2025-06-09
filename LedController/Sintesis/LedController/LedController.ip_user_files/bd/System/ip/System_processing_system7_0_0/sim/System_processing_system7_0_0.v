@@ -55,7 +55,7 @@
 
 `timescale 1ns/1ps
 
-module System_processing_system7_0_0 (
+module system_processing_system7_0_0 (
 M_AXI_GP0_ARVALID, 
 M_AXI_GP0_AWVALID, 
 M_AXI_GP0_BREADY, 

@@ -56,7 +56,7 @@ USE ieee.numeric_std.ALL;
 LIBRARY proc_sys_reset_v5_0_12;
 USE proc_sys_reset_v5_0_12.proc_sys_reset;
 
-ENTITY System_rst_ps7_0_100M_0 IS
+ENTITY system_rst_ps7_0_100M_0 IS
   PORT (
     slowest_sync_clk : IN STD_LOGIC;
     ext_reset_in : IN STD_LOGIC;
@@ -69,11 +69,11 @@ ENTITY System_rst_ps7_0_100M_0 IS
     interconnect_aresetn : OUT STD_LOGIC_VECTOR(0 DOWNTO 0);
     peripheral_aresetn : OUT STD_LOGIC_VECTOR(0 DOWNTO 0)
   );
-END System_rst_ps7_0_100M_0;
+END system_rst_ps7_0_100M_0;
 
-ARCHITECTURE System_rst_ps7_0_100M_0_arch OF System_rst_ps7_0_100M_0 IS
+ARCHITECTURE system_rst_ps7_0_100M_0_arch OF system_rst_ps7_0_100M_0 IS
   ATTRIBUTE DowngradeIPIdentifiedWarnings : STRING;
-  ATTRIBUTE DowngradeIPIdentifiedWarnings OF System_rst_ps7_0_100M_0_arch: ARCHITECTURE IS "yes";
+  ATTRIBUTE DowngradeIPIdentifiedWarnings OF system_rst_ps7_0_100M_0_arch: ARCHITECTURE IS "yes";
   COMPONENT proc_sys_reset IS
     GENERIC (
       C_FAMILY : STRING;
@@ -117,7 +117,7 @@ ARCHITECTURE System_rst_ps7_0_100M_0_arch OF System_rst_ps7_0_100M_0 IS
   ATTRIBUTE X_INTERFACE_INFO OF aux_reset_in: SIGNAL IS "xilinx.com:signal:reset:1.0 aux_reset RST";
   ATTRIBUTE X_INTERFACE_PARAMETER OF ext_reset_in: SIGNAL IS "XIL_INTERFACENAME ext_reset, BOARD.ASSOCIATED_PARAM RESET_BOARD_INTERFACE, POLARITY ACTIVE_LOW";
   ATTRIBUTE X_INTERFACE_INFO OF ext_reset_in: SIGNAL IS "xilinx.com:signal:reset:1.0 ext_reset RST";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF slowest_sync_clk: SIGNAL IS "XIL_INTERFACENAME clock, ASSOCIATED_RESET mb_reset:bus_struct_reset:interconnect_aresetn:peripheral_aresetn:peripheral_reset, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN System_processing_system7_0_0_FCLK_CLK0";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF slowest_sync_clk: SIGNAL IS "XIL_INTERFACENAME clock, ASSOCIATED_RESET mb_reset:bus_struct_reset:interconnect_aresetn:peripheral_aresetn:peripheral_reset, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0";
   ATTRIBUTE X_INTERFACE_INFO OF slowest_sync_clk: SIGNAL IS "xilinx.com:signal:clock:1.0 clock CLK";
 BEGIN
   U0 : proc_sys_reset
@@ -144,4 +144,4 @@ BEGIN
       interconnect_aresetn => interconnect_aresetn,
       peripheral_aresetn => peripheral_aresetn
     );
-END System_rst_ps7_0_100M_0_arch;
+END system_rst_ps7_0_100M_0_arch;

@@ -1,11 +1,11 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-// Date        : Sun Jun  8 20:17:59 2025
+// Date        : Sun Jun  8 21:18:19 2025
 // Host        : NB459408 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
-//               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/System/ip/System_processing_system7_0_0/System_processing_system7_0_0_stub.v
-// Design      : System_processing_system7_0_0
+//               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0_stub.v
+// Design      : system_processing_system7_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z010clg400-1
 // --------------------------------------------------------------------------------
@@ -14,7 +14,7 @@
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
 (* X_CORE_INFO = "processing_system7_v5_5_processing_system7,Vivado 2018.1" *)
-module System_processing_system7_0_0(M_AXI_GP0_ARVALID, M_AXI_GP0_AWVALID, 
+module system_processing_system7_0_0(M_AXI_GP0_ARVALID, M_AXI_GP0_AWVALID, 
   M_AXI_GP0_BREADY, M_AXI_GP0_RREADY, M_AXI_GP0_WLAST, M_AXI_GP0_WVALID, M_AXI_GP0_ARID, 
   M_AXI_GP0_AWID, M_AXI_GP0_WID, M_AXI_GP0_ARBURST, M_AXI_GP0_ARLOCK, M_AXI_GP0_ARSIZE, 
   M_AXI_GP0_AWBURST, M_AXI_GP0_AWLOCK, M_AXI_GP0_AWSIZE, M_AXI_GP0_ARPROT, 

@@ -1,11 +1,11 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
--- Date        : Sun Jun  8 20:17:50 2025
+-- Date        : Sun Jun  8 21:18:11 2025
 -- Host        : NB459408 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/System/ip/System_axi_gpio_0_0/System_axi_gpio_0_0_sim_netlist.vhdl
--- Design      : System_axi_gpio_0_0
+--               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_sim_netlist.vhdl
+-- Design      : system_axi_gpio_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
 -- Device      : xc7z010clg400-1
@@ -14,17 +14,17 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_axi_gpio_0_0_cdc_sync is
+entity system_axi_gpio_0_0_cdc_sync is
   port (
     scndry_vect_out : out STD_LOGIC_VECTOR ( 3 downto 0 );
     gpio_io_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
     s_axi_aclk : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_axi_gpio_0_0_cdc_sync : entity is "cdc_sync";
-end System_axi_gpio_0_0_cdc_sync;
+  attribute ORIG_REF_NAME of system_axi_gpio_0_0_cdc_sync : entity is "cdc_sync";
+end system_axi_gpio_0_0_cdc_sync;
 
-architecture STRUCTURE of System_axi_gpio_0_0_cdc_sync is
+architecture STRUCTURE of system_axi_gpio_0_0_cdc_sync is
   signal s_level_out_bus_d1_cdc_to_0 : STD_LOGIC;
   signal s_level_out_bus_d1_cdc_to_1 : STD_LOGIC;
   signal s_level_out_bus_d1_cdc_to_2 : STD_LOGIC;
@@ -270,16 +270,16 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_axi_gpio_0_0_pselect_f is
+entity system_axi_gpio_0_0_pselect_f is
   port (
     ce_expnd_i_3 : out STD_LOGIC;
     \bus2ip_addr_i_reg[3]\ : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_axi_gpio_0_0_pselect_f : entity is "pselect_f";
-end System_axi_gpio_0_0_pselect_f;
+  attribute ORIG_REF_NAME of system_axi_gpio_0_0_pselect_f : entity is "pselect_f";
+end system_axi_gpio_0_0_pselect_f;
 
-architecture STRUCTURE of System_axi_gpio_0_0_pselect_f is
+architecture STRUCTURE of system_axi_gpio_0_0_pselect_f is
 begin
 CS: unisim.vcomponents.LUT2
     generic map(
@@ -295,16 +295,16 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity \System_axi_gpio_0_0_pselect_f__parameterized1\ is
+entity \system_axi_gpio_0_0_pselect_f__parameterized1\ is
   port (
     ce_expnd_i_1 : out STD_LOGIC;
     \bus2ip_addr_i_reg[3]\ : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of \System_axi_gpio_0_0_pselect_f__parameterized1\ : entity is "pselect_f";
-end \System_axi_gpio_0_0_pselect_f__parameterized1\;
+  attribute ORIG_REF_NAME of \system_axi_gpio_0_0_pselect_f__parameterized1\ : entity is "pselect_f";
+end \system_axi_gpio_0_0_pselect_f__parameterized1\;
 
-architecture STRUCTURE of \System_axi_gpio_0_0_pselect_f__parameterized1\ is
+architecture STRUCTURE of \system_axi_gpio_0_0_pselect_f__parameterized1\ is
 begin
 CS: unisim.vcomponents.LUT2
     generic map(
@@ -320,7 +320,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_axi_gpio_0_0_GPIO_Core is
+entity system_axi_gpio_0_0_GPIO_Core is
   port (
     GPIO_xferAck_i : out STD_LOGIC;
     gpio_xferAck_Reg : out STD_LOGIC;
@@ -346,10 +346,10 @@ entity System_axi_gpio_0_0_GPIO_Core is
     \GEN_BKEND_CE_REGISTERS[3].ce_out_i_reg\ : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_axi_gpio_0_0_GPIO_Core : entity is "GPIO_Core";
-end System_axi_gpio_0_0_GPIO_Core;
+  attribute ORIG_REF_NAME of system_axi_gpio_0_0_GPIO_Core : entity is "GPIO_Core";
+end system_axi_gpio_0_0_GPIO_Core;
 
-architecture STRUCTURE of System_axi_gpio_0_0_GPIO_Core is
+architecture STRUCTURE of system_axi_gpio_0_0_GPIO_Core is
   signal \^gpio_xferack_i\ : STD_LOGIC;
   signal Read_Reg_In : STD_LOGIC_VECTOR ( 0 to 3 );
   signal gpio_Data_In : STD_LOGIC_VECTOR ( 0 to 3 );
@@ -455,7 +455,7 @@ begin
       Q => reg1(31),
       R => bus2ip_rnw_i_reg
     );
-\Not_Dual.INPUT_DOUBLE_REGS3\: entity work.System_axi_gpio_0_0_cdc_sync
+\Not_Dual.INPUT_DOUBLE_REGS3\: entity work.system_axi_gpio_0_0_cdc_sync
      port map (
       gpio_io_i(3 downto 0) => gpio_io_i(3 downto 0),
       s_axi_aclk => s_axi_aclk,
@@ -687,7 +687,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_axi_gpio_0_0_address_decoder is
+entity system_axi_gpio_0_0_address_decoder is
   port (
     \GEN_BKEND_CE_REGISTERS[3].ce_out_i_reg\ : out STD_LOGIC;
     \GEN_BKEND_CE_REGISTERS[2].ce_out_i_reg\ : out STD_LOGIC;
@@ -716,10 +716,10 @@ entity System_axi_gpio_0_0_address_decoder is
     s_axi_wdata : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_axi_gpio_0_0_address_decoder : entity is "address_decoder";
-end System_axi_gpio_0_0_address_decoder;
+  attribute ORIG_REF_NAME of system_axi_gpio_0_0_address_decoder : entity is "address_decoder";
+end system_axi_gpio_0_0_address_decoder;
 
-architecture STRUCTURE of System_axi_gpio_0_0_address_decoder is
+architecture STRUCTURE of system_axi_gpio_0_0_address_decoder is
   signal \^bus_rnw_reg\ : STD_LOGIC;
   signal Bus_RNW_reg_i_1_n_0 : STD_LOGIC;
   signal \MEM_DECODE_GEN[0].cs_out_i[0]_i_1_n_0\ : STD_LOGIC;
@@ -821,12 +821,12 @@ Bus_RNW_reg_reg: unisim.vcomponents.FDRE
       Q => \GEN_BKEND_CE_REGISTERS[3].ce_out_i_reg\,
       R => cs_ce_clr
     );
-\MEM_DECODE_GEN[0].PER_CE_GEN[0].MULTIPLE_CES_THIS_CS_GEN.CE_I\: entity work.System_axi_gpio_0_0_pselect_f
+\MEM_DECODE_GEN[0].PER_CE_GEN[0].MULTIPLE_CES_THIS_CS_GEN.CE_I\: entity work.system_axi_gpio_0_0_pselect_f
      port map (
       \bus2ip_addr_i_reg[3]\(1 downto 0) => \bus2ip_addr_i_reg[8]\(1 downto 0),
       ce_expnd_i_3 => ce_expnd_i_3
     );
-\MEM_DECODE_GEN[0].PER_CE_GEN[2].MULTIPLE_CES_THIS_CS_GEN.CE_I\: entity work.\System_axi_gpio_0_0_pselect_f__parameterized1\
+\MEM_DECODE_GEN[0].PER_CE_GEN[2].MULTIPLE_CES_THIS_CS_GEN.CE_I\: entity work.\system_axi_gpio_0_0_pselect_f__parameterized1\
      port map (
       \bus2ip_addr_i_reg[3]\(1 downto 0) => \bus2ip_addr_i_reg[8]\(1 downto 0),
       ce_expnd_i_1 => ce_expnd_i_1
@@ -961,7 +961,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_axi_gpio_0_0_slave_attachment is
+entity system_axi_gpio_0_0_slave_attachment is
   port (
     SR : out STD_LOGIC_VECTOR ( 0 to 0 );
     \GEN_BKEND_CE_REGISTERS[3].ce_out_i_reg\ : out STD_LOGIC;
@@ -998,10 +998,10 @@ entity System_axi_gpio_0_0_slave_attachment is
     s_axi_awaddr : in STD_LOGIC_VECTOR ( 2 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_axi_gpio_0_0_slave_attachment : entity is "slave_attachment";
-end System_axi_gpio_0_0_slave_attachment;
+  attribute ORIG_REF_NAME of system_axi_gpio_0_0_slave_attachment : entity is "slave_attachment";
+end system_axi_gpio_0_0_slave_attachment;
 
-architecture STRUCTURE of System_axi_gpio_0_0_slave_attachment is
+architecture STRUCTURE of system_axi_gpio_0_0_slave_attachment is
   signal \FSM_onehot_state[0]_i_1_n_0\ : STD_LOGIC;
   signal \FSM_onehot_state[1]_i_1_n_0\ : STD_LOGIC;
   signal \FSM_onehot_state[2]_i_1_n_0\ : STD_LOGIC;
@@ -1254,7 +1254,7 @@ begin
       Q => \INCLUDE_DPHASE_TIMER.dpto_cnt_reg__0\(3),
       R => clear
     );
-I_DECODER: entity work.System_axi_gpio_0_0_address_decoder
+I_DECODER: entity work.system_axi_gpio_0_0_address_decoder
      port map (
       Bus_RNW_reg => Bus_RNW_reg,
       D(3 downto 0) => D(3 downto 0),
@@ -1602,7 +1602,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_axi_gpio_0_0_axi_lite_ipif is
+entity system_axi_gpio_0_0_axi_lite_ipif is
   port (
     bus2ip_reset : out STD_LOGIC;
     \GEN_BKEND_CE_REGISTERS[3].ce_out_i_reg\ : out STD_LOGIC;
@@ -1639,12 +1639,12 @@ entity System_axi_gpio_0_0_axi_lite_ipif is
     s_axi_awaddr : in STD_LOGIC_VECTOR ( 2 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_axi_gpio_0_0_axi_lite_ipif : entity is "axi_lite_ipif";
-end System_axi_gpio_0_0_axi_lite_ipif;
+  attribute ORIG_REF_NAME of system_axi_gpio_0_0_axi_lite_ipif : entity is "axi_lite_ipif";
+end system_axi_gpio_0_0_axi_lite_ipif;
 
-architecture STRUCTURE of System_axi_gpio_0_0_axi_lite_ipif is
+architecture STRUCTURE of system_axi_gpio_0_0_axi_lite_ipif is
 begin
-I_SLAVE_ATTACHMENT: entity work.System_axi_gpio_0_0_slave_attachment
+I_SLAVE_ATTACHMENT: entity work.system_axi_gpio_0_0_slave_attachment
      port map (
       Bus_RNW_reg => Bus_RNW_reg,
       D(3 downto 0) => D(3 downto 0),
@@ -1685,7 +1685,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_axi_gpio_0_0_axi_gpio is
+entity system_axi_gpio_0_0_axi_gpio is
   port (
     s_axi_aclk : in STD_LOGIC;
     s_axi_aresetn : in STD_LOGIC;
@@ -1715,44 +1715,44 @@ entity System_axi_gpio_0_0_axi_gpio is
     gpio2_io_t : out STD_LOGIC_VECTOR ( 31 downto 0 )
   );
   attribute C_ALL_INPUTS : integer;
-  attribute C_ALL_INPUTS of System_axi_gpio_0_0_axi_gpio : entity is 1;
+  attribute C_ALL_INPUTS of system_axi_gpio_0_0_axi_gpio : entity is 1;
   attribute C_ALL_INPUTS_2 : integer;
-  attribute C_ALL_INPUTS_2 of System_axi_gpio_0_0_axi_gpio : entity is 0;
+  attribute C_ALL_INPUTS_2 of system_axi_gpio_0_0_axi_gpio : entity is 0;
   attribute C_ALL_OUTPUTS : integer;
-  attribute C_ALL_OUTPUTS of System_axi_gpio_0_0_axi_gpio : entity is 0;
+  attribute C_ALL_OUTPUTS of system_axi_gpio_0_0_axi_gpio : entity is 0;
   attribute C_ALL_OUTPUTS_2 : integer;
-  attribute C_ALL_OUTPUTS_2 of System_axi_gpio_0_0_axi_gpio : entity is 0;
+  attribute C_ALL_OUTPUTS_2 of system_axi_gpio_0_0_axi_gpio : entity is 0;
   attribute C_DOUT_DEFAULT : integer;
-  attribute C_DOUT_DEFAULT of System_axi_gpio_0_0_axi_gpio : entity is 0;
+  attribute C_DOUT_DEFAULT of system_axi_gpio_0_0_axi_gpio : entity is 0;
   attribute C_DOUT_DEFAULT_2 : integer;
-  attribute C_DOUT_DEFAULT_2 of System_axi_gpio_0_0_axi_gpio : entity is 0;
+  attribute C_DOUT_DEFAULT_2 of system_axi_gpio_0_0_axi_gpio : entity is 0;
   attribute C_FAMILY : string;
-  attribute C_FAMILY of System_axi_gpio_0_0_axi_gpio : entity is "zynq";
+  attribute C_FAMILY of system_axi_gpio_0_0_axi_gpio : entity is "zynq";
   attribute C_GPIO2_WIDTH : integer;
-  attribute C_GPIO2_WIDTH of System_axi_gpio_0_0_axi_gpio : entity is 32;
+  attribute C_GPIO2_WIDTH of system_axi_gpio_0_0_axi_gpio : entity is 32;
   attribute C_GPIO_WIDTH : integer;
-  attribute C_GPIO_WIDTH of System_axi_gpio_0_0_axi_gpio : entity is 4;
+  attribute C_GPIO_WIDTH of system_axi_gpio_0_0_axi_gpio : entity is 4;
   attribute C_INTERRUPT_PRESENT : integer;
-  attribute C_INTERRUPT_PRESENT of System_axi_gpio_0_0_axi_gpio : entity is 0;
+  attribute C_INTERRUPT_PRESENT of system_axi_gpio_0_0_axi_gpio : entity is 0;
   attribute C_IS_DUAL : integer;
-  attribute C_IS_DUAL of System_axi_gpio_0_0_axi_gpio : entity is 0;
+  attribute C_IS_DUAL of system_axi_gpio_0_0_axi_gpio : entity is 0;
   attribute C_S_AXI_ADDR_WIDTH : integer;
-  attribute C_S_AXI_ADDR_WIDTH of System_axi_gpio_0_0_axi_gpio : entity is 9;
+  attribute C_S_AXI_ADDR_WIDTH of system_axi_gpio_0_0_axi_gpio : entity is 9;
   attribute C_S_AXI_DATA_WIDTH : integer;
-  attribute C_S_AXI_DATA_WIDTH of System_axi_gpio_0_0_axi_gpio : entity is 32;
+  attribute C_S_AXI_DATA_WIDTH of system_axi_gpio_0_0_axi_gpio : entity is 32;
   attribute C_TRI_DEFAULT : integer;
-  attribute C_TRI_DEFAULT of System_axi_gpio_0_0_axi_gpio : entity is -1;
+  attribute C_TRI_DEFAULT of system_axi_gpio_0_0_axi_gpio : entity is -1;
   attribute C_TRI_DEFAULT_2 : integer;
-  attribute C_TRI_DEFAULT_2 of System_axi_gpio_0_0_axi_gpio : entity is -1;
+  attribute C_TRI_DEFAULT_2 of system_axi_gpio_0_0_axi_gpio : entity is -1;
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_axi_gpio_0_0_axi_gpio : entity is "axi_gpio";
+  attribute ORIG_REF_NAME of system_axi_gpio_0_0_axi_gpio : entity is "axi_gpio";
   attribute downgradeipidentifiedwarnings : string;
-  attribute downgradeipidentifiedwarnings of System_axi_gpio_0_0_axi_gpio : entity is "yes";
+  attribute downgradeipidentifiedwarnings of system_axi_gpio_0_0_axi_gpio : entity is "yes";
   attribute ip_group : string;
-  attribute ip_group of System_axi_gpio_0_0_axi_gpio : entity is "LOGICORE";
-end System_axi_gpio_0_0_axi_gpio;
+  attribute ip_group of system_axi_gpio_0_0_axi_gpio : entity is "LOGICORE";
+end system_axi_gpio_0_0_axi_gpio;
 
-architecture STRUCTURE of System_axi_gpio_0_0_axi_gpio is
+architecture STRUCTURE of system_axi_gpio_0_0_axi_gpio is
   signal \<const0>\ : STD_LOGIC;
   signal \<const1>\ : STD_LOGIC;
   signal AXI_LITE_IPIF_I_n_13 : STD_LOGIC;
@@ -1886,7 +1886,7 @@ begin
   s_axi_rresp(1) <= \<const0>\;
   s_axi_rresp(0) <= \<const0>\;
   s_axi_wready <= \^s_axi_wready\;
-AXI_LITE_IPIF_I: entity work.System_axi_gpio_0_0_axi_lite_ipif
+AXI_LITE_IPIF_I: entity work.system_axi_gpio_0_0_axi_lite_ipif
      port map (
       Bus_RNW_reg => \I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg\,
       D(3) => DBus_Reg(0),
@@ -1943,7 +1943,7 @@ VCC: unisim.vcomponents.VCC
      port map (
       P => \<const1>\
     );
-gpio_core_1: entity work.System_axi_gpio_0_0_GPIO_Core
+gpio_core_1: entity work.system_axi_gpio_0_0_GPIO_Core
      port map (
       Bus_RNW_reg => \I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg\,
       D(3) => DBus_Reg(0),
@@ -2038,7 +2038,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_axi_gpio_0_0 is
+entity system_axi_gpio_0_0 is
   port (
     s_axi_aclk : in STD_LOGIC;
     s_axi_aresetn : in STD_LOGIC;
@@ -2062,16 +2062,16 @@ entity System_axi_gpio_0_0 is
     gpio_io_i : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
   attribute NotValidForBitStream : boolean;
-  attribute NotValidForBitStream of System_axi_gpio_0_0 : entity is true;
+  attribute NotValidForBitStream of system_axi_gpio_0_0 : entity is true;
   attribute CHECK_LICENSE_TYPE : string;
-  attribute CHECK_LICENSE_TYPE of System_axi_gpio_0_0 : entity is "System_axi_gpio_0_0,axi_gpio,{}";
+  attribute CHECK_LICENSE_TYPE of system_axi_gpio_0_0 : entity is "system_axi_gpio_0_0,axi_gpio,{}";
   attribute downgradeipidentifiedwarnings : string;
-  attribute downgradeipidentifiedwarnings of System_axi_gpio_0_0 : entity is "yes";
+  attribute downgradeipidentifiedwarnings of system_axi_gpio_0_0 : entity is "yes";
   attribute x_core_info : string;
-  attribute x_core_info of System_axi_gpio_0_0 : entity is "axi_gpio,Vivado 2018.1";
-end System_axi_gpio_0_0;
+  attribute x_core_info of system_axi_gpio_0_0 : entity is "axi_gpio,Vivado 2018.1";
+end system_axi_gpio_0_0;
 
-architecture STRUCTURE of System_axi_gpio_0_0 is
+architecture STRUCTURE of system_axi_gpio_0_0 is
   signal NLW_U0_ip2intc_irpt_UNCONNECTED : STD_LOGIC;
   signal NLW_U0_gpio2_io_o_UNCONNECTED : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal NLW_U0_gpio2_io_t_UNCONNECTED : STD_LOGIC_VECTOR ( 31 downto 0 );
@@ -2113,7 +2113,7 @@ architecture STRUCTURE of System_axi_gpio_0_0 is
   attribute x_interface_info : string;
   attribute x_interface_info of s_axi_aclk : signal is "xilinx.com:signal:clock:1.0 S_AXI_ACLK CLK";
   attribute x_interface_parameter : string;
-  attribute x_interface_parameter of s_axi_aclk : signal is "XIL_INTERFACENAME S_AXI_ACLK, ASSOCIATED_BUSIF S_AXI, ASSOCIATED_RESET s_axi_aresetn, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN System_processing_system7_0_0_FCLK_CLK0";
+  attribute x_interface_parameter of s_axi_aclk : signal is "XIL_INTERFACENAME S_AXI_ACLK, ASSOCIATED_BUSIF S_AXI, ASSOCIATED_RESET s_axi_aresetn, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0";
   attribute x_interface_info of s_axi_aresetn : signal is "xilinx.com:signal:reset:1.0 S_AXI_ARESETN RST";
   attribute x_interface_parameter of s_axi_aresetn : signal is "XIL_INTERFACENAME S_AXI_ARESETN, POLARITY ACTIVE_LOW";
   attribute x_interface_info of s_axi_arready : signal is "xilinx.com:interface:aximm:1.0 S_AXI ARREADY";
@@ -2130,14 +2130,14 @@ architecture STRUCTURE of System_axi_gpio_0_0 is
   attribute x_interface_parameter of gpio_io_i : signal is "XIL_INTERFACENAME GPIO, BOARD.ASSOCIATED_PARAM GPIO_BOARD_INTERFACE";
   attribute x_interface_info of s_axi_araddr : signal is "xilinx.com:interface:aximm:1.0 S_AXI ARADDR";
   attribute x_interface_info of s_axi_awaddr : signal is "xilinx.com:interface:aximm:1.0 S_AXI AWADDR";
-  attribute x_interface_parameter of s_axi_awaddr : signal is "XIL_INTERFACENAME S_AXI, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 9, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 0, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.000, CLK_DOMAIN System_processing_system7_0_0_FCLK_CLK0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0";
+  attribute x_interface_parameter of s_axi_awaddr : signal is "XIL_INTERFACENAME S_AXI, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 9, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 0, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0";
   attribute x_interface_info of s_axi_bresp : signal is "xilinx.com:interface:aximm:1.0 S_AXI BRESP";
   attribute x_interface_info of s_axi_rdata : signal is "xilinx.com:interface:aximm:1.0 S_AXI RDATA";
   attribute x_interface_info of s_axi_rresp : signal is "xilinx.com:interface:aximm:1.0 S_AXI RRESP";
   attribute x_interface_info of s_axi_wdata : signal is "xilinx.com:interface:aximm:1.0 S_AXI WDATA";
   attribute x_interface_info of s_axi_wstrb : signal is "xilinx.com:interface:aximm:1.0 S_AXI WSTRB";
 begin
-U0: entity work.System_axi_gpio_0_0_axi_gpio
+U0: entity work.system_axi_gpio_0_0_axi_gpio
      port map (
       gpio2_io_i(31 downto 0) => B"00000000000000000000000000000000",
       gpio2_io_o(31 downto 0) => NLW_U0_gpio2_io_o_UNCONNECTED(31 downto 0),

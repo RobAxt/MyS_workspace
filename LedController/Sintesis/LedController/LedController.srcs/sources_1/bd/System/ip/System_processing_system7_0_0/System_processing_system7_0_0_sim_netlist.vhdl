@@ -1,11 +1,11 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
--- Date        : Sun Jun  8 20:17:59 2025
+-- Date        : Sun Jun  8 21:18:20 2025
 -- Host        : NB459408 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/System/ip/System_processing_system7_0_0/System_processing_system7_0_0_sim_netlist.vhdl
--- Design      : System_processing_system7_0_0
+--               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0_sim_netlist.vhdl
+-- Design      : system_processing_system7_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
 -- Device      : xc7z010clg400-1
@@ -14,7 +14,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_processing_system7_0_0_processing_system7_v5_5_processing_system7 is
+entity system_processing_system7_0_0_processing_system7_v5_5_processing_system7 is
   port (
     CAN0_PHY_TX : out STD_LOGIC;
     CAN0_PHY_RX : in STD_LOGIC;
@@ -703,126 +703,126 @@ entity System_processing_system7_0_0_processing_system7_v5_5_processing_system7 
     PS_PORB : inout STD_LOGIC
   );
   attribute C_DM_WIDTH : integer;
-  attribute C_DM_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 4;
+  attribute C_DM_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 4;
   attribute C_DQS_WIDTH : integer;
-  attribute C_DQS_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 4;
+  attribute C_DQS_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 4;
   attribute C_DQ_WIDTH : integer;
-  attribute C_DQ_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 32;
+  attribute C_DQ_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 32;
   attribute C_EMIO_GPIO_WIDTH : integer;
-  attribute C_EMIO_GPIO_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 64;
+  attribute C_EMIO_GPIO_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 64;
   attribute C_EN_EMIO_ENET0 : integer;
-  attribute C_EN_EMIO_ENET0 of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_EN_EMIO_ENET0 of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_EN_EMIO_ENET1 : integer;
-  attribute C_EN_EMIO_ENET1 of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_EN_EMIO_ENET1 of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_EN_EMIO_PJTAG : integer;
-  attribute C_EN_EMIO_PJTAG of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_EN_EMIO_PJTAG of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_EN_EMIO_TRACE : integer;
-  attribute C_EN_EMIO_TRACE of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_EN_EMIO_TRACE of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_FCLK_CLK0_BUF : string;
-  attribute C_FCLK_CLK0_BUF of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "TRUE";
+  attribute C_FCLK_CLK0_BUF of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "TRUE";
   attribute C_FCLK_CLK1_BUF : string;
-  attribute C_FCLK_CLK1_BUF of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "FALSE";
+  attribute C_FCLK_CLK1_BUF of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "FALSE";
   attribute C_FCLK_CLK2_BUF : string;
-  attribute C_FCLK_CLK2_BUF of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "FALSE";
+  attribute C_FCLK_CLK2_BUF of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "FALSE";
   attribute C_FCLK_CLK3_BUF : string;
-  attribute C_FCLK_CLK3_BUF of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "FALSE";
+  attribute C_FCLK_CLK3_BUF of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "FALSE";
   attribute C_GP0_EN_MODIFIABLE_TXN : integer;
-  attribute C_GP0_EN_MODIFIABLE_TXN of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 1;
+  attribute C_GP0_EN_MODIFIABLE_TXN of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 1;
   attribute C_GP1_EN_MODIFIABLE_TXN : integer;
-  attribute C_GP1_EN_MODIFIABLE_TXN of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 1;
+  attribute C_GP1_EN_MODIFIABLE_TXN of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 1;
   attribute C_INCLUDE_ACP_TRANS_CHECK : integer;
-  attribute C_INCLUDE_ACP_TRANS_CHECK of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_INCLUDE_ACP_TRANS_CHECK of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_INCLUDE_TRACE_BUFFER : integer;
-  attribute C_INCLUDE_TRACE_BUFFER of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_INCLUDE_TRACE_BUFFER of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_IRQ_F2P_MODE : string;
-  attribute C_IRQ_F2P_MODE of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "DIRECT";
+  attribute C_IRQ_F2P_MODE of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "DIRECT";
   attribute C_MIO_PRIMITIVE : integer;
-  attribute C_MIO_PRIMITIVE of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 54;
+  attribute C_MIO_PRIMITIVE of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 54;
   attribute C_M_AXI_GP0_ENABLE_STATIC_REMAP : integer;
-  attribute C_M_AXI_GP0_ENABLE_STATIC_REMAP of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_M_AXI_GP0_ENABLE_STATIC_REMAP of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_M_AXI_GP0_ID_WIDTH : integer;
-  attribute C_M_AXI_GP0_ID_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 12;
+  attribute C_M_AXI_GP0_ID_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 12;
   attribute C_M_AXI_GP0_THREAD_ID_WIDTH : integer;
-  attribute C_M_AXI_GP0_THREAD_ID_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 12;
+  attribute C_M_AXI_GP0_THREAD_ID_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 12;
   attribute C_M_AXI_GP1_ENABLE_STATIC_REMAP : integer;
-  attribute C_M_AXI_GP1_ENABLE_STATIC_REMAP of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_M_AXI_GP1_ENABLE_STATIC_REMAP of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_M_AXI_GP1_ID_WIDTH : integer;
-  attribute C_M_AXI_GP1_ID_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 12;
+  attribute C_M_AXI_GP1_ID_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 12;
   attribute C_M_AXI_GP1_THREAD_ID_WIDTH : integer;
-  attribute C_M_AXI_GP1_THREAD_ID_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 12;
+  attribute C_M_AXI_GP1_THREAD_ID_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 12;
   attribute C_NUM_F2P_INTR_INPUTS : integer;
-  attribute C_NUM_F2P_INTR_INPUTS of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 1;
+  attribute C_NUM_F2P_INTR_INPUTS of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 1;
   attribute C_PACKAGE_NAME : string;
-  attribute C_PACKAGE_NAME of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "clg400";
+  attribute C_PACKAGE_NAME of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "clg400";
   attribute C_PS7_SI_REV : string;
-  attribute C_PS7_SI_REV of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "PRODUCTION";
+  attribute C_PS7_SI_REV of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "PRODUCTION";
   attribute C_S_AXI_ACP_ARUSER_VAL : integer;
-  attribute C_S_AXI_ACP_ARUSER_VAL of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 31;
+  attribute C_S_AXI_ACP_ARUSER_VAL of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 31;
   attribute C_S_AXI_ACP_AWUSER_VAL : integer;
-  attribute C_S_AXI_ACP_AWUSER_VAL of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 31;
+  attribute C_S_AXI_ACP_AWUSER_VAL of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 31;
   attribute C_S_AXI_ACP_ID_WIDTH : integer;
-  attribute C_S_AXI_ACP_ID_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 3;
+  attribute C_S_AXI_ACP_ID_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 3;
   attribute C_S_AXI_GP0_ID_WIDTH : integer;
-  attribute C_S_AXI_GP0_ID_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 6;
+  attribute C_S_AXI_GP0_ID_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 6;
   attribute C_S_AXI_GP1_ID_WIDTH : integer;
-  attribute C_S_AXI_GP1_ID_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 6;
+  attribute C_S_AXI_GP1_ID_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 6;
   attribute C_S_AXI_HP0_DATA_WIDTH : integer;
-  attribute C_S_AXI_HP0_DATA_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 64;
+  attribute C_S_AXI_HP0_DATA_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 64;
   attribute C_S_AXI_HP0_ID_WIDTH : integer;
-  attribute C_S_AXI_HP0_ID_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 6;
+  attribute C_S_AXI_HP0_ID_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 6;
   attribute C_S_AXI_HP1_DATA_WIDTH : integer;
-  attribute C_S_AXI_HP1_DATA_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 64;
+  attribute C_S_AXI_HP1_DATA_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 64;
   attribute C_S_AXI_HP1_ID_WIDTH : integer;
-  attribute C_S_AXI_HP1_ID_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 6;
+  attribute C_S_AXI_HP1_ID_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 6;
   attribute C_S_AXI_HP2_DATA_WIDTH : integer;
-  attribute C_S_AXI_HP2_DATA_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 64;
+  attribute C_S_AXI_HP2_DATA_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 64;
   attribute C_S_AXI_HP2_ID_WIDTH : integer;
-  attribute C_S_AXI_HP2_ID_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 6;
+  attribute C_S_AXI_HP2_ID_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 6;
   attribute C_S_AXI_HP3_DATA_WIDTH : integer;
-  attribute C_S_AXI_HP3_DATA_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 64;
+  attribute C_S_AXI_HP3_DATA_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 64;
   attribute C_S_AXI_HP3_ID_WIDTH : integer;
-  attribute C_S_AXI_HP3_ID_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 6;
+  attribute C_S_AXI_HP3_ID_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 6;
   attribute C_TRACE_BUFFER_CLOCK_DELAY : integer;
-  attribute C_TRACE_BUFFER_CLOCK_DELAY of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 12;
+  attribute C_TRACE_BUFFER_CLOCK_DELAY of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 12;
   attribute C_TRACE_BUFFER_FIFO_SIZE : integer;
-  attribute C_TRACE_BUFFER_FIFO_SIZE of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 128;
+  attribute C_TRACE_BUFFER_FIFO_SIZE of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 128;
   attribute C_TRACE_INTERNAL_WIDTH : integer;
-  attribute C_TRACE_INTERNAL_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 2;
+  attribute C_TRACE_INTERNAL_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 2;
   attribute C_TRACE_PIPELINE_WIDTH : integer;
-  attribute C_TRACE_PIPELINE_WIDTH of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 8;
+  attribute C_TRACE_PIPELINE_WIDTH of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 8;
   attribute C_USE_AXI_NONSECURE : integer;
-  attribute C_USE_AXI_NONSECURE of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_USE_AXI_NONSECURE of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_USE_DEFAULT_ACP_USER_VAL : integer;
-  attribute C_USE_DEFAULT_ACP_USER_VAL of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_USE_DEFAULT_ACP_USER_VAL of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_USE_M_AXI_GP0 : integer;
-  attribute C_USE_M_AXI_GP0 of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 1;
+  attribute C_USE_M_AXI_GP0 of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 1;
   attribute C_USE_M_AXI_GP1 : integer;
-  attribute C_USE_M_AXI_GP1 of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_USE_M_AXI_GP1 of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_USE_S_AXI_ACP : integer;
-  attribute C_USE_S_AXI_ACP of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_USE_S_AXI_ACP of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_USE_S_AXI_GP0 : integer;
-  attribute C_USE_S_AXI_GP0 of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_USE_S_AXI_GP0 of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_USE_S_AXI_GP1 : integer;
-  attribute C_USE_S_AXI_GP1 of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_USE_S_AXI_GP1 of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_USE_S_AXI_HP0 : integer;
-  attribute C_USE_S_AXI_HP0 of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_USE_S_AXI_HP0 of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_USE_S_AXI_HP1 : integer;
-  attribute C_USE_S_AXI_HP1 of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_USE_S_AXI_HP1 of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_USE_S_AXI_HP2 : integer;
-  attribute C_USE_S_AXI_HP2 of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_USE_S_AXI_HP2 of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_USE_S_AXI_HP3 : integer;
-  attribute C_USE_S_AXI_HP3 of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_USE_S_AXI_HP3 of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute HW_HANDOFF : string;
-  attribute HW_HANDOFF of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "System_processing_system7_0_0.hwdef";
+  attribute HW_HANDOFF of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "system_processing_system7_0_0.hwdef";
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "processing_system7_v5_5_processing_system7";
+  attribute ORIG_REF_NAME of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "processing_system7_v5_5_processing_system7";
   attribute POWER : string;
-  attribute POWER of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "<PROCESSOR name={system} numA9Cores={2} clockFreq={650} load={0.5} /><MEMORY name={code} memType={DDR3} dataWidth={16} clockFreq={525} readRate={0.5} writeRate={0.5} /><IO interface={GPIO_Bank_1} ioStandard={LVCMOS18} bidis={38} ioBank={Vcco_p1} clockFreq={1} usageRate={0.5} /><IO interface={GPIO_Bank_0} ioStandard={LVCMOS33} bidis={7} ioBank={Vcco_p0} clockFreq={1} usageRate={0.5} /><IO interface={UART} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p0} clockFreq={100.000000} usageRate={0.5} /><IO interface={QSPI} ioStandard={LVCMOS33} bidis={7} ioBank={Vcco_p0} clockFreq={200} usageRate={0.5} /><PLL domain={Processor} vco={1300.000} /><PLL domain={Memory} vco={1050.000} /><PLL domain={IO} vco={1600.000} /><AXI interface={M_AXI_GP0} dataWidth={32} clockFreq={10} usageRate={0.5} />/>";
+  attribute POWER of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "<PROCESSOR name={system} numA9Cores={2} clockFreq={650} load={0.5} /><MEMORY name={code} memType={DDR3} dataWidth={16} clockFreq={525} readRate={0.5} writeRate={0.5} /><IO interface={GPIO_Bank_1} ioStandard={LVCMOS18} bidis={38} ioBank={Vcco_p1} clockFreq={1} usageRate={0.5} /><IO interface={GPIO_Bank_0} ioStandard={LVCMOS33} bidis={7} ioBank={Vcco_p0} clockFreq={1} usageRate={0.5} /><IO interface={UART} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p0} clockFreq={100.000000} usageRate={0.5} /><IO interface={QSPI} ioStandard={LVCMOS33} bidis={7} ioBank={Vcco_p0} clockFreq={200} usageRate={0.5} /><PLL domain={Processor} vco={1300.000} /><PLL domain={Memory} vco={1050.000} /><PLL domain={IO} vco={1600.000} /><AXI interface={M_AXI_GP0} dataWidth={32} clockFreq={10} usageRate={0.5} />/>";
   attribute USE_TRACE_DATA_EDGE_DETECTOR : integer;
-  attribute USE_TRACE_DATA_EDGE_DETECTOR of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
-end System_processing_system7_0_0_processing_system7_v5_5_processing_system7;
+  attribute USE_TRACE_DATA_EDGE_DETECTOR of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+end system_processing_system7_0_0_processing_system7_v5_5_processing_system7;
 
-architecture STRUCTURE of System_processing_system7_0_0_processing_system7_v5_5_processing_system7 is
+architecture STRUCTURE of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 is
   signal \<const0>\ : STD_LOGIC;
   signal \<const1>\ : STD_LOGIC;
   signal ENET0_MDIO_T_n : STD_LOGIC;
@@ -3357,7 +3357,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_processing_system7_0_0 is
+entity system_processing_system7_0_0 is
   port (
     M_AXI_GP0_ARVALID : out STD_LOGIC;
     M_AXI_GP0_AWVALID : out STD_LOGIC;
@@ -3423,16 +3423,16 @@ entity System_processing_system7_0_0 is
     PS_PORB : inout STD_LOGIC
   );
   attribute NotValidForBitStream : boolean;
-  attribute NotValidForBitStream of System_processing_system7_0_0 : entity is true;
+  attribute NotValidForBitStream of system_processing_system7_0_0 : entity is true;
   attribute CHECK_LICENSE_TYPE : string;
-  attribute CHECK_LICENSE_TYPE of System_processing_system7_0_0 : entity is "System_processing_system7_0_0,processing_system7_v5_5_processing_system7,{}";
+  attribute CHECK_LICENSE_TYPE of system_processing_system7_0_0 : entity is "system_processing_system7_0_0,processing_system7_v5_5_processing_system7,{}";
   attribute DowngradeIPIdentifiedWarnings : string;
-  attribute DowngradeIPIdentifiedWarnings of System_processing_system7_0_0 : entity is "yes";
+  attribute DowngradeIPIdentifiedWarnings of system_processing_system7_0_0 : entity is "yes";
   attribute X_CORE_INFO : string;
-  attribute X_CORE_INFO of System_processing_system7_0_0 : entity is "processing_system7_v5_5_processing_system7,Vivado 2018.1";
-end System_processing_system7_0_0;
+  attribute X_CORE_INFO of system_processing_system7_0_0 : entity is "processing_system7_v5_5_processing_system7,Vivado 2018.1";
+end system_processing_system7_0_0;
 
-architecture STRUCTURE of System_processing_system7_0_0 is
+architecture STRUCTURE of system_processing_system7_0_0 is
   signal NLW_inst_CAN0_PHY_TX_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_CAN1_PHY_TX_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_DMA0_DAVALID_UNCONNECTED : STD_LOGIC;
@@ -3837,7 +3837,7 @@ architecture STRUCTURE of System_processing_system7_0_0 is
   attribute C_USE_S_AXI_HP3 : integer;
   attribute C_USE_S_AXI_HP3 of inst : label is 0;
   attribute HW_HANDOFF : string;
-  attribute HW_HANDOFF of inst : label is "System_processing_system7_0_0.hwdef";
+  attribute HW_HANDOFF of inst : label is "system_processing_system7_0_0.hwdef";
   attribute POWER : string;
   attribute POWER of inst : label is "<PROCESSOR name={system} numA9Cores={2} clockFreq={650} load={0.5} /><MEMORY name={code} memType={DDR3} dataWidth={16} clockFreq={525} readRate={0.5} writeRate={0.5} /><IO interface={GPIO_Bank_1} ioStandard={LVCMOS18} bidis={38} ioBank={Vcco_p1} clockFreq={1} usageRate={0.5} /><IO interface={GPIO_Bank_0} ioStandard={LVCMOS33} bidis={7} ioBank={Vcco_p0} clockFreq={1} usageRate={0.5} /><IO interface={UART} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p0} clockFreq={100.000000} usageRate={0.5} /><IO interface={QSPI} ioStandard={LVCMOS33} bidis={7} ioBank={Vcco_p0} clockFreq={200} usageRate={0.5} /><PLL domain={Processor} vco={1300.000} /><PLL domain={Memory} vco={1050.000} /><PLL domain={IO} vco={1600.000} /><AXI interface={M_AXI_GP0} dataWidth={32} clockFreq={10} usageRate={0.5} />/>";
   attribute USE_TRACE_DATA_EDGE_DETECTOR : integer;
@@ -3856,11 +3856,11 @@ architecture STRUCTURE of System_processing_system7_0_0 is
   attribute X_INTERFACE_INFO of DDR_WEB : signal is "xilinx.com:interface:ddrx:1.0 DDR WE_N";
   attribute X_INTERFACE_INFO of FCLK_CLK0 : signal is "xilinx.com:signal:clock:1.0 FCLK_CLK0 CLK";
   attribute X_INTERFACE_PARAMETER : string;
-  attribute X_INTERFACE_PARAMETER of FCLK_CLK0 : signal is "XIL_INTERFACENAME FCLK_CLK0, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN System_processing_system7_0_0_FCLK_CLK0";
+  attribute X_INTERFACE_PARAMETER of FCLK_CLK0 : signal is "XIL_INTERFACENAME FCLK_CLK0, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0";
   attribute X_INTERFACE_INFO of FCLK_RESET0_N : signal is "xilinx.com:signal:reset:1.0 FCLK_RESET0_N RST";
   attribute X_INTERFACE_PARAMETER of FCLK_RESET0_N : signal is "XIL_INTERFACENAME FCLK_RESET0_N, POLARITY ACTIVE_LOW";
   attribute X_INTERFACE_INFO of M_AXI_GP0_ACLK : signal is "xilinx.com:signal:clock:1.0 M_AXI_GP0_ACLK CLK";
-  attribute X_INTERFACE_PARAMETER of M_AXI_GP0_ACLK : signal is "XIL_INTERFACENAME M_AXI_GP0_ACLK, ASSOCIATED_BUSIF M_AXI_GP0, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN System_processing_system7_0_0_FCLK_CLK0";
+  attribute X_INTERFACE_PARAMETER of M_AXI_GP0_ACLK : signal is "XIL_INTERFACENAME M_AXI_GP0_ACLK, ASSOCIATED_BUSIF M_AXI_GP0, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0";
   attribute X_INTERFACE_INFO of M_AXI_GP0_ARREADY : signal is "xilinx.com:interface:aximm:1.0 M_AXI_GP0 ARREADY";
   attribute X_INTERFACE_INFO of M_AXI_GP0_ARVALID : signal is "xilinx.com:interface:aximm:1.0 M_AXI_GP0 ARVALID";
   attribute X_INTERFACE_INFO of M_AXI_GP0_AWREADY : signal is "xilinx.com:interface:aximm:1.0 M_AXI_GP0 AWREADY";
@@ -3906,14 +3906,14 @@ architecture STRUCTURE of System_processing_system7_0_0 is
   attribute X_INTERFACE_INFO of M_AXI_GP0_BID : signal is "xilinx.com:interface:aximm:1.0 M_AXI_GP0 BID";
   attribute X_INTERFACE_INFO of M_AXI_GP0_BRESP : signal is "xilinx.com:interface:aximm:1.0 M_AXI_GP0 BRESP";
   attribute X_INTERFACE_INFO of M_AXI_GP0_RDATA : signal is "xilinx.com:interface:aximm:1.0 M_AXI_GP0 RDATA";
-  attribute X_INTERFACE_PARAMETER of M_AXI_GP0_RDATA : signal is "XIL_INTERFACENAME M_AXI_GP0, SUPPORTS_NARROW_BURST 0, NUM_WRITE_OUTSTANDING 8, NUM_READ_OUTSTANDING 8, DATA_WIDTH 32, PROTOCOL AXI3, FREQ_HZ 100000000, ID_WIDTH 12, ADDR_WIDTH 32, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 1, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, MAX_BURST_LENGTH 16, PHASE 0.000, CLK_DOMAIN System_processing_system7_0_0_FCLK_CLK0, NUM_READ_THREADS 4, NUM_WRITE_THREADS 4, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0";
+  attribute X_INTERFACE_PARAMETER of M_AXI_GP0_RDATA : signal is "XIL_INTERFACENAME M_AXI_GP0, SUPPORTS_NARROW_BURST 0, NUM_WRITE_OUTSTANDING 8, NUM_READ_OUTSTANDING 8, DATA_WIDTH 32, PROTOCOL AXI3, FREQ_HZ 100000000, ID_WIDTH 12, ADDR_WIDTH 32, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 1, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, MAX_BURST_LENGTH 16, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0, NUM_READ_THREADS 4, NUM_WRITE_THREADS 4, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0";
   attribute X_INTERFACE_INFO of M_AXI_GP0_RID : signal is "xilinx.com:interface:aximm:1.0 M_AXI_GP0 RID";
   attribute X_INTERFACE_INFO of M_AXI_GP0_RRESP : signal is "xilinx.com:interface:aximm:1.0 M_AXI_GP0 RRESP";
   attribute X_INTERFACE_INFO of M_AXI_GP0_WDATA : signal is "xilinx.com:interface:aximm:1.0 M_AXI_GP0 WDATA";
   attribute X_INTERFACE_INFO of M_AXI_GP0_WID : signal is "xilinx.com:interface:aximm:1.0 M_AXI_GP0 WID";
   attribute X_INTERFACE_INFO of M_AXI_GP0_WSTRB : signal is "xilinx.com:interface:aximm:1.0 M_AXI_GP0 WSTRB";
 begin
-inst: entity work.System_processing_system7_0_0_processing_system7_v5_5_processing_system7
+inst: entity work.system_processing_system7_0_0_processing_system7_v5_5_processing_system7
      port map (
       CAN0_PHY_RX => '0',
       CAN0_PHY_TX => NLW_inst_CAN0_PHY_TX_UNCONNECTED,

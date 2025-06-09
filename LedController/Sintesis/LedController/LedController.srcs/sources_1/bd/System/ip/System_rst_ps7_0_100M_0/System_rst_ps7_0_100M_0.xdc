@@ -1,5 +1,5 @@
 
-# file: System_rst_ps7_0_100M_0.xdc
+# file: system_rst_ps7_0_100M_0.xdc
 # (c) Copyright 2009 - 2013 Xilinx, Inc. All rights reserved.
 # 
 # This file contains confidential and proprietary information

@@ -1,11 +1,11 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
--- Date        : Sun Jun  8 20:17:48 2025
+-- Date        : Sun Jun  8 21:18:08 2025
 -- Host        : NB459408 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/System/ip/System_led_ip_0_0/System_led_ip_0_0_sim_netlist.vhdl
--- Design      : System_led_ip_0_0
+--               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_led_ip_0_0/system_led_ip_0_0_sim_netlist.vhdl
+-- Design      : system_led_ip_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
 -- Device      : xc7z010clg400-1
@@ -14,7 +14,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_led_ip_0_0_led_ip_v1_0_S00_AXI is
+entity system_led_ip_0_0_led_ip_v1_0_S00_AXI is
   port (
     S_AXI_WREADY : out STD_LOGIC;
     S_AXI_AWREADY : out STD_LOGIC;
@@ -35,10 +35,10 @@ entity System_led_ip_0_0_led_ip_v1_0_S00_AXI is
     s00_axi_rready : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_led_ip_0_0_led_ip_v1_0_S00_AXI : entity is "led_ip_v1_0_S00_AXI";
-end System_led_ip_0_0_led_ip_v1_0_S00_AXI;
+  attribute ORIG_REF_NAME of system_led_ip_0_0_led_ip_v1_0_S00_AXI : entity is "led_ip_v1_0_S00_AXI";
+end system_led_ip_0_0_led_ip_v1_0_S00_AXI;
 
-architecture STRUCTURE of System_led_ip_0_0_led_ip_v1_0_S00_AXI is
+architecture STRUCTURE of system_led_ip_0_0_led_ip_v1_0_S00_AXI is
   signal \^s_axi_arready\ : STD_LOGIC;
   signal \^s_axi_awready\ : STD_LOGIC;
   signal \^s_axi_wready\ : STD_LOGIC;
@@ -75,7 +75,7 @@ architecture STRUCTURE of System_led_ip_0_0_led_ip_v1_0_S00_AXI is
   signal \slv_reg2[7]_i_1_n_0\ : STD_LOGIC;
   signal slv_reg3 : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal slv_reg_rden : STD_LOGIC;
-  signal \wren_i__2\ : STD_LOGIC;
+  signal \slv_reg_wren__2\ : STD_LOGIC;
   attribute SOFT_HLUTNM : string;
   attribute SOFT_HLUTNM of axi_arready_i_1 : label is "soft_lutpair1";
   attribute SOFT_HLUTNM of \axi_awaddr[3]_i_1\ : label is "soft_lutpair0";
@@ -955,7 +955,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"0200"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => p_0_in(1),
       I2 => p_0_in(0),
       I3 => s00_axi_wstrb(1),
@@ -966,7 +966,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"0200"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => p_0_in(1),
       I2 => p_0_in(0),
       I3 => s00_axi_wstrb(2),
@@ -977,7 +977,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"0200"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => p_0_in(1),
       I2 => p_0_in(0),
       I3 => s00_axi_wstrb(3),
@@ -988,7 +988,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"0200"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => p_0_in(1),
       I2 => p_0_in(0),
       I3 => s00_axi_wstrb(0),
@@ -1255,7 +1255,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"2000"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => p_0_in(1),
       I2 => s00_axi_wstrb(1),
       I3 => p_0_in(0),
@@ -1266,7 +1266,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"2000"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => p_0_in(1),
       I2 => s00_axi_wstrb(2),
       I3 => p_0_in(0),
@@ -1277,7 +1277,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"2000"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => p_0_in(1),
       I2 => s00_axi_wstrb(3),
       I3 => p_0_in(0),
@@ -1288,7 +1288,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"2000"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => p_0_in(1),
       I2 => s00_axi_wstrb(0),
       I3 => p_0_in(0),
@@ -1555,7 +1555,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"0080"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => p_0_in(1),
       I2 => s00_axi_wstrb(1),
       I3 => p_0_in(0),
@@ -1566,7 +1566,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"0080"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => p_0_in(1),
       I2 => s00_axi_wstrb(2),
       I3 => p_0_in(0),
@@ -1577,7 +1577,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"0080"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => p_0_in(1),
       I2 => s00_axi_wstrb(3),
       I3 => p_0_in(0),
@@ -1588,7 +1588,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"0080"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => p_0_in(1),
       I2 => s00_axi_wstrb(0),
       I3 => p_0_in(0),
@@ -1855,7 +1855,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"8000"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => s00_axi_wstrb(1),
       I2 => p_0_in(0),
       I3 => p_0_in(1),
@@ -1866,7 +1866,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"8000"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => s00_axi_wstrb(2),
       I2 => p_0_in(0),
       I3 => p_0_in(1),
@@ -1877,7 +1877,7 @@ axi_wready_reg: unisim.vcomponents.FDRE
       INIT => X"8000"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => s00_axi_wstrb(3),
       I2 => p_0_in(0),
       I3 => p_0_in(1),
@@ -1892,14 +1892,14 @@ axi_wready_reg: unisim.vcomponents.FDRE
       I1 => \^s_axi_awready\,
       I2 => \^s_axi_wready\,
       I3 => s00_axi_wvalid,
-      O => \wren_i__2\
+      O => \slv_reg_wren__2\
     );
 \slv_reg3[7]_i_1\: unisim.vcomponents.LUT4
     generic map(
       INIT => X"8000"
     )
         port map (
-      I0 => \wren_i__2\,
+      I0 => \slv_reg_wren__2\,
       I1 => s00_axi_wstrb(0),
       I2 => p_0_in(0),
       I3 => p_0_in(1),
@@ -2166,7 +2166,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_led_ip_0_0_led_ip_v1_0 is
+entity system_led_ip_0_0_led_ip_v1_0 is
   port (
     S_AXI_WREADY : out STD_LOGIC;
     S_AXI_AWREADY : out STD_LOGIC;
@@ -2187,12 +2187,12 @@ entity System_led_ip_0_0_led_ip_v1_0 is
     s00_axi_rready : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_led_ip_0_0_led_ip_v1_0 : entity is "led_ip_v1_0";
-end System_led_ip_0_0_led_ip_v1_0;
+  attribute ORIG_REF_NAME of system_led_ip_0_0_led_ip_v1_0 : entity is "led_ip_v1_0";
+end system_led_ip_0_0_led_ip_v1_0;
 
-architecture STRUCTURE of System_led_ip_0_0_led_ip_v1_0 is
+architecture STRUCTURE of system_led_ip_0_0_led_ip_v1_0 is
 begin
-led_ip_v1_0_S00_AXI_inst: entity work.System_led_ip_0_0_led_ip_v1_0_S00_AXI
+led_ip_v1_0_S00_AXI_inst: entity work.system_led_ip_0_0_led_ip_v1_0_S00_AXI
      port map (
       S_AXI_ARREADY => S_AXI_ARREADY,
       S_AXI_AWREADY => S_AXI_AWREADY,
@@ -2217,7 +2217,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_led_ip_0_0 is
+entity system_led_ip_0_0 is
   port (
     led_o : out STD_LOGIC_VECTOR ( 3 downto 0 );
     s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
@@ -2243,21 +2243,21 @@ entity System_led_ip_0_0 is
     s00_axi_aresetn : in STD_LOGIC
   );
   attribute NotValidForBitStream : boolean;
-  attribute NotValidForBitStream of System_led_ip_0_0 : entity is true;
+  attribute NotValidForBitStream of system_led_ip_0_0 : entity is true;
   attribute CHECK_LICENSE_TYPE : string;
-  attribute CHECK_LICENSE_TYPE of System_led_ip_0_0 : entity is "System_led_ip_0_0,led_ip_v1_0,{}";
+  attribute CHECK_LICENSE_TYPE of system_led_ip_0_0 : entity is "system_led_ip_0_0,led_ip_v1_0,{}";
   attribute downgradeipidentifiedwarnings : string;
-  attribute downgradeipidentifiedwarnings of System_led_ip_0_0 : entity is "yes";
+  attribute downgradeipidentifiedwarnings of system_led_ip_0_0 : entity is "yes";
   attribute x_core_info : string;
-  attribute x_core_info of System_led_ip_0_0 : entity is "led_ip_v1_0,Vivado 2018.1";
-end System_led_ip_0_0;
+  attribute x_core_info of system_led_ip_0_0 : entity is "led_ip_v1_0,Vivado 2018.1";
+end system_led_ip_0_0;
 
-architecture STRUCTURE of System_led_ip_0_0 is
+architecture STRUCTURE of system_led_ip_0_0 is
   signal \<const0>\ : STD_LOGIC;
   attribute x_interface_info : string;
   attribute x_interface_info of s00_axi_aclk : signal is "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK";
   attribute x_interface_parameter : string;
-  attribute x_interface_parameter of s00_axi_aclk : signal is "XIL_INTERFACENAME S00_AXI_CLK, ASSOCIATED_BUSIF S00_AXI, ASSOCIATED_RESET s00_axi_aresetn, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN System_processing_system7_0_0_FCLK_CLK0";
+  attribute x_interface_parameter of s00_axi_aclk : signal is "XIL_INTERFACENAME S00_AXI_CLK, ASSOCIATED_BUSIF S00_AXI, ASSOCIATED_RESET s00_axi_aresetn, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0";
   attribute x_interface_info of s00_axi_aresetn : signal is "xilinx.com:signal:reset:1.0 S00_AXI_RST RST";
   attribute x_interface_parameter of s00_axi_aresetn : signal is "XIL_INTERFACENAME S00_AXI_RST, POLARITY ACTIVE_LOW";
   attribute x_interface_info of s00_axi_arready : signal is "xilinx.com:interface:aximm:1.0 S00_AXI ARREADY";
@@ -2273,7 +2273,7 @@ architecture STRUCTURE of System_led_ip_0_0 is
   attribute x_interface_info of s00_axi_araddr : signal is "xilinx.com:interface:aximm:1.0 S00_AXI ARADDR";
   attribute x_interface_info of s00_axi_arprot : signal is "xilinx.com:interface:aximm:1.0 S00_AXI ARPROT";
   attribute x_interface_info of s00_axi_awaddr : signal is "xilinx.com:interface:aximm:1.0 S00_AXI AWADDR";
-  attribute x_interface_parameter of s00_axi_awaddr : signal is "XIL_INTERFACENAME S00_AXI, WIZ_DATA_WIDTH 32, WIZ_NUM_REG 4, SUPPORTS_NARROW_BURST 0, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 4, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 1, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.000, CLK_DOMAIN System_processing_system7_0_0_FCLK_CLK0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0";
+  attribute x_interface_parameter of s00_axi_awaddr : signal is "XIL_INTERFACENAME S00_AXI, WIZ_DATA_WIDTH 32, WIZ_NUM_REG 4, SUPPORTS_NARROW_BURST 0, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 4, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 1, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0";
   attribute x_interface_info of s00_axi_awprot : signal is "xilinx.com:interface:aximm:1.0 S00_AXI AWPROT";
   attribute x_interface_info of s00_axi_bresp : signal is "xilinx.com:interface:aximm:1.0 S00_AXI BRESP";
   attribute x_interface_info of s00_axi_rdata : signal is "xilinx.com:interface:aximm:1.0 S00_AXI RDATA";
@@ -2293,7 +2293,7 @@ GND: unisim.vcomponents.GND
      port map (
       G => \<const0>\
     );
-U0: entity work.System_led_ip_0_0_led_ip_v1_0
+U0: entity work.system_led_ip_0_0_led_ip_v1_0
      port map (
       S_AXI_ARREADY => s00_axi_arready,
       S_AXI_AWREADY => s00_axi_awready,

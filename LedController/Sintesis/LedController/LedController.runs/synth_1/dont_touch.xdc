@@ -3,31 +3,31 @@
 
 # XDC: C:/Xilinx/MyS_workspace/LedController/Fuente/ArtyZ7_10.xdc
 
-# Block Designs: bd/System/System.bd
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==System || ORIG_REF_NAME==System} -quiet] -quiet
+# Block Designs: bd/system/system.bd
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system || ORIG_REF_NAME==system} -quiet] -quiet
 
-# IP: bd/System/ip/System_processing_system7_0_0/System_processing_system7_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==System_processing_system7_0_0 || ORIG_REF_NAME==System_processing_system7_0_0} -quiet] -quiet
+# IP: bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_processing_system7_0_0 || ORIG_REF_NAME==system_processing_system7_0_0} -quiet] -quiet
 
-# IP: bd/System/ip/System_led_ip_0_0/System_led_ip_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==System_led_ip_0_0 || ORIG_REF_NAME==System_led_ip_0_0} -quiet] -quiet
+# IP: bd/system/ip/system_led_ip_0_0/system_led_ip_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_led_ip_0_0 || ORIG_REF_NAME==system_led_ip_0_0} -quiet] -quiet
 
-# IP: bd/System/ip/System_ps7_0_axi_periph_0/System_ps7_0_axi_periph_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==System_ps7_0_axi_periph_0 || ORIG_REF_NAME==System_ps7_0_axi_periph_0} -quiet] -quiet
+# IP: bd/system/ip/system_ps7_0_axi_periph_0/system_ps7_0_axi_periph_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_ps7_0_axi_periph_0 || ORIG_REF_NAME==system_ps7_0_axi_periph_0} -quiet] -quiet
 
-# IP: bd/System/ip/System_rst_ps7_0_100M_0/System_rst_ps7_0_100M_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==System_rst_ps7_0_100M_0 || ORIG_REF_NAME==System_rst_ps7_0_100M_0} -quiet] -quiet
+# IP: bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_rst_ps7_0_100M_0 || ORIG_REF_NAME==system_rst_ps7_0_100M_0} -quiet] -quiet
 
-# IP: bd/System/ip/System_axi_gpio_0_0/System_axi_gpio_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==System_axi_gpio_0_0 || ORIG_REF_NAME==System_axi_gpio_0_0} -quiet] -quiet
+# IP: bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_axi_gpio_0_0 || ORIG_REF_NAME==system_axi_gpio_0_0} -quiet] -quiet
 
-# IP: bd/System/ip/System_axi_gpio_0_1/System_axi_gpio_0_1.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==System_axi_gpio_0_1 || ORIG_REF_NAME==System_axi_gpio_0_1} -quiet] -quiet
+# IP: bd/system/ip/system_axi_gpio_0_1/system_axi_gpio_0_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_axi_gpio_0_1 || ORIG_REF_NAME==system_axi_gpio_0_1} -quiet] -quiet
 
-# IP: bd/System/ip/System_xbar_0/System_xbar_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==System_xbar_0 || ORIG_REF_NAME==System_xbar_0} -quiet] -quiet
+# IP: bd/system/ip/system_xbar_0/system_xbar_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_xbar_0 || ORIG_REF_NAME==system_xbar_0} -quiet] -quiet
 
-# IP: bd/System/ip/System_auto_pc_0/System_auto_pc_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==System_auto_pc_0 || ORIG_REF_NAME==System_auto_pc_0} -quiet] -quiet
+# IP: bd/system/ip/system_auto_pc_0/system_auto_pc_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==system_auto_pc_0 || ORIG_REF_NAME==system_auto_pc_0} -quiet] -quiet
 
-# XDC: bd/System/System_ooc.xdc
+# XDC: bd/system/system_ooc.xdc

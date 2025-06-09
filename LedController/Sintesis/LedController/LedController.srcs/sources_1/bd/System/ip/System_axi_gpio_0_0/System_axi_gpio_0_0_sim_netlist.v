@@ -1,20 +1,20 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-// Date        : Sun Jun  8 20:17:50 2025
+// Date        : Sun Jun  8 21:18:11 2025
 // Host        : NB459408 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/System/ip/System_axi_gpio_0_0/System_axi_gpio_0_0_sim_netlist.v
-// Design      : System_axi_gpio_0_0
+//               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_sim_netlist.v
+// Design      : system_axi_gpio_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
 // Device      : xc7z010clg400-1
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "System_axi_gpio_0_0,axi_gpio,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "axi_gpio,Vivado 2018.1" *) 
+(* CHECK_LICENSE_TYPE = "system_axi_gpio_0_0,axi_gpio,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "axi_gpio,Vivado 2018.1" *) 
 (* NotValidForBitStream *)
-module System_axi_gpio_0_0
+module system_axi_gpio_0_0
    (s_axi_aclk,
     s_axi_aresetn,
     s_axi_awaddr,
@@ -35,9 +35,9 @@ module System_axi_gpio_0_0
     s_axi_rvalid,
     s_axi_rready,
     gpio_io_i);
-  (* x_interface_info = "xilinx.com:signal:clock:1.0 S_AXI_ACLK CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME S_AXI_ACLK, ASSOCIATED_BUSIF S_AXI, ASSOCIATED_RESET s_axi_aresetn, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN System_processing_system7_0_0_FCLK_CLK0" *) input s_axi_aclk;
+  (* x_interface_info = "xilinx.com:signal:clock:1.0 S_AXI_ACLK CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME S_AXI_ACLK, ASSOCIATED_BUSIF S_AXI, ASSOCIATED_RESET s_axi_aresetn, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0" *) input s_axi_aclk;
   (* x_interface_info = "xilinx.com:signal:reset:1.0 S_AXI_ARESETN RST" *) (* x_interface_parameter = "XIL_INTERFACENAME S_AXI_ARESETN, POLARITY ACTIVE_LOW" *) input s_axi_aresetn;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 S_AXI AWADDR" *) (* x_interface_parameter = "XIL_INTERFACENAME S_AXI, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 9, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 0, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.000, CLK_DOMAIN System_processing_system7_0_0_FCLK_CLK0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0" *) input [8:0]s_axi_awaddr;
+  (* x_interface_info = "xilinx.com:interface:aximm:1.0 S_AXI AWADDR" *) (* x_interface_parameter = "XIL_INTERFACENAME S_AXI, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 9, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 0, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0" *) input [8:0]s_axi_awaddr;
   (* x_interface_info = "xilinx.com:interface:aximm:1.0 S_AXI AWVALID" *) input s_axi_awvalid;
   (* x_interface_info = "xilinx.com:interface:aximm:1.0 S_AXI AWREADY" *) output s_axi_awready;
   (* x_interface_info = "xilinx.com:interface:aximm:1.0 S_AXI WDATA" *) input [31:0]s_axi_wdata;
@@ -99,7 +99,7 @@ module System_axi_gpio_0_0
   (* C_TRI_DEFAULT_2 = "-1" *) 
   (* downgradeipidentifiedwarnings = "yes" *) 
   (* ip_group = "LOGICORE" *) 
-  System_axi_gpio_0_0_axi_gpio U0
+  system_axi_gpio_0_0_axi_gpio U0
        (.gpio2_io_i({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .gpio2_io_o(NLW_U0_gpio2_io_o_UNCONNECTED[31:0]),
         .gpio2_io_t(NLW_U0_gpio2_io_t_UNCONNECTED[31:0]),
@@ -129,7 +129,7 @@ module System_axi_gpio_0_0
 endmodule
 
 (* ORIG_REF_NAME = "GPIO_Core" *) 
-module System_axi_gpio_0_0_GPIO_Core
+module system_axi_gpio_0_0_GPIO_Core
    (GPIO_xferAck_i,
     gpio_xferAck_Reg,
     ip2bus_wrack_i,
@@ -271,7 +271,7 @@ module System_axi_gpio_0_0_GPIO_Core
         .D(Read_Reg_In[3]),
         .Q(reg1[31]),
         .R(bus2ip_rnw_i_reg));
-  System_axi_gpio_0_0_cdc_sync \Not_Dual.INPUT_DOUBLE_REGS3 
+  system_axi_gpio_0_0_cdc_sync \Not_Dual.INPUT_DOUBLE_REGS3 
        (.gpio_io_i(gpio_io_i),
         .s_axi_aclk(s_axi_aclk),
         .scndry_vect_out({gpio_io_i_d2[0],gpio_io_i_d2[1],gpio_io_i_d2[2],gpio_io_i_d2[3]}));
@@ -440,7 +440,7 @@ module System_axi_gpio_0_0_GPIO_Core
 endmodule
 
 (* ORIG_REF_NAME = "address_decoder" *) 
-module System_axi_gpio_0_0_address_decoder
+module system_axi_gpio_0_0_address_decoder
    (\GEN_BKEND_CE_REGISTERS[3].ce_out_i_reg ,
     \GEN_BKEND_CE_REGISTERS[2].ce_out_i_reg ,
     \GEN_BKEND_CE_REGISTERS[1].ce_out_i_reg ,
@@ -583,10 +583,10 @@ module System_axi_gpio_0_0_address_decoder
         .D(ce_expnd_i_0),
         .Q(\GEN_BKEND_CE_REGISTERS[3].ce_out_i_reg ),
         .R(cs_ce_clr));
-  System_axi_gpio_0_0_pselect_f \MEM_DECODE_GEN[0].PER_CE_GEN[0].MULTIPLE_CES_THIS_CS_GEN.CE_I 
+  system_axi_gpio_0_0_pselect_f \MEM_DECODE_GEN[0].PER_CE_GEN[0].MULTIPLE_CES_THIS_CS_GEN.CE_I 
        (.\bus2ip_addr_i_reg[3] (\bus2ip_addr_i_reg[8] [1:0]),
         .ce_expnd_i_3(ce_expnd_i_3));
-  System_axi_gpio_0_0_pselect_f__parameterized1 \MEM_DECODE_GEN[0].PER_CE_GEN[2].MULTIPLE_CES_THIS_CS_GEN.CE_I 
+  system_axi_gpio_0_0_pselect_f__parameterized1 \MEM_DECODE_GEN[0].PER_CE_GEN[2].MULTIPLE_CES_THIS_CS_GEN.CE_I 
        (.\bus2ip_addr_i_reg[3] (\bus2ip_addr_i_reg[8] [1:0]),
         .ce_expnd_i_1(ce_expnd_i_1));
   LUT5 #(
@@ -694,7 +694,7 @@ endmodule
 (* C_INTERRUPT_PRESENT = "0" *) (* C_IS_DUAL = "0" *) (* C_S_AXI_ADDR_WIDTH = "9" *) 
 (* C_S_AXI_DATA_WIDTH = "32" *) (* C_TRI_DEFAULT = "-1" *) (* C_TRI_DEFAULT_2 = "-1" *) 
 (* ORIG_REF_NAME = "axi_gpio" *) (* downgradeipidentifiedwarnings = "yes" *) (* ip_group = "LOGICORE" *) 
-module System_axi_gpio_0_0_axi_gpio
+module system_axi_gpio_0_0_axi_gpio
    (s_axi_aclk,
     s_axi_aresetn,
     s_axi_awaddr,
@@ -889,7 +889,7 @@ module System_axi_gpio_0_0_axi_gpio
   assign s_axi_rdata[3:0] = \^s_axi_rdata [3:0];
   assign s_axi_rresp[1] = \<const0> ;
   assign s_axi_rresp[0] = \<const0> ;
-  System_axi_gpio_0_0_axi_lite_ipif AXI_LITE_IPIF_I
+  system_axi_gpio_0_0_axi_lite_ipif AXI_LITE_IPIF_I
        (.Bus_RNW_reg(\I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg ),
         .D({DBus_Reg[0],DBus_Reg[1],DBus_Reg[2],DBus_Reg[3]}),
         .E(AXI_LITE_IPIF_I_n_13),
@@ -927,7 +927,7 @@ module System_axi_gpio_0_0_axi_gpio
        (.G(\<const0> ));
   VCC VCC
        (.P(\<const1> ));
-  System_axi_gpio_0_0_GPIO_Core gpio_core_1
+  system_axi_gpio_0_0_GPIO_Core gpio_core_1
        (.Bus_RNW_reg(\I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg ),
         .D({DBus_Reg[0],DBus_Reg[1],DBus_Reg[2],DBus_Reg[3]}),
         .E(AXI_LITE_IPIF_I_n_13),
@@ -995,7 +995,7 @@ module System_axi_gpio_0_0_axi_gpio
 endmodule
 
 (* ORIG_REF_NAME = "axi_lite_ipif" *) 
-module System_axi_gpio_0_0_axi_lite_ipif
+module system_axi_gpio_0_0_axi_lite_ipif
    (bus2ip_reset,
     \GEN_BKEND_CE_REGISTERS[3].ce_out_i_reg ,
     \GEN_BKEND_CE_REGISTERS[2].ce_out_i_reg ,
@@ -1097,7 +1097,7 @@ module System_axi_gpio_0_0_axi_lite_ipif
   wire s_axi_wready;
   wire s_axi_wvalid;
 
-  System_axi_gpio_0_0_slave_attachment I_SLAVE_ATTACHMENT
+  system_axi_gpio_0_0_slave_attachment I_SLAVE_ATTACHMENT
        (.Bus_RNW_reg(Bus_RNW_reg),
         .D(D),
         .E(E),
@@ -1134,7 +1134,7 @@ module System_axi_gpio_0_0_axi_lite_ipif
 endmodule
 
 (* ORIG_REF_NAME = "cdc_sync" *) 
-module System_axi_gpio_0_0_cdc_sync
+module system_axi_gpio_0_0_cdc_sync
    (scndry_vect_out,
     gpio_io_i,
     s_axi_aclk);
@@ -1337,7 +1337,7 @@ module System_axi_gpio_0_0_cdc_sync
 endmodule
 
 (* ORIG_REF_NAME = "pselect_f" *) 
-module System_axi_gpio_0_0_pselect_f
+module system_axi_gpio_0_0_pselect_f
    (ce_expnd_i_3,
     \bus2ip_addr_i_reg[3] );
   output ce_expnd_i_3;
@@ -1355,7 +1355,7 @@ module System_axi_gpio_0_0_pselect_f
 endmodule
 
 (* ORIG_REF_NAME = "pselect_f" *) 
-module System_axi_gpio_0_0_pselect_f__parameterized1
+module system_axi_gpio_0_0_pselect_f__parameterized1
    (ce_expnd_i_1,
     \bus2ip_addr_i_reg[3] );
   output ce_expnd_i_1;
@@ -1373,7 +1373,7 @@ module System_axi_gpio_0_0_pselect_f__parameterized1
 endmodule
 
 (* ORIG_REF_NAME = "slave_attachment" *) 
-module System_axi_gpio_0_0_slave_attachment
+module system_axi_gpio_0_0_slave_attachment
    (SR,
     \GEN_BKEND_CE_REGISTERS[3].ce_out_i_reg ,
     \GEN_BKEND_CE_REGISTERS[2].ce_out_i_reg ,
@@ -1650,7 +1650,7 @@ module System_axi_gpio_0_0_slave_attachment
         .D(plusOp[3]),
         .Q(\INCLUDE_DPHASE_TIMER.dpto_cnt_reg__0 [3]),
         .R(clear));
-  System_axi_gpio_0_0_address_decoder I_DECODER
+  system_axi_gpio_0_0_address_decoder I_DECODER
        (.Bus_RNW_reg(Bus_RNW_reg),
         .D(D),
         .E(E),

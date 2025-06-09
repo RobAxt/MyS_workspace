@@ -1,18 +1,18 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
--- Date        : Sun Jun  8 20:17:48 2025
+-- Date        : Sun Jun  8 21:18:08 2025
 -- Host        : NB459408 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
---               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/System/ip/System_rst_ps7_0_100M_0/System_rst_ps7_0_100M_0_stub.vhdl
--- Design      : System_rst_ps7_0_100M_0
+--               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0_stub.vhdl
+-- Design      : system_rst_ps7_0_100M_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z010clg400-1
 -- --------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity System_rst_ps7_0_100M_0 is
+entity system_rst_ps7_0_100M_0 is
   Port ( 
     slowest_sync_clk : in STD_LOGIC;
     ext_reset_in : in STD_LOGIC;
@@ -26,9 +26,9 @@ entity System_rst_ps7_0_100M_0 is
     peripheral_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
 
-end System_rst_ps7_0_100M_0;
+end system_rst_ps7_0_100M_0;
 
-architecture stub of System_rst_ps7_0_100M_0 is
+architecture stub of system_rst_ps7_0_100M_0 is
 attribute syn_black_box : boolean;
 attribute black_box_pad_pin : string;
 attribute syn_black_box of stub : architecture is true;

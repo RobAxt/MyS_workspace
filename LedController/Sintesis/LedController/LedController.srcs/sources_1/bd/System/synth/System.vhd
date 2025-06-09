@@ -1,17 +1,17 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
---Date        : Sun Jun  8 20:22:53 2025
+--Date        : Sun Jun  8 21:13:55 2025
 --Host        : NB459408 running 64-bit major release  (build 9200)
---Command     : generate_target System.bd
---Design      : System
+--Command     : generate_target system.bd
+--Design      : system
 --Purpose     : IP block netlist
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity m00_couplers_imp_1F2O2QF is
+entity m00_couplers_imp_1H7AUOX is
   port (
     M_ACLK : in STD_LOGIC;
     M_ARESETN : in STD_LOGIC;
@@ -56,9 +56,9 @@ entity m00_couplers_imp_1F2O2QF is
     S_AXI_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
     S_AXI_wvalid : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-end m00_couplers_imp_1F2O2QF;
+end m00_couplers_imp_1H7AUOX;
 
-architecture STRUCTURE of m00_couplers_imp_1F2O2QF is
+architecture STRUCTURE of m00_couplers_imp_1H7AUOX is
   signal m00_couplers_to_m00_couplers_ARADDR : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal m00_couplers_to_m00_couplers_ARPROT : STD_LOGIC_VECTOR ( 2 downto 0 );
   signal m00_couplers_to_m00_couplers_ARREADY : STD_LOGIC_VECTOR ( 0 to 0 );
@@ -122,7 +122,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity m01_couplers_imp_68KJLY is
+entity m01_couplers_imp_4Y7TYO is
   port (
     M_ACLK : in STD_LOGIC;
     M_ARESETN : in STD_LOGIC;
@@ -163,9 +163,9 @@ entity m01_couplers_imp_68KJLY is
     S_AXI_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
     S_AXI_wvalid : in STD_LOGIC
   );
-end m01_couplers_imp_68KJLY;
+end m01_couplers_imp_4Y7TYO;
 
-architecture STRUCTURE of m01_couplers_imp_68KJLY is
+architecture STRUCTURE of m01_couplers_imp_4Y7TYO is
   signal m01_couplers_to_m01_couplers_ARADDR : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal m01_couplers_to_m01_couplers_ARREADY : STD_LOGIC;
   signal m01_couplers_to_m01_couplers_ARVALID : STD_LOGIC;
@@ -223,7 +223,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity m02_couplers_imp_HOA56C is
+entity m02_couplers_imp_FKL2TE is
   port (
     M_ACLK : in STD_LOGIC;
     M_ARESETN : in STD_LOGIC;
@@ -264,9 +264,9 @@ entity m02_couplers_imp_HOA56C is
     S_AXI_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
     S_AXI_wvalid : in STD_LOGIC
   );
-end m02_couplers_imp_HOA56C;
+end m02_couplers_imp_FKL2TE;
 
-architecture STRUCTURE of m02_couplers_imp_HOA56C is
+architecture STRUCTURE of m02_couplers_imp_FKL2TE is
   signal m02_couplers_to_m02_couplers_ARADDR : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal m02_couplers_to_m02_couplers_ARREADY : STD_LOGIC;
   signal m02_couplers_to_m02_couplers_ARVALID : STD_LOGIC;
@@ -324,7 +324,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity s00_couplers_imp_13UIZPI is
+entity s00_couplers_imp_11SE3QO is
   port (
     M_ACLK : in STD_LOGIC;
     M_ARESETN : in STD_LOGIC;
@@ -388,10 +388,10 @@ entity s00_couplers_imp_13UIZPI is
     S_AXI_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
     S_AXI_wvalid : in STD_LOGIC
   );
-end s00_couplers_imp_13UIZPI;
+end s00_couplers_imp_11SE3QO;
 
-architecture STRUCTURE of s00_couplers_imp_13UIZPI is
-  component System_auto_pc_0 is
+architecture STRUCTURE of s00_couplers_imp_11SE3QO is
+  component system_auto_pc_0 is
   port (
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC;
@@ -453,7 +453,7 @@ architecture STRUCTURE of s00_couplers_imp_13UIZPI is
     m_axi_rvalid : in STD_LOGIC;
     m_axi_rready : out STD_LOGIC
   );
-  end component System_auto_pc_0;
+  end component system_auto_pc_0;
   signal S_ACLK_1 : STD_LOGIC;
   signal S_ARESETN_1 : STD_LOGIC;
   signal auto_pc_to_s00_couplers_ARADDR : STD_LOGIC_VECTOR ( 31 downto 0 );
@@ -573,7 +573,7 @@ begin
   s00_couplers_to_auto_pc_WLAST <= S_AXI_wlast;
   s00_couplers_to_auto_pc_WSTRB(3 downto 0) <= S_AXI_wstrb(3 downto 0);
   s00_couplers_to_auto_pc_WVALID <= S_AXI_wvalid;
-auto_pc: component System_auto_pc_0
+auto_pc: component system_auto_pc_0
      port map (
       aclk => S_ACLK_1,
       aresetn => S_ARESETN_1,
@@ -640,7 +640,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_ps7_0_axi_periph_0 is
+entity system_ps7_0_axi_periph_0 is
   port (
     ACLK : in STD_LOGIC;
     ARESETN : in STD_LOGIC;
@@ -744,10 +744,10 @@ entity System_ps7_0_axi_periph_0 is
     S00_AXI_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
     S00_AXI_wvalid : in STD_LOGIC
   );
-end System_ps7_0_axi_periph_0;
+end system_ps7_0_axi_periph_0;
 
-architecture STRUCTURE of System_ps7_0_axi_periph_0 is
-  component System_xbar_0 is
+architecture STRUCTURE of system_ps7_0_axi_periph_0 is
+  component system_xbar_0 is
   port (
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC;
@@ -790,7 +790,7 @@ architecture STRUCTURE of System_ps7_0_axi_periph_0 is
     m_axi_rvalid : in STD_LOGIC_VECTOR ( 2 downto 0 );
     m_axi_rready : out STD_LOGIC_VECTOR ( 2 downto 0 )
   );
-  end component System_xbar_0;
+  end component system_xbar_0;
   signal M00_ACLK_1 : STD_LOGIC;
   signal M00_ARESETN_1 : STD_LOGIC;
   signal M01_ACLK_1 : STD_LOGIC;
@@ -1068,7 +1068,7 @@ begin
   ps7_0_axi_periph_to_s00_couplers_WLAST <= S00_AXI_wlast;
   ps7_0_axi_periph_to_s00_couplers_WSTRB(3 downto 0) <= S00_AXI_wstrb(3 downto 0);
   ps7_0_axi_periph_to_s00_couplers_WVALID <= S00_AXI_wvalid;
-m00_couplers: entity work.m00_couplers_imp_1F2O2QF
+m00_couplers: entity work.m00_couplers_imp_1H7AUOX
      port map (
       M_ACLK => M00_ACLK_1,
       M_ARESETN => M00_ARESETN_1,
@@ -1113,7 +1113,7 @@ m00_couplers: entity work.m00_couplers_imp_1F2O2QF
       S_AXI_wstrb(3 downto 0) => xbar_to_m00_couplers_WSTRB(3 downto 0),
       S_AXI_wvalid(0) => xbar_to_m00_couplers_WVALID(0)
     );
-m01_couplers: entity work.m01_couplers_imp_68KJLY
+m01_couplers: entity work.m01_couplers_imp_4Y7TYO
      port map (
       M_ACLK => M01_ACLK_1,
       M_ARESETN => M01_ARESETN_1,
@@ -1154,7 +1154,7 @@ m01_couplers: entity work.m01_couplers_imp_68KJLY
       S_AXI_wstrb(3 downto 0) => xbar_to_m01_couplers_WSTRB(7 downto 4),
       S_AXI_wvalid => xbar_to_m01_couplers_WVALID(1)
     );
-m02_couplers: entity work.m02_couplers_imp_HOA56C
+m02_couplers: entity work.m02_couplers_imp_FKL2TE
      port map (
       M_ACLK => M02_ACLK_1,
       M_ARESETN => M02_ARESETN_1,
@@ -1195,7 +1195,7 @@ m02_couplers: entity work.m02_couplers_imp_HOA56C
       S_AXI_wstrb(3 downto 0) => xbar_to_m02_couplers_WSTRB(11 downto 8),
       S_AXI_wvalid => xbar_to_m02_couplers_WVALID(2)
     );
-s00_couplers: entity work.s00_couplers_imp_13UIZPI
+s00_couplers: entity work.s00_couplers_imp_11SE3QO
      port map (
       M_ACLK => ps7_0_axi_periph_ACLK_net,
       M_ARESETN => ps7_0_axi_periph_ARESETN_net,
@@ -1259,7 +1259,7 @@ s00_couplers: entity work.s00_couplers_imp_13UIZPI
       S_AXI_wstrb(3 downto 0) => ps7_0_axi_periph_to_s00_couplers_WSTRB(3 downto 0),
       S_AXI_wvalid => ps7_0_axi_periph_to_s00_couplers_WVALID
     );
-xbar: component System_xbar_0
+xbar: component system_xbar_0
      port map (
       aclk => ps7_0_axi_periph_ACLK_net,
       aresetn => ps7_0_axi_periph_ARESETN_net,
@@ -1343,7 +1343,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System is
+entity system is
   port (
     DDR_addr : inout STD_LOGIC_VECTOR ( 14 downto 0 );
     DDR_ba : inout STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -1371,13 +1371,13 @@ entity System is
     sws_2bits_tri_i : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of System : entity is "System,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=System,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=12,numReposBlks=7,numNonXlnxBlks=1,numHierBlks=5,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=3,da_board_cnt=2,da_ps7_cnt=1,synth_mode=OOC_per_IP}";
+  attribute CORE_GENERATION_INFO of system : entity is "system,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=system,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=12,numReposBlks=7,numNonXlnxBlks=1,numHierBlks=5,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=3,da_board_cnt=2,da_ps7_cnt=1,synth_mode=OOC_per_IP}";
   attribute HW_HANDOFF : string;
-  attribute HW_HANDOFF of System : entity is "System.hwdef";
-end System;
+  attribute HW_HANDOFF of system : entity is "system.hwdef";
+end system;
 
-architecture STRUCTURE of System is
-  component System_processing_system7_0_0 is
+architecture STRUCTURE of system is
+  component system_processing_system7_0_0 is
   port (
     M_AXI_GP0_ARVALID : out STD_LOGIC;
     M_AXI_GP0_AWVALID : out STD_LOGIC;
@@ -1442,8 +1442,8 @@ architecture STRUCTURE of System is
     PS_CLK : inout STD_LOGIC;
     PS_PORB : inout STD_LOGIC
   );
-  end component System_processing_system7_0_0;
-  component System_led_ip_0_0 is
+  end component system_processing_system7_0_0;
+  component system_led_ip_0_0 is
   port (
     led_o : out STD_LOGIC_VECTOR ( 3 downto 0 );
     s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
@@ -1468,8 +1468,8 @@ architecture STRUCTURE of System is
     s00_axi_aclk : in STD_LOGIC;
     s00_axi_aresetn : in STD_LOGIC
   );
-  end component System_led_ip_0_0;
-  component System_rst_ps7_0_100M_0 is
+  end component system_led_ip_0_0;
+  component system_rst_ps7_0_100M_0 is
   port (
     slowest_sync_clk : in STD_LOGIC;
     ext_reset_in : in STD_LOGIC;
@@ -1482,8 +1482,8 @@ architecture STRUCTURE of System is
     interconnect_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 );
     peripheral_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  end component System_rst_ps7_0_100M_0;
-  component System_axi_gpio_0_0 is
+  end component system_rst_ps7_0_100M_0;
+  component system_axi_gpio_0_0 is
   port (
     s_axi_aclk : in STD_LOGIC;
     s_axi_aresetn : in STD_LOGIC;
@@ -1506,8 +1506,8 @@ architecture STRUCTURE of System is
     s_axi_rready : in STD_LOGIC;
     gpio_io_i : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
-  end component System_axi_gpio_0_0;
-  component System_axi_gpio_0_1 is
+  end component system_axi_gpio_0_0;
+  component system_axi_gpio_0_1 is
   port (
     s_axi_aclk : in STD_LOGIC;
     s_axi_aresetn : in STD_LOGIC;
@@ -1530,7 +1530,7 @@ architecture STRUCTURE of System is
     s_axi_rready : in STD_LOGIC;
     gpio_io_i : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  end component System_axi_gpio_0_1;
+  end component system_axi_gpio_0_1;
   signal axi_gpio_0_GPIO1_TRI_I : STD_LOGIC_VECTOR ( 1 downto 0 );
   signal axi_gpio_0_GPIO_TRI_I : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal led_ip_0_led_o : STD_LOGIC_VECTOR ( 3 downto 0 );
@@ -1684,7 +1684,7 @@ begin
   axi_gpio_0_GPIO1_TRI_I(1 downto 0) <= sws_2bits_tri_i(1 downto 0);
   axi_gpio_0_GPIO_TRI_I(3 downto 0) <= btns_4bits_tri_i(3 downto 0);
   led(3 downto 0) <= led_ip_0_led_o(3 downto 0);
-buttons: component System_axi_gpio_0_0
+buttons: component system_axi_gpio_0_0
      port map (
       gpio_io_i(3 downto 0) => axi_gpio_0_GPIO_TRI_I(3 downto 0),
       s_axi_aclk => processing_system7_0_FCLK_CLK0,
@@ -1707,7 +1707,7 @@ buttons: component System_axi_gpio_0_0
       s_axi_wstrb(3 downto 0) => ps7_0_axi_periph_M01_AXI_WSTRB(3 downto 0),
       s_axi_wvalid => ps7_0_axi_periph_M01_AXI_WVALID
     );
-led_ip_0: component System_led_ip_0_0
+led_ip_0: component system_led_ip_0_0
      port map (
       led_o(3 downto 0) => led_ip_0_led_o(3 downto 0),
       s00_axi_aclk => processing_system7_0_FCLK_CLK0,
@@ -1732,7 +1732,7 @@ led_ip_0: component System_led_ip_0_0
       s00_axi_wstrb(3 downto 0) => ps7_0_axi_periph_M00_AXI_WSTRB(3 downto 0),
       s00_axi_wvalid => ps7_0_axi_periph_M00_AXI_WVALID(0)
     );
-processing_system7_0: component System_processing_system7_0_0
+processing_system7_0: component system_processing_system7_0_0
      port map (
       DDR_Addr(14 downto 0) => DDR_addr(14 downto 0),
       DDR_BankAddr(2 downto 0) => DDR_ba(2 downto 0),
@@ -1797,7 +1797,7 @@ processing_system7_0: component System_processing_system7_0_0
       PS_PORB => FIXED_IO_ps_porb,
       PS_SRSTB => FIXED_IO_ps_srstb
     );
-ps7_0_axi_periph: entity work.System_ps7_0_axi_periph_0
+ps7_0_axi_periph: entity work.system_ps7_0_axi_periph_0
      port map (
       ACLK => processing_system7_0_FCLK_CLK0,
       ARESETN => rst_ps7_0_100M_interconnect_aresetn(0),
@@ -1901,7 +1901,7 @@ ps7_0_axi_periph: entity work.System_ps7_0_axi_periph_0
       S00_AXI_wstrb(3 downto 0) => processing_system7_0_M_AXI_GP0_WSTRB(3 downto 0),
       S00_AXI_wvalid => processing_system7_0_M_AXI_GP0_WVALID
     );
-rst_ps7_0_100M: component System_rst_ps7_0_100M_0
+rst_ps7_0_100M: component system_rst_ps7_0_100M_0
      port map (
       aux_reset_in => '1',
       bus_struct_reset(0) => NLW_rst_ps7_0_100M_bus_struct_reset_UNCONNECTED(0),
@@ -1914,7 +1914,7 @@ rst_ps7_0_100M: component System_rst_ps7_0_100M_0
       peripheral_reset(0) => NLW_rst_ps7_0_100M_peripheral_reset_UNCONNECTED(0),
       slowest_sync_clk => processing_system7_0_FCLK_CLK0
     );
-switches: component System_axi_gpio_0_1
+switches: component system_axi_gpio_0_1
      port map (
       gpio_io_i(1 downto 0) => axi_gpio_0_GPIO1_TRI_I(1 downto 0),
       s_axi_aclk => processing_system7_0_FCLK_CLK0,

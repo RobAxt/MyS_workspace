@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.runs/System_xbar_0_synth_1'
+HD_PWD='C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.runs/system_xbar_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log System_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source System_xbar_0.tcl
+EAStep vivado -log system_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_xbar_0.tcl

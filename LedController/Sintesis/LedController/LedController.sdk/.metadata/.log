@@ -1,60 +1,60 @@
-!SESSION 2025-06-08 20:26:21.683 -----------------------------------------------
+!SESSION 2025-06-08 21:22:33.188 -----------------------------------------------
 eclipse.buildId=2018.1
 java.version=1.8.0_112
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk
 
-!ENTRY org.eclipse.ui 2 0 2025-06-08 20:26:28.050
+!ENTRY org.eclipse.ui 2 0 2025-06-08 21:22:38.748
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2025-06-08 20:26:28.050
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-06-08 21:22:38.748
 !MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
 
-!ENTRY org.eclipse.ui 2 0 2025-06-08 20:26:28.822
+!ENTRY org.eclipse.ui 2 0 2025-06-08 21:22:39.354
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2025-06-08 20:26:28.822
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-06-08 21:22:39.354
 !MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:41.089
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:50.994
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:50.998
 !MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-15
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:41.095
-!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:53.385
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:41.100
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:53.390
 !MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-15
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:41.106
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:53.395
 !MESSAGE XSCT Command: [setws C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk], Thread: Thread-15
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:43.788
-!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:43.793
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:53.407
 !MESSAGE XSCT command with result: [setws C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk], Result: [null, ]. Thread: Thread-15
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:43.965
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: Worker-6
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:53.550
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: Worker-5
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:50.094
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-6
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:58.965
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-5
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:50.124
-!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: Worker-6
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:58.994
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: Worker-5
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:50.133
-!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7z010",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:59.003
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7z010",
 "family": "zynq",
-"timestamp": "Sun Jun  8 20:22:55 2025",
+"timestamp": "Sun Jun  8 21:14:20 2025",
 "vivado_version": "2018.1",
 "part": "xc7z010clg400-1",
-}]. Thread: Worker-6
+}]. Thread: Worker-5
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:50.139
-!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: Worker-6
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:59.011
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: Worker-5
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:50.159
-!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, {"buttons": {"hier_name": "buttons",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:59.032
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, {"buttons": {"hier_name": "buttons",
 "type": "axi_gpio",
 "version": "2.0",
 "ip_type": "PERIPHERAL",
@@ -259,13 +259,13 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Xilinx/MyS_wo
 "version": "1.00.a",
 "ip_type": "PERIPHERAL",
 },
-}]. Thread: Worker-6
+}]. Thread: Worker-5
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:50.305
-!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:59.154
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:50.327
-!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"buttons_S_AXI": {"name": "buttons",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:59.173
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"buttons_S_AXI": {"name": "buttons",
 "base": "0x41200000",
 "high": "0x4120FFFF",
 "size": "65536",
@@ -630,11 +630,11 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Xilinx/MyS_wo
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:50.399
-!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:59.245
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:50.425
-!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"buttons": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:59.271
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"buttons": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
 "address_offset": "0x0",
 "access": "read-write",
 "size": "4",
@@ -1021,11 +1021,11 @@ Each I/O pin of the AXI GPIO is individually programmable as an input or output 
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:50.433
-!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:59.278
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:26:50.456
-!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"buttons": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:22:59.300
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"buttons": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
 "address_offset": "0x0",
 "access": "read-write",
 "size": "4",
@@ -1412,11 +1412,11 @@ Each I/O pin of the AXI GPIO is individually programmable as an input or output 
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.799
-!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.304
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.815
-!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_0": {"name": "freertos10_xilinx",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.330
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_0": {"name": "freertos10_xilinx",
 "version": "1.0",
 "desc": "FreeRTOS is a market leading open source RTOS",
 "compilerflags": "",
@@ -1448,46 +1448,46 @@ Each I/O pin of the AXI GPIO is individually programmable as an input or output 
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.840
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.361
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.849
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.373
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.861
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.388
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.871
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.398
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.877
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.410
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.886
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.432
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.894
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.443
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.904
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.454
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.911
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.463
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.921
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.472
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.950
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.510
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.960
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.525
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:51.967
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:14.534
 !MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:53.024
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:15.807
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
 "description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
 "supp_proc": "psu_cortexr5",
@@ -1727,94 +1727,58 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:53.036
-!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:15.822
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:53.093
-!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:15.896
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:53.105
-!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:15.907
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:53.147
-!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:15.958
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:55.807
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:19.634
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:55.817
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:19.645
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:56.227
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:19.771
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:56.237
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:19.781
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:56.369
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:19.832
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:56.380
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:19.843
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:56.594
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:20.097
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:56.604
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:20.122
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:56.761
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:20.162
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:56.773
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:20.176
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:56.822
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:20.409
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:56.832
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:20.422
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:57.877
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:57.889
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:58.062
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:58.073
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:58.208
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:58.219
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:58.710
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:58.721
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:58.797
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:58.809
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:59.106
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:27:59.115
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:04.550
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:26.431
 !MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:05.559
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:27.376
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
 "description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
 "supp_proc": "psu_cortexr5",
@@ -2054,65 +2018,65 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:05.572
-!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app empty_application -sw {} -arch {}], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:27.386
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app empty_application -sw {} -arch {}], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:05.612
-!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app empty_application -sw {} -arch {}], Result: [null, 1]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:27.422
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app empty_application -sw {} -arch {}], Result: [null, 1]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:05.947
-!MESSAGE XSCT Command: [::hsi::utils::write_sw_mss -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf -sw System_bsp -dir C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp -processor ps7_cortexa9_0 -os standalone -app empty_application], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:29.850
+!MESSAGE XSCT Command: [::hsi::utils::write_sw_mss -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf -sw system_bsp -dir C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp -processor ps7_cortexa9_0 -os standalone -app empty_application], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:05.996
-!MESSAGE XSCT command with result: [::hsi::utils::write_sw_mss -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf -sw System_bsp -dir C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp -processor ps7_cortexa9_0 -os standalone -app empty_application], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:29.895
+!MESSAGE XSCT command with result: [::hsi::utils::write_sw_mss -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf -sw system_bsp -dir C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp -processor ps7_cortexa9_0 -os standalone -app empty_application], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:06.326
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:30.212
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:06.337
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:30.223
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss ], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:06.346
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:30.232
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:06.357
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:30.244
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.6",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:06.366
-!MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:30.254
+!MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:15.609
-!MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:41.545
+!MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.017
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.228
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.032
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.243
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss ], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.041
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.253
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.056
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.269
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.6",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.082
-!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.293
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.095
-!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, buttons led_ip_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_slcr_0 ps7_uart_0 ps7_xadc_0 switches]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.306
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, buttons led_ip_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_slcr_0 ps7_uart_0 ps7_xadc_0 switches]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.104
-!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.314
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.122
-!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, {"buttons": {"name": "gpio",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.334
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, {"buttons": {"name": "gpio",
 "ver": "4.3",
 },
 "led_ip_0": {"name": "led_ip",
@@ -2216,11 +2180,11 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.132
-!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.345
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.249
-!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, {"buttons": {"version": "2.0",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.479
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, {"buttons": {"version": "2.0",
 "driver_info": {"generic": {"name": "generic",
 "version": "2.0",
 "repo": "C:/Xilinx/SDK/2018.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
@@ -2240,7 +2204,7 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 "led_ip_v1_0": {"name": "led_ip",
 "version": "1.0",
-"repo": "C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/drivers/led_ip_v1_0",
+"repo": "C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/drivers/led_ip_v1_0",
 "compilerflags": "",
 "linkerflags": "",
 },
@@ -2611,50 +2575,50 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.342
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.575
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.354
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.588
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss ], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.364
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.597
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.375
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.610
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.6",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.392
-!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.628
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.404
-!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.645
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.509
-!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.752
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:16.520
-!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:42.765
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.271
-!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.779
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.288
-!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.793
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.297
-!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.801
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.311
-!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, {}]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.812
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, {}]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.319
-!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.820
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.336
-!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, {"buttons": {"name": "gpio",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.836
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, {"buttons": {"name": "gpio",
 "ver": "4.3",
 },
 "led_ip_0": {"name": "led_ip",
@@ -2758,85 +2722,88 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.345
-!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.844
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.356
-!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.855
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.365
-!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.863
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.378
-!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, {}]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.875
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, {}]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.387
-!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.883
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.397
-!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.894
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.444
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.940
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.459
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.954
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss ], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.467
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.962
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.479
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.977
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.6",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.489
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.985
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.500
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:44.995
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.507
-!MESSAGE XSCT Command: [::hsi::utils::opensw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:45.003
+!MESSAGE XSCT Command: [::hsi::utils::opensw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.520
-!MESSAGE XSCT command with result: [::hsi::utils::opensw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:45.013
+!MESSAGE XSCT command with result: [::hsi::utils::opensw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.528
-!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf -sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss -app empty_application -processor ps7_cortexa9_0 -os standalone -dir C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System/src], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:45.022
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf -sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss -app empty_application -processor ps7_cortexa9_0 -os standalone -dir C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system/src], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:18.720
-!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf -sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss -app empty_application -processor ps7_cortexa9_0 -os standalone -dir C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System/src], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:45.201
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf -sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss -app empty_application -processor ps7_cortexa9_0 -os standalone -dir C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system/src], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:19.339
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:45.870
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:19.354
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:45.883
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss ], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:19.363
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:45.892
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:19.377
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:45.921
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.6",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:19.395
-!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:45.940
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:19.420
-!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:45.953
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:19.511
-!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-08 21:23:45.974
+!MESSAGE Indexed 'system' (0 sources, 0 headers) in 0,002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:28:19.522
-!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:46.034
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:19.967
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:23:46.045
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:46.642
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2863,7 +2830,7 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:20.492
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:47.401
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2874,7 +2841,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:20.515
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:47.439
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2885,7 +2852,10 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:21.159
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-08 21:23:48.106
+!MESSAGE Indexed 'system_bsp' (104 sources, 65 headers) in 2,1 sec: 3.253 declarations; 18.563 references; 46 unresolved inclusions; 3 syntax errors; 51 unresolved names (0,23 %)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:48.301
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2896,7 +2866,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:21.178
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:48.322
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2906,14 +2876,8 @@ java.lang.NullPointerException
 	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
-
-!ENTRY org.eclipse.cdt.core 1 0 2025-06-08 20:28:21.213
-!MESSAGE Indexed 'System_bsp' (104 sources, 65 headers) in 1,75 sec: 3.253 declarations; 18.563 references; 46 unresolved inclusions; 3 syntax errors; 51 unresolved names (0,23 %)
-
-!ENTRY org.eclipse.cdt.core 1 0 2025-06-08 20:28:21.266
-!MESSAGE Indexed 'System' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:21.585
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:48.802
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2924,7 +2888,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:21.599
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:48.826
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2935,7 +2899,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:21.965
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:49.333
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2946,7 +2910,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:21.983
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:49.354
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2957,7 +2921,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:22.410
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:49.864
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2968,7 +2932,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:22.428
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:49.884
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2979,7 +2943,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:22.843
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:50.355
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2990,7 +2954,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:22.860
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:50.371
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3001,7 +2965,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:23.289
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:50.786
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3012,7 +2976,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:23.304
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:50.804
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3023,7 +2987,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:23.726
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:51.350
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3034,7 +2998,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:23.745
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:51.365
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3045,7 +3009,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:24.156
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:51.746
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3056,7 +3020,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:24.175
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:51.765
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3067,7 +3031,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:24.612
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:52.171
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3078,7 +3042,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:24.627
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:52.186
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3089,7 +3053,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:25.028
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:52.623
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3100,7 +3064,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:25.045
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:52.640
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3111,7 +3075,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:25.421
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:53.068
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3122,7 +3086,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:25.438
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:53.083
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3133,7 +3097,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:25.848
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:53.482
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3144,7 +3108,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:25.864
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:53.497
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3155,7 +3119,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:27.149
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:54.564
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3166,7 +3130,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:27.166
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:54.578
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3177,7 +3141,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:27.594
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:54.967
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3188,7 +3152,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:27.612
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:54.983
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3199,7 +3163,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:28.019
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:55.358
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3210,7 +3174,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:28.036
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:55.372
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3221,7 +3185,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:28.324
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:55.638
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3232,7 +3196,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:28.990
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:56.267
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3243,7 +3207,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:29.235
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:56.494
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3254,7 +3218,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:29.250
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:56.508
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3265,7 +3229,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:29.509
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:56.745
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3276,7 +3240,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:29.608
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:56.848
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3287,7 +3251,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:29.625
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:56.864
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3298,7 +3262,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:29.898
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:57.183
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3309,7 +3273,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:30.164
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:57.427
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3320,7 +3284,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:30.179
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:57.441
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3331,7 +3295,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:30.463
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:23:57.697
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3342,7 +3306,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:33.920
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:00.717
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3353,7 +3317,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:33.935
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:00.733
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3364,7 +3328,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:34.217
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:01.141
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3375,7 +3339,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:37.348
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:04.937
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3386,7 +3350,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:37.363
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:04.952
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3397,7 +3361,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:37.640
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:05.189
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3408,7 +3372,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:40.618
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:07.601
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3419,7 +3383,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:40.633
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:07.614
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3430,7 +3394,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:40.896
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:07.844
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3441,7 +3405,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:44.465
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:10.944
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3452,7 +3416,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:44.482
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:10.958
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3463,7 +3427,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:44.747
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:11.179
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3474,7 +3438,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:45.886
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:11.787
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3485,7 +3449,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:45.905
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:11.801
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3496,7 +3460,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:45.916
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:11.810
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3507,7 +3471,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:45.926
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:11.820
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3518,7 +3482,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:45.938
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:11.829
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3529,7 +3493,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:45.950
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:11.838
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3540,7 +3504,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:45.962
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:11.848
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3551,7 +3515,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:46.486
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:12.302
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3562,7 +3526,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:46.502
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:12.321
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3573,7 +3537,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:46.779
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:12.565
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3584,7 +3548,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:50.356
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:15.720
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3595,7 +3559,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:50.371
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:15.735
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3606,7 +3570,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:50.645
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:15.964
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3617,7 +3581,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:54.157
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:18.913
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3628,7 +3592,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:54.171
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:18.927
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3639,7 +3603,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:54.442
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:19.171
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3650,7 +3614,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:56.708
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:21.248
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3661,7 +3625,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:56.722
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:21.260
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3672,7 +3636,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:57.013
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:21.492
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3683,7 +3647,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:59.376
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:23.437
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3694,7 +3658,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:59.393
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:23.450
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3705,7 +3669,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:28:59.774
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:23.778
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3716,7 +3680,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:06.565
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:29.909
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3727,7 +3691,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:06.577
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:29.921
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3738,7 +3702,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:06.588
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:29.930
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3749,7 +3713,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:06.599
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:29.939
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3760,7 +3724,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:07.233
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:30.540
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3771,7 +3735,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:07.244
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:30.549
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3782,7 +3746,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:07.254
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:30.575
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3793,7 +3757,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:07.264
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:30.584
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3804,7 +3768,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:11.515
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:34.689
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3815,7 +3779,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:11.525
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:34.698
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3826,7 +3790,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:11.536
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:34.707
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3837,7 +3801,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:11.548
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:34.717
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3848,7 +3812,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:14.012
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:37.052
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3859,7 +3823,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:14.022
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:37.062
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3870,7 +3834,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:14.032
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:37.073
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3881,7 +3845,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:14.042
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:37.083
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3892,7 +3856,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:15.828
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:38.724
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3903,7 +3867,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:15.842
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:38.738
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3914,7 +3878,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:16.111
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:38.987
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3925,7 +3889,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:19.956
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:42.421
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3936,7 +3900,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:19.971
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:42.434
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3947,7 +3911,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:20.245
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:42.672
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3958,7 +3922,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:23.460
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:45.356
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3969,7 +3933,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 20:29:23.493
+!ENTRY org.eclipse.cdt.core 4 0 2025-06-08 21:24:45.387
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3994,35 +3958,35 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:30:58.262
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:25.486
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:30:58.282
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:25.499
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss ], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:30:58.291
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:25.508
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:30:58.306
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:25.521
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.6",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:30:58.315
-!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:25.530
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:30:58.327
-!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:25.540
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 1 0 2025-06-08 20:31:15.333
+!ENTRY com.xilinx.sdk.utils 1 0 2025-06-08 21:25:36.416
 !MESSAGE Updating toolusage
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.347
-!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.428
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.365
-!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "650",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.442
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "650",
 "PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
 "PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
 "PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
@@ -4034,61 +3998,61 @@ java.lang.NullPointerException
 "PCW_FPGA0_PERIPHERAL_FREQMHZ": "100",
 "PCW_UIPARAM_DDR_BUS_WIDTH": "16 Bit",
 "PCW_UIPARAM_DDR_FREQ_MHZ": "525",
-}]. Thread: Worker-1
+}]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.373
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.451
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.387
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.463
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.397
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.471
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.410
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.482
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.420
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.490
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.434
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.500
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.446
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.509
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.460
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.537
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.471
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_FREQ], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.546
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_FREQ], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.487
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.557
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.510
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.565
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.522
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.577
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.533
-!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.585
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.547
-!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.597
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
 "index": "0",
 },
 "ps7_cortexa9_1": {"bscan": "",
 "index": "1",
 },
-}]. Thread: Worker-1
+}]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.557
-!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.606
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.582
-!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"buttons_S_AXI": {"name": "buttons",
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.627
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"buttons_S_AXI": {"name": "buttons",
 "base": "0x41200000",
 "high": "0x4120FFFF",
 "size": "65536",
@@ -4451,275 +4415,275 @@ java.lang.NullPointerException
 "acctype": "",
 "tz": "",
 },
-}]. Thread: Worker-1
+}]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.593
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.638
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.605
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.649
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.615
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.657
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.627
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.667
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.636
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.677
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.650
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.688
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.661
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.696
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.672
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.707
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.683
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_FREQ], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.716
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_FREQ], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.697
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.727
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.707
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.736
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.720
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.747
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.732
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf bit], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.759
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf bit], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.745
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf bit], Result: [null, System_wrapper.bit]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.770
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf bit], Result: [null, system_wrapper.bit]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:15.754
-!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:36.779
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:18.468
-!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:39.716
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:18.484
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:39.729
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.219
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty Z7 003017B7EDF5A]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.044
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty Z7 003017B7EDF5A]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.229
-!MESSAGE XSCT Command: [version -server], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.056
+!MESSAGE XSCT Command: [version -server], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.241
-!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.1]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.066
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.1]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.251
-!MESSAGE XSCT Command: [version], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.075
+!MESSAGE XSCT Command: [version], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.261
-!MESSAGE XSCT command with result: [version], Result: [null, 2018.1]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.085
+!MESSAGE XSCT command with result: [version], Result: [null, 2018.1]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.275
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.097
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.291
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty Z7 003017B7EDF5A]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.111
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty Z7 003017B7EDF5A]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.302
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.119
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.336
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.146
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
-     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-1
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.348
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.155
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.367
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty Z7 003017B7EDF5A]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.171
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty Z7 003017B7EDF5A]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.377
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.180
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.410
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.204
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
-     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-1
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.422
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.216
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.442
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty Z7 003017B7EDF5A]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.230
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty Z7 003017B7EDF5A]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.452
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.239
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.483
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.263
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
-     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-1
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.492
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.271
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.510
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty Z7 003017B7EDF5A]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.286
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty Z7 003017B7EDF5A]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.522
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.295
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.550
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.320
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
-     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-1
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.560
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.328
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.579
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty Z7 003017B7EDF5A]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.343
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty Z7 003017B7EDF5A]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.590
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.351
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.622
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.378
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
-     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-1
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.635
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.386
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.659
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty Z7 003017B7EDF5A]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.401
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty Z7 003017B7EDF5A]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.669
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.410
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.710
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.436
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
-     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-1
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.720
-!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Arty Z7 003017B7EDF5A" && level == 0}], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.445
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Arty Z7 003017B7EDF5A" && level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.752
-!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Arty Z7 003017B7EDF5A" && level == 0}], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.470
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Arty Z7 003017B7EDF5A" && level == 0}], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.785
-!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.499
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.795
-!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.509
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.807
-!MESSAGE XSCT Command: [source C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/ps7_init.tcl], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.518
+!MESSAGE XSCT Command: [source C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/ps7_init.tcl], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.821
-!MESSAGE XSCT command with result: [source C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/ps7_init.tcl], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.533
+!MESSAGE XSCT command with result: [source C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/ps7_init.tcl], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.849
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.564
 !MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.865
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.579
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Arty Z7 003017B7EDF5A]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.876
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.588
 !MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.903
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.614
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
      3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.914
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:41.624
 !MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==0} -index 1], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.971
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:42.394
 !MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:19.982
-!MESSAGE XSCT Command: [fpga -file C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/System_wrapper.bit], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:42.409
+!MESSAGE XSCT Command: [fpga -file C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:21.211
-!MESSAGE XSCT command with result: [fpga -file C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/System_wrapper.bit], Result: [null, ]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:43.639
+!MESSAGE XSCT command with result: [fpga -file C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:21.250
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:43.677
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:21.307
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:44.436
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:21.320
-!MESSAGE XSCT Command: [loadhw -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:44.444
+!MESSAGE XSCT Command: [loadhw -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:21.373
-!MESSAGE XSCT command with result: [loadhw -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, System_wrapper]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:44.489
+!MESSAGE XSCT command with result: [loadhw -hw C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, system_wrapper]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:21.386
-!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:44.499
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:21.409
-!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:44.510
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:21.420
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:44.520
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:21.467
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:45.324
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:21.478
-!MESSAGE XSCT Command: [stop], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:45.333
+!MESSAGE XSCT Command: [stop], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:21.546
-!MESSAGE XSCT command with result: [stop], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:45.379
+!MESSAGE XSCT command with result: [stop], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:21.556
-!MESSAGE XSCT Command: [ps7_init], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:45.389
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.007
-!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:46.573
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.018
-!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:46.582
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.036
-!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:46.605
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.046
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:46.615
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.092
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:47.357
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.102
-!MESSAGE XSCT Command: [rst -processor], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:47.366
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.159
-!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:47.423
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.170
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:47.435
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.201
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:48.198
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.213
-!MESSAGE XSCT Command: [dow C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System/Debug/System.elf], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:48.223
+!MESSAGE XSCT Command: [dow C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system/Debug/system.elf], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.343
-!MESSAGE XSCT command with result: [dow C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/System/Debug/System.elf], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:48.344
+!MESSAGE XSCT command with result: [dow C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.sdk/system/Debug/system.elf], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.352
-!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:48.353
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.365
-!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:48.364
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.502
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:48.474
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.593
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:49.352
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.604
-!MESSAGE XSCT Command: [con], Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:49.362
+!MESSAGE XSCT Command: [con], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 20:31:22.621
-!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-1
+!ENTRY com.xilinx.sdk.utils 0 0 2025-06-08 21:25:49.385
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-3

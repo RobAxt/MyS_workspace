@@ -1,11 +1,11 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-// Date        : Sun Jun  8 20:19:05 2025
+// Date        : Sun Jun  8 21:16:54 2025
 // Host        : NB459408 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/System/ip/System_axi_gpio_0_1/System_axi_gpio_0_1_stub.v
-// Design      : System_axi_gpio_0_1
+// Command     : write_verilog -force -mode synth_stub -rename_top system_axi_gpio_0_1 -prefix
+//               system_axi_gpio_0_1_ system_axi_gpio_0_1_stub.v
+// Design      : system_axi_gpio_0_1
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z010clg400-1
 // --------------------------------------------------------------------------------
@@ -14,7 +14,7 @@
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
 (* x_core_info = "axi_gpio,Vivado 2018.1" *)
-module System_axi_gpio_0_1(s_axi_aclk, s_axi_aresetn, s_axi_awaddr, 
+module system_axi_gpio_0_1(s_axi_aclk, s_axi_aresetn, s_axi_awaddr, 
   s_axi_awvalid, s_axi_awready, s_axi_wdata, s_axi_wstrb, s_axi_wvalid, s_axi_wready, 
   s_axi_bresp, s_axi_bvalid, s_axi_bready, s_axi_araddr, s_axi_arvalid, s_axi_arready, 
   s_axi_rdata, s_axi_rresp, s_axi_rvalid, s_axi_rready, gpio_io_i)

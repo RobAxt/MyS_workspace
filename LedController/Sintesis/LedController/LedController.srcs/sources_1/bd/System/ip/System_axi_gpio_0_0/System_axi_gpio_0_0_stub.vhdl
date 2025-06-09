@@ -1,18 +1,18 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
--- Date        : Sun Jun  8 20:17:50 2025
+-- Date        : Sun Jun  8 21:18:11 2025
 -- Host        : NB459408 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
---               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/System/ip/System_axi_gpio_0_0/System_axi_gpio_0_0_stub.vhdl
--- Design      : System_axi_gpio_0_0
+--               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_stub.vhdl
+-- Design      : system_axi_gpio_0_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z010clg400-1
 -- --------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity System_axi_gpio_0_0 is
+entity system_axi_gpio_0_0 is
   Port ( 
     s_axi_aclk : in STD_LOGIC;
     s_axi_aresetn : in STD_LOGIC;
@@ -36,9 +36,9 @@ entity System_axi_gpio_0_0 is
     gpio_io_i : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
 
-end System_axi_gpio_0_0;
+end system_axi_gpio_0_0;
 
-architecture stub of System_axi_gpio_0_0 is
+architecture stub of system_axi_gpio_0_0 is
 attribute syn_black_box : boolean;
 attribute black_box_pad_pin : string;
 attribute syn_black_box of stub : architecture is true;

@@ -1,17 +1,17 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
---Date        : Sun Jun  8 20:22:53 2025
+--Date        : Sun Jun  8 21:13:55 2025
 --Host        : NB459408 running 64-bit major release  (build 9200)
---Command     : generate_target System_wrapper.bd
---Design      : System_wrapper
+--Command     : generate_target system_wrapper.bd
+--Design      : system_wrapper
 --Purpose     : IP block netlist
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_wrapper is
+entity system_wrapper is
   port (
     DDR_addr : inout STD_LOGIC_VECTOR ( 14 downto 0 );
     DDR_ba : inout STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -38,10 +38,10 @@ entity System_wrapper is
     led : out STD_LOGIC_VECTOR ( 3 downto 0 );
     sws_2bits_tri_i : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-end System_wrapper;
+end system_wrapper;
 
-architecture STRUCTURE of System_wrapper is
-  component System is
+architecture STRUCTURE of system_wrapper is
+  component system is
   port (
     DDR_cas_n : inout STD_LOGIC;
     DDR_cke : inout STD_LOGIC;
@@ -64,13 +64,13 @@ architecture STRUCTURE of System_wrapper is
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
+    led : out STD_LOGIC_VECTOR ( 3 downto 0 );
     btns_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    sws_2bits_tri_i : in STD_LOGIC_VECTOR ( 1 downto 0 );
-    led : out STD_LOGIC_VECTOR ( 3 downto 0 )
+    sws_2bits_tri_i : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  end component System;
+  end component system;
 begin
-System_i: component System
+system_i: component system
      port map (
       DDR_addr(14 downto 0) => DDR_addr(14 downto 0),
       DDR_ba(2 downto 0) => DDR_ba(2 downto 0),

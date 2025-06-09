@@ -75,16 +75,16 @@ set rc [catch {
   set_property ip_output_repo C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
-  add_files -quiet C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.runs/synth_1/System_wrapper.dcp
+  add_files -quiet C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.runs/synth_1/system_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/System/System.bd
+  add_files C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/system.bd
   set_param project.isImplRun false
   read_xdc C:/Xilinx/MyS_workspace/LedController/Fuente/ArtyZ7_10.xdc
   set_param project.isImplRun true
-  link_design -top System_wrapper -part xc7z010clg400-1
+  link_design -top system_wrapper -part xc7z010clg400-1
   set_param project.isImplRun false
-  write_hwdef -force -file System_wrapper.hwdef
+  write_hwdef -force -file system_wrapper.hwdef
   close_msg_db -file init_design.pb
 } RESULT]
 if {$rc} {
@@ -100,8 +100,8 @@ set ACTIVE_STEP opt_design
 set rc [catch {
   create_msg_db opt_design.pb
   opt_design 
-  write_checkpoint -force System_wrapper_opt.dcp
-  create_report "impl_1_opt_report_drc_0" "report_drc -file System_wrapper_drc_opted.rpt -pb System_wrapper_drc_opted.pb -rpx System_wrapper_drc_opted.rpx"
+  write_checkpoint -force system_wrapper_opt.dcp
+  create_report "impl_1_opt_report_drc_0" "report_drc -file system_wrapper_drc_opted.rpt -pb system_wrapper_drc_opted.pb -rpx system_wrapper_drc_opted.rpx"
   close_msg_db -file opt_design.pb
 } RESULT]
 if {$rc} {
@@ -120,10 +120,10 @@ set rc [catch {
     implement_debug_core 
   } 
   place_design 
-  write_checkpoint -force System_wrapper_placed.dcp
-  create_report "impl_1_place_report_io_0" "report_io -file System_wrapper_io_placed.rpt"
-  create_report "impl_1_place_report_utilization_0" "report_utilization -file System_wrapper_utilization_placed.rpt -pb System_wrapper_utilization_placed.pb"
-  create_report "impl_1_place_report_control_sets_0" "report_control_sets -verbose -file System_wrapper_control_sets_placed.rpt"
+  write_checkpoint -force system_wrapper_placed.dcp
+  create_report "impl_1_place_report_io_0" "report_io -file system_wrapper_io_placed.rpt"
+  create_report "impl_1_place_report_utilization_0" "report_utilization -file system_wrapper_utilization_placed.rpt -pb system_wrapper_utilization_placed.pb"
+  create_report "impl_1_place_report_control_sets_0" "report_control_sets -verbose -file system_wrapper_control_sets_placed.rpt"
   close_msg_db -file place_design.pb
 } RESULT]
 if {$rc} {
@@ -139,19 +139,19 @@ set ACTIVE_STEP route_design
 set rc [catch {
   create_msg_db route_design.pb
   route_design 
-  write_checkpoint -force System_wrapper_routed.dcp
-  create_report "impl_1_route_report_drc_0" "report_drc -file System_wrapper_drc_routed.rpt -pb System_wrapper_drc_routed.pb -rpx System_wrapper_drc_routed.rpx"
-  create_report "impl_1_route_report_methodology_0" "report_methodology -file System_wrapper_methodology_drc_routed.rpt -pb System_wrapper_methodology_drc_routed.pb -rpx System_wrapper_methodology_drc_routed.rpx"
-  create_report "impl_1_route_report_power_0" "report_power -file System_wrapper_power_routed.rpt -pb System_wrapper_power_summary_routed.pb -rpx System_wrapper_power_routed.rpx"
-  create_report "impl_1_route_report_route_status_0" "report_route_status -file System_wrapper_route_status.rpt -pb System_wrapper_route_status.pb"
-  create_report "impl_1_route_report_timing_summary_0" "report_timing_summary -max_paths 10 -file System_wrapper_timing_summary_routed.rpt -pb System_wrapper_timing_summary_routed.pb -rpx System_wrapper_timing_summary_routed.rpx -warn_on_violation "
-  create_report "impl_1_route_report_incremental_reuse_0" "report_incremental_reuse -file System_wrapper_incremental_reuse_routed.rpt"
-  create_report "impl_1_route_report_clock_utilization_0" "report_clock_utilization -file System_wrapper_clock_utilization_routed.rpt"
+  write_checkpoint -force system_wrapper_routed.dcp
+  create_report "impl_1_route_report_drc_0" "report_drc -file system_wrapper_drc_routed.rpt -pb system_wrapper_drc_routed.pb -rpx system_wrapper_drc_routed.rpx"
+  create_report "impl_1_route_report_methodology_0" "report_methodology -file system_wrapper_methodology_drc_routed.rpt -pb system_wrapper_methodology_drc_routed.pb -rpx system_wrapper_methodology_drc_routed.rpx"
+  create_report "impl_1_route_report_power_0" "report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb -rpx system_wrapper_power_routed.rpx"
+  create_report "impl_1_route_report_route_status_0" "report_route_status -file system_wrapper_route_status.rpt -pb system_wrapper_route_status.pb"
+  create_report "impl_1_route_report_timing_summary_0" "report_timing_summary -max_paths 10 -file system_wrapper_timing_summary_routed.rpt -pb system_wrapper_timing_summary_routed.pb -rpx system_wrapper_timing_summary_routed.rpx -warn_on_violation "
+  create_report "impl_1_route_report_incremental_reuse_0" "report_incremental_reuse -file system_wrapper_incremental_reuse_routed.rpt"
+  create_report "impl_1_route_report_clock_utilization_0" "report_clock_utilization -file system_wrapper_clock_utilization_routed.rpt"
   create_report "impl_1_route_report_bus_skew_0" "report_bus_skew -warn_on_violation -file route_report_bus_skew_0.rpt -rpx route_report_bus_skew_0.rpx"
   close_msg_db -file route_design.pb
 } RESULT]
 if {$rc} {
-  write_checkpoint -force System_wrapper_routed_error.dcp
+  write_checkpoint -force system_wrapper_routed_error.dcp
   step_failed route_design
   return -code error $RESULT
 } else {
@@ -164,11 +164,11 @@ set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
-  catch { write_mem_info -force System_wrapper.mmi }
-  write_bitstream -force System_wrapper.bit 
-  catch { write_sysdef -hwdef System_wrapper.hwdef -bitfile System_wrapper.bit -meminfo System_wrapper.mmi -file System_wrapper.sysdef }
-  catch {write_debug_probes -quiet -force System_wrapper}
-  catch {file copy -force System_wrapper.ltx debug_nets.ltx}
+  catch { write_mem_info -force system_wrapper.mmi }
+  write_bitstream -force system_wrapper.bit 
+  catch { write_sysdef -hwdef system_wrapper.hwdef -bitfile system_wrapper.bit -meminfo system_wrapper.mmi -file system_wrapper.sysdef }
+  catch {write_debug_probes -quiet -force system_wrapper}
+  catch {file copy -force system_wrapper.ltx debug_nets.ltx}
   close_msg_db -file write_bitstream.pb
 } RESULT]
 if {$rc} {

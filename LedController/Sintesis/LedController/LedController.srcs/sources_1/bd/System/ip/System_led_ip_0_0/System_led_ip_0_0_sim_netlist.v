@@ -1,20 +1,20 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-// Date        : Sun Jun  8 20:17:48 2025
+// Date        : Sun Jun  8 21:18:08 2025
 // Host        : NB459408 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/System/ip/System_led_ip_0_0/System_led_ip_0_0_sim_netlist.v
-// Design      : System_led_ip_0_0
+//               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_led_ip_0_0/system_led_ip_0_0_sim_netlist.v
+// Design      : system_led_ip_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
 // Device      : xc7z010clg400-1
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "System_led_ip_0_0,led_ip_v1_0,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "led_ip_v1_0,Vivado 2018.1" *) 
+(* CHECK_LICENSE_TYPE = "system_led_ip_0_0,led_ip_v1_0,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "led_ip_v1_0,Vivado 2018.1" *) 
 (* NotValidForBitStream *)
-module System_led_ip_0_0
+module system_led_ip_0_0
    (led_o,
     s00_axi_awaddr,
     s00_axi_awprot,
@@ -38,7 +38,7 @@ module System_led_ip_0_0
     s00_axi_aclk,
     s00_axi_aresetn);
   output [3:0]led_o;
-  (* x_interface_info = "xilinx.com:interface:aximm:1.0 S00_AXI AWADDR" *) (* x_interface_parameter = "XIL_INTERFACENAME S00_AXI, WIZ_DATA_WIDTH 32, WIZ_NUM_REG 4, SUPPORTS_NARROW_BURST 0, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 4, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 1, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.000, CLK_DOMAIN System_processing_system7_0_0_FCLK_CLK0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0" *) input [3:0]s00_axi_awaddr;
+  (* x_interface_info = "xilinx.com:interface:aximm:1.0 S00_AXI AWADDR" *) (* x_interface_parameter = "XIL_INTERFACENAME S00_AXI, WIZ_DATA_WIDTH 32, WIZ_NUM_REG 4, SUPPORTS_NARROW_BURST 0, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 4, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 1, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0" *) input [3:0]s00_axi_awaddr;
   (* x_interface_info = "xilinx.com:interface:aximm:1.0 S00_AXI AWPROT" *) input [2:0]s00_axi_awprot;
   (* x_interface_info = "xilinx.com:interface:aximm:1.0 S00_AXI AWVALID" *) input s00_axi_awvalid;
   (* x_interface_info = "xilinx.com:interface:aximm:1.0 S00_AXI AWREADY" *) output s00_axi_awready;
@@ -57,7 +57,7 @@ module System_led_ip_0_0
   (* x_interface_info = "xilinx.com:interface:aximm:1.0 S00_AXI RRESP" *) output [1:0]s00_axi_rresp;
   (* x_interface_info = "xilinx.com:interface:aximm:1.0 S00_AXI RVALID" *) output s00_axi_rvalid;
   (* x_interface_info = "xilinx.com:interface:aximm:1.0 S00_AXI RREADY" *) input s00_axi_rready;
-  (* x_interface_info = "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME S00_AXI_CLK, ASSOCIATED_BUSIF S00_AXI, ASSOCIATED_RESET s00_axi_aresetn, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN System_processing_system7_0_0_FCLK_CLK0" *) input s00_axi_aclk;
+  (* x_interface_info = "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME S00_AXI_CLK, ASSOCIATED_BUSIF S00_AXI, ASSOCIATED_RESET s00_axi_aresetn, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0" *) input s00_axi_aclk;
   (* x_interface_info = "xilinx.com:signal:reset:1.0 S00_AXI_RST RST" *) (* x_interface_parameter = "XIL_INTERFACENAME S00_AXI_RST, POLARITY ACTIVE_LOW" *) input s00_axi_aresetn;
 
   wire \<const0> ;
@@ -89,7 +89,7 @@ module System_led_ip_0_0
   assign s00_axi_rresp[0] = \<const0> ;
   GND GND
        (.G(\<const0> ));
-  System_led_ip_0_0_led_ip_v1_0 U0
+  system_led_ip_0_0_led_ip_v1_0 U0
        (.S_AXI_ARREADY(s00_axi_arready),
         .S_AXI_AWREADY(s00_axi_awready),
         .S_AXI_WREADY(s00_axi_wready),
@@ -110,7 +110,7 @@ module System_led_ip_0_0
 endmodule
 
 (* ORIG_REF_NAME = "led_ip_v1_0" *) 
-module System_led_ip_0_0_led_ip_v1_0
+module system_led_ip_0_0_led_ip_v1_0
    (S_AXI_WREADY,
     S_AXI_AWREADY,
     S_AXI_ARREADY,
@@ -164,7 +164,7 @@ module System_led_ip_0_0_led_ip_v1_0
   wire [3:0]s00_axi_wstrb;
   wire s00_axi_wvalid;
 
-  System_led_ip_0_0_led_ip_v1_0_S00_AXI led_ip_v1_0_S00_AXI_inst
+  system_led_ip_0_0_led_ip_v1_0_S00_AXI led_ip_v1_0_S00_AXI_inst
        (.S_AXI_ARREADY(S_AXI_ARREADY),
         .S_AXI_AWREADY(S_AXI_AWREADY),
         .S_AXI_WREADY(S_AXI_WREADY),
@@ -185,7 +185,7 @@ module System_led_ip_0_0_led_ip_v1_0
 endmodule
 
 (* ORIG_REF_NAME = "led_ip_v1_0_S00_AXI" *) 
-module System_led_ip_0_0_led_ip_v1_0_S00_AXI
+module system_led_ip_0_0_led_ip_v1_0_S00_AXI
    (S_AXI_WREADY,
     S_AXI_AWREADY,
     S_AXI_ARREADY,
@@ -269,7 +269,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   wire \slv_reg2[7]_i_1_n_0 ;
   wire [31:0]slv_reg3;
   wire slv_reg_rden;
-  wire wren_i__2;
+  wire slv_reg_wren__2;
 
   LUT4 #(
     .INIT(16'hFB08)) 
@@ -929,7 +929,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h0200)) 
     \slv_reg0[15]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(p_0_in[1]),
         .I2(p_0_in[0]),
         .I3(s00_axi_wstrb[1]),
@@ -937,7 +937,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h0200)) 
     \slv_reg0[23]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(p_0_in[1]),
         .I2(p_0_in[0]),
         .I3(s00_axi_wstrb[2]),
@@ -945,7 +945,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h0200)) 
     \slv_reg0[31]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(p_0_in[1]),
         .I2(p_0_in[0]),
         .I3(s00_axi_wstrb[3]),
@@ -953,7 +953,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h0200)) 
     \slv_reg0[7]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(p_0_in[1]),
         .I2(p_0_in[0]),
         .I3(s00_axi_wstrb[0]),
@@ -1153,7 +1153,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h2000)) 
     \slv_reg1[15]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(p_0_in[1]),
         .I2(s00_axi_wstrb[1]),
         .I3(p_0_in[0]),
@@ -1161,7 +1161,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h2000)) 
     \slv_reg1[23]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(p_0_in[1]),
         .I2(s00_axi_wstrb[2]),
         .I3(p_0_in[0]),
@@ -1169,7 +1169,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h2000)) 
     \slv_reg1[31]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(p_0_in[1]),
         .I2(s00_axi_wstrb[3]),
         .I3(p_0_in[0]),
@@ -1177,7 +1177,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h2000)) 
     \slv_reg1[7]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(p_0_in[1]),
         .I2(s00_axi_wstrb[0]),
         .I3(p_0_in[0]),
@@ -1377,7 +1377,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h0080)) 
     \slv_reg2[15]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(p_0_in[1]),
         .I2(s00_axi_wstrb[1]),
         .I3(p_0_in[0]),
@@ -1385,7 +1385,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h0080)) 
     \slv_reg2[23]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(p_0_in[1]),
         .I2(s00_axi_wstrb[2]),
         .I3(p_0_in[0]),
@@ -1393,7 +1393,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h0080)) 
     \slv_reg2[31]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(p_0_in[1]),
         .I2(s00_axi_wstrb[3]),
         .I3(p_0_in[0]),
@@ -1401,7 +1401,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h0080)) 
     \slv_reg2[7]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(p_0_in[1]),
         .I2(s00_axi_wstrb[0]),
         .I3(p_0_in[0]),
@@ -1601,7 +1601,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h8000)) 
     \slv_reg3[15]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(s00_axi_wstrb[1]),
         .I2(p_0_in[0]),
         .I3(p_0_in[1]),
@@ -1609,7 +1609,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h8000)) 
     \slv_reg3[23]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(s00_axi_wstrb[2]),
         .I2(p_0_in[0]),
         .I3(p_0_in[1]),
@@ -1617,7 +1617,7 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
   LUT4 #(
     .INIT(16'h8000)) 
     \slv_reg3[31]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(s00_axi_wstrb[3]),
         .I2(p_0_in[0]),
         .I3(p_0_in[1]),
@@ -1630,11 +1630,11 @@ module System_led_ip_0_0_led_ip_v1_0_S00_AXI
         .I1(S_AXI_AWREADY),
         .I2(S_AXI_WREADY),
         .I3(s00_axi_wvalid),
-        .O(wren_i__2));
+        .O(slv_reg_wren__2));
   LUT4 #(
     .INIT(16'h8000)) 
     \slv_reg3[7]_i_1 
-       (.I0(wren_i__2),
+       (.I0(slv_reg_wren__2),
         .I1(s00_axi_wstrb[0]),
         .I2(p_0_in[0]),
         .I3(p_0_in[1]),

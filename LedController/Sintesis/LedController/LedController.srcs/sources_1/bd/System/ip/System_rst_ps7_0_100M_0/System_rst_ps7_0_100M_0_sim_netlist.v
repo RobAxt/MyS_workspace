@@ -1,20 +1,20 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-// Date        : Sun Jun  8 20:17:48 2025
+// Date        : Sun Jun  8 21:18:08 2025
 // Host        : NB459408 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/System/ip/System_rst_ps7_0_100M_0/System_rst_ps7_0_100M_0_sim_netlist.v
-// Design      : System_rst_ps7_0_100M_0
+//               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0_sim_netlist.v
+// Design      : system_rst_ps7_0_100M_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
 // Device      : xc7z010clg400-1
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "System_rst_ps7_0_100M_0,proc_sys_reset,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "proc_sys_reset,Vivado 2018.1" *) 
+(* CHECK_LICENSE_TYPE = "system_rst_ps7_0_100M_0,proc_sys_reset,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "proc_sys_reset,Vivado 2018.1" *) 
 (* NotValidForBitStream *)
-module System_rst_ps7_0_100M_0
+module system_rst_ps7_0_100M_0
    (slowest_sync_clk,
     ext_reset_in,
     aux_reset_in,
@@ -25,7 +25,7 @@ module System_rst_ps7_0_100M_0
     peripheral_reset,
     interconnect_aresetn,
     peripheral_aresetn);
-  (* x_interface_info = "xilinx.com:signal:clock:1.0 clock CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME clock, ASSOCIATED_RESET mb_reset:bus_struct_reset:interconnect_aresetn:peripheral_aresetn:peripheral_reset, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN System_processing_system7_0_0_FCLK_CLK0" *) input slowest_sync_clk;
+  (* x_interface_info = "xilinx.com:signal:clock:1.0 clock CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME clock, ASSOCIATED_RESET mb_reset:bus_struct_reset:interconnect_aresetn:peripheral_aresetn:peripheral_reset, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0" *) input slowest_sync_clk;
   (* x_interface_info = "xilinx.com:signal:reset:1.0 ext_reset RST" *) (* x_interface_parameter = "XIL_INTERFACENAME ext_reset, BOARD.ASSOCIATED_PARAM RESET_BOARD_INTERFACE, POLARITY ACTIVE_LOW" *) input ext_reset_in;
   (* x_interface_info = "xilinx.com:signal:reset:1.0 aux_reset RST" *) (* x_interface_parameter = "XIL_INTERFACENAME aux_reset, POLARITY ACTIVE_LOW" *) input aux_reset_in;
   (* x_interface_info = "xilinx.com:signal:reset:1.0 dbg_reset RST" *) (* x_interface_parameter = "XIL_INTERFACENAME dbg_reset, POLARITY ACTIVE_HIGH" *) input mb_debug_sys_rst;
@@ -56,7 +56,7 @@ module System_rst_ps7_0_100M_0
   (* C_NUM_INTERCONNECT_ARESETN = "1" *) 
   (* C_NUM_PERP_ARESETN = "1" *) 
   (* C_NUM_PERP_RST = "1" *) 
-  System_rst_ps7_0_100M_0_proc_sys_reset U0
+  system_rst_ps7_0_100M_0_proc_sys_reset U0
        (.aux_reset_in(aux_reset_in),
         .bus_struct_reset(bus_struct_reset),
         .dcm_locked(dcm_locked),
@@ -70,7 +70,7 @@ module System_rst_ps7_0_100M_0
 endmodule
 
 (* ORIG_REF_NAME = "cdc_sync" *) 
-module System_rst_ps7_0_100M_0_cdc_sync
+module system_rst_ps7_0_100M_0_cdc_sync
    (lpf_asr_reg,
     scndry_out,
     lpf_asr,
@@ -162,7 +162,7 @@ module System_rst_ps7_0_100M_0_cdc_sync
 endmodule
 
 (* ORIG_REF_NAME = "cdc_sync" *) 
-module System_rst_ps7_0_100M_0_cdc_sync_0
+module system_rst_ps7_0_100M_0_cdc_sync_0
    (lpf_exr_reg,
     scndry_out,
     lpf_exr,
@@ -252,7 +252,7 @@ module System_rst_ps7_0_100M_0_cdc_sync_0
 endmodule
 
 (* ORIG_REF_NAME = "lpf" *) 
-module System_rst_ps7_0_100M_0_lpf
+module system_rst_ps7_0_100M_0_lpf
    (lpf_int,
     slowest_sync_clk,
     dcm_locked,
@@ -284,7 +284,7 @@ module System_rst_ps7_0_100M_0_lpf
   wire [3:0]p_3_out;
   wire slowest_sync_clk;
 
-  System_rst_ps7_0_100M_0_cdc_sync \ACTIVE_LOW_AUX.ACT_LO_AUX 
+  system_rst_ps7_0_100M_0_cdc_sync \ACTIVE_LOW_AUX.ACT_LO_AUX 
        (.asr_lpf(asr_lpf),
         .aux_reset_in(aux_reset_in),
         .lpf_asr(lpf_asr),
@@ -293,7 +293,7 @@ module System_rst_ps7_0_100M_0_lpf
         .p_2_in(p_2_in),
         .scndry_out(p_3_in1_in),
         .slowest_sync_clk(slowest_sync_clk));
-  System_rst_ps7_0_100M_0_cdc_sync_0 \ACTIVE_LOW_EXT.ACT_LO_EXT 
+  system_rst_ps7_0_100M_0_cdc_sync_0 \ACTIVE_LOW_EXT.ACT_LO_EXT 
        (.ext_reset_in(ext_reset_in),
         .lpf_exr(lpf_exr),
         .lpf_exr_reg(\ACTIVE_LOW_EXT.ACT_LO_EXT_n_0 ),
@@ -401,7 +401,7 @@ endmodule
 (* C_EXT_RST_WIDTH = "4" *) (* C_FAMILY = "zynq" *) (* C_NUM_BUS_RST = "1" *) 
 (* C_NUM_INTERCONNECT_ARESETN = "1" *) (* C_NUM_PERP_ARESETN = "1" *) (* C_NUM_PERP_RST = "1" *) 
 (* ORIG_REF_NAME = "proc_sys_reset" *) 
-module System_rst_ps7_0_100M_0_proc_sys_reset
+module system_rst_ps7_0_100M_0_proc_sys_reset
    (slowest_sync_clk,
     ext_reset_in,
     aux_reset_in,
@@ -476,7 +476,7 @@ module System_rst_ps7_0_100M_0_proc_sys_reset
         .D(Bsr_out),
         .Q(bus_struct_reset),
         .R(1'b0));
-  System_rst_ps7_0_100M_0_lpf EXT_LPF
+  system_rst_ps7_0_100M_0_lpf EXT_LPF
        (.aux_reset_in(aux_reset_in),
         .dcm_locked(dcm_locked),
         .ext_reset_in(ext_reset_in),
@@ -507,7 +507,7 @@ module System_rst_ps7_0_100M_0_proc_sys_reset
         .D(Pr_out),
         .Q(peripheral_reset),
         .R(1'b0));
-  System_rst_ps7_0_100M_0_sequence_psr SEQ
+  system_rst_ps7_0_100M_0_sequence_psr SEQ
        (.\ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N (SEQ_n_3),
         .\ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N (SEQ_n_4),
         .Bsr_out(Bsr_out),
@@ -518,7 +518,7 @@ module System_rst_ps7_0_100M_0_proc_sys_reset
 endmodule
 
 (* ORIG_REF_NAME = "sequence_psr" *) 
-module System_rst_ps7_0_100M_0_sequence_psr
+module system_rst_ps7_0_100M_0_sequence_psr
    (MB_out,
     Bsr_out,
     Pr_out,
@@ -588,7 +588,7 @@ module System_rst_ps7_0_100M_0_sequence_psr
         .D(Core_i_1_n_0),
         .Q(MB_out),
         .S(lpf_int));
-  System_rst_ps7_0_100M_0_upcnt_n SEQ_COUNTER
+  system_rst_ps7_0_100M_0_upcnt_n SEQ_COUNTER
        (.Q(seq_cnt),
         .seq_clr(seq_clr),
         .seq_cnt_en(seq_cnt_en),
@@ -759,7 +759,7 @@ module System_rst_ps7_0_100M_0_sequence_psr
 endmodule
 
 (* ORIG_REF_NAME = "upcnt_n" *) 
-module System_rst_ps7_0_100M_0_upcnt_n
+module system_rst_ps7_0_100M_0_upcnt_n
    (Q,
     seq_clr,
     seq_cnt_en,

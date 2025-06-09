@@ -1,11 +1,11 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
--- Date        : Sun Jun  8 20:17:48 2025
+-- Date        : Sun Jun  8 21:18:08 2025
 -- Host        : NB459408 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/System/ip/System_rst_ps7_0_100M_0/System_rst_ps7_0_100M_0_sim_netlist.vhdl
--- Design      : System_rst_ps7_0_100M_0
+--               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0_sim_netlist.vhdl
+-- Design      : system_rst_ps7_0_100M_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
 -- Device      : xc7z010clg400-1
@@ -14,7 +14,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_rst_ps7_0_100M_0_cdc_sync is
+entity system_rst_ps7_0_100M_0_cdc_sync is
   port (
     lpf_asr_reg : out STD_LOGIC;
     scndry_out : out STD_LOGIC;
@@ -26,10 +26,10 @@ entity System_rst_ps7_0_100M_0_cdc_sync is
     slowest_sync_clk : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_rst_ps7_0_100M_0_cdc_sync : entity is "cdc_sync";
-end System_rst_ps7_0_100M_0_cdc_sync;
+  attribute ORIG_REF_NAME of system_rst_ps7_0_100M_0_cdc_sync : entity is "cdc_sync";
+end system_rst_ps7_0_100M_0_cdc_sync;
 
-architecture STRUCTURE of System_rst_ps7_0_100M_0_cdc_sync is
+architecture STRUCTURE of system_rst_ps7_0_100M_0_cdc_sync is
   signal asr_d1 : STD_LOGIC;
   signal s_level_out_d1_cdc_to : STD_LOGIC;
   signal s_level_out_d2 : STD_LOGIC;
@@ -121,7 +121,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_rst_ps7_0_100M_0_cdc_sync_0 is
+entity system_rst_ps7_0_100M_0_cdc_sync_0 is
   port (
     lpf_exr_reg : out STD_LOGIC;
     scndry_out : out STD_LOGIC;
@@ -132,10 +132,10 @@ entity System_rst_ps7_0_100M_0_cdc_sync_0 is
     slowest_sync_clk : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_rst_ps7_0_100M_0_cdc_sync_0 : entity is "cdc_sync";
-end System_rst_ps7_0_100M_0_cdc_sync_0;
+  attribute ORIG_REF_NAME of system_rst_ps7_0_100M_0_cdc_sync_0 : entity is "cdc_sync";
+end system_rst_ps7_0_100M_0_cdc_sync_0;
 
-architecture STRUCTURE of System_rst_ps7_0_100M_0_cdc_sync_0 is
+architecture STRUCTURE of system_rst_ps7_0_100M_0_cdc_sync_0 is
   signal exr_d1 : STD_LOGIC;
   signal s_level_out_d1_cdc_to : STD_LOGIC;
   signal s_level_out_d2 : STD_LOGIC;
@@ -228,7 +228,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_rst_ps7_0_100M_0_upcnt_n is
+entity system_rst_ps7_0_100M_0_upcnt_n is
   port (
     Q : out STD_LOGIC_VECTOR ( 5 downto 0 );
     seq_clr : in STD_LOGIC;
@@ -236,10 +236,10 @@ entity System_rst_ps7_0_100M_0_upcnt_n is
     slowest_sync_clk : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_rst_ps7_0_100M_0_upcnt_n : entity is "upcnt_n";
-end System_rst_ps7_0_100M_0_upcnt_n;
+  attribute ORIG_REF_NAME of system_rst_ps7_0_100M_0_upcnt_n : entity is "upcnt_n";
+end system_rst_ps7_0_100M_0_upcnt_n;
 
-architecture STRUCTURE of System_rst_ps7_0_100M_0_upcnt_n is
+architecture STRUCTURE of system_rst_ps7_0_100M_0_upcnt_n is
   signal \^q\ : STD_LOGIC_VECTOR ( 5 downto 0 );
   signal clear : STD_LOGIC;
   signal q_int0 : STD_LOGIC_VECTOR ( 5 downto 0 );
@@ -392,7 +392,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_rst_ps7_0_100M_0_lpf is
+entity system_rst_ps7_0_100M_0_lpf is
   port (
     lpf_int : out STD_LOGIC;
     slowest_sync_clk : in STD_LOGIC;
@@ -402,10 +402,10 @@ entity System_rst_ps7_0_100M_0_lpf is
     aux_reset_in : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_rst_ps7_0_100M_0_lpf : entity is "lpf";
-end System_rst_ps7_0_100M_0_lpf;
+  attribute ORIG_REF_NAME of system_rst_ps7_0_100M_0_lpf : entity is "lpf";
+end system_rst_ps7_0_100M_0_lpf;
 
-architecture STRUCTURE of System_rst_ps7_0_100M_0_lpf is
+architecture STRUCTURE of system_rst_ps7_0_100M_0_lpf is
   signal \ACTIVE_LOW_AUX.ACT_LO_AUX_n_0\ : STD_LOGIC;
   signal \ACTIVE_LOW_EXT.ACT_LO_EXT_n_0\ : STD_LOGIC;
   signal Q : STD_LOGIC;
@@ -424,7 +424,7 @@ architecture STRUCTURE of System_rst_ps7_0_100M_0_lpf is
   attribute srl_name : string;
   attribute srl_name of POR_SRL_I : label is "U0/\EXT_LPF/POR_SRL_I ";
 begin
-\ACTIVE_LOW_AUX.ACT_LO_AUX\: entity work.System_rst_ps7_0_100M_0_cdc_sync
+\ACTIVE_LOW_AUX.ACT_LO_AUX\: entity work.system_rst_ps7_0_100M_0_cdc_sync
      port map (
       asr_lpf(0) => asr_lpf(0),
       aux_reset_in => aux_reset_in,
@@ -435,7 +435,7 @@ begin
       scndry_out => p_3_in1_in,
       slowest_sync_clk => slowest_sync_clk
     );
-\ACTIVE_LOW_EXT.ACT_LO_EXT\: entity work.System_rst_ps7_0_100M_0_cdc_sync_0
+\ACTIVE_LOW_EXT.ACT_LO_EXT\: entity work.system_rst_ps7_0_100M_0_cdc_sync_0
      port map (
       ext_reset_in => ext_reset_in,
       lpf_exr => lpf_exr,
@@ -574,7 +574,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_rst_ps7_0_100M_0_sequence_psr is
+entity system_rst_ps7_0_100M_0_sequence_psr is
   port (
     MB_out : out STD_LOGIC;
     Bsr_out : out STD_LOGIC;
@@ -585,10 +585,10 @@ entity System_rst_ps7_0_100M_0_sequence_psr is
     slowest_sync_clk : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_rst_ps7_0_100M_0_sequence_psr : entity is "sequence_psr";
-end System_rst_ps7_0_100M_0_sequence_psr;
+  attribute ORIG_REF_NAME of system_rst_ps7_0_100M_0_sequence_psr : entity is "sequence_psr";
+end system_rst_ps7_0_100M_0_sequence_psr;
 
-architecture STRUCTURE of System_rst_ps7_0_100M_0_sequence_psr is
+architecture STRUCTURE of system_rst_ps7_0_100M_0_sequence_psr is
   signal \^bsr_out\ : STD_LOGIC;
   signal Core_i_1_n_0 : STD_LOGIC;
   signal \^mb_out\ : STD_LOGIC;
@@ -662,7 +662,7 @@ Core_reg: unisim.vcomponents.FDSE
       Q => \^mb_out\,
       S => lpf_int
     );
-SEQ_COUNTER: entity work.System_rst_ps7_0_100M_0_upcnt_n
+SEQ_COUNTER: entity work.system_rst_ps7_0_100M_0_upcnt_n
      port map (
       Q(5 downto 0) => seq_cnt(5 downto 0),
       seq_clr => seq_clr,
@@ -893,7 +893,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_rst_ps7_0_100M_0_proc_sys_reset is
+entity system_rst_ps7_0_100M_0_proc_sys_reset is
   port (
     slowest_sync_clk : in STD_LOGIC;
     ext_reset_in : in STD_LOGIC;
@@ -907,28 +907,28 @@ entity System_rst_ps7_0_100M_0_proc_sys_reset is
     peripheral_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   attribute C_AUX_RESET_HIGH : string;
-  attribute C_AUX_RESET_HIGH of System_rst_ps7_0_100M_0_proc_sys_reset : entity is "1'b0";
+  attribute C_AUX_RESET_HIGH of system_rst_ps7_0_100M_0_proc_sys_reset : entity is "1'b0";
   attribute C_AUX_RST_WIDTH : integer;
-  attribute C_AUX_RST_WIDTH of System_rst_ps7_0_100M_0_proc_sys_reset : entity is 4;
+  attribute C_AUX_RST_WIDTH of system_rst_ps7_0_100M_0_proc_sys_reset : entity is 4;
   attribute C_EXT_RESET_HIGH : string;
-  attribute C_EXT_RESET_HIGH of System_rst_ps7_0_100M_0_proc_sys_reset : entity is "1'b0";
+  attribute C_EXT_RESET_HIGH of system_rst_ps7_0_100M_0_proc_sys_reset : entity is "1'b0";
   attribute C_EXT_RST_WIDTH : integer;
-  attribute C_EXT_RST_WIDTH of System_rst_ps7_0_100M_0_proc_sys_reset : entity is 4;
+  attribute C_EXT_RST_WIDTH of system_rst_ps7_0_100M_0_proc_sys_reset : entity is 4;
   attribute C_FAMILY : string;
-  attribute C_FAMILY of System_rst_ps7_0_100M_0_proc_sys_reset : entity is "zynq";
+  attribute C_FAMILY of system_rst_ps7_0_100M_0_proc_sys_reset : entity is "zynq";
   attribute C_NUM_BUS_RST : integer;
-  attribute C_NUM_BUS_RST of System_rst_ps7_0_100M_0_proc_sys_reset : entity is 1;
+  attribute C_NUM_BUS_RST of system_rst_ps7_0_100M_0_proc_sys_reset : entity is 1;
   attribute C_NUM_INTERCONNECT_ARESETN : integer;
-  attribute C_NUM_INTERCONNECT_ARESETN of System_rst_ps7_0_100M_0_proc_sys_reset : entity is 1;
+  attribute C_NUM_INTERCONNECT_ARESETN of system_rst_ps7_0_100M_0_proc_sys_reset : entity is 1;
   attribute C_NUM_PERP_ARESETN : integer;
-  attribute C_NUM_PERP_ARESETN of System_rst_ps7_0_100M_0_proc_sys_reset : entity is 1;
+  attribute C_NUM_PERP_ARESETN of system_rst_ps7_0_100M_0_proc_sys_reset : entity is 1;
   attribute C_NUM_PERP_RST : integer;
-  attribute C_NUM_PERP_RST of System_rst_ps7_0_100M_0_proc_sys_reset : entity is 1;
+  attribute C_NUM_PERP_RST of system_rst_ps7_0_100M_0_proc_sys_reset : entity is 1;
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of System_rst_ps7_0_100M_0_proc_sys_reset : entity is "proc_sys_reset";
-end System_rst_ps7_0_100M_0_proc_sys_reset;
+  attribute ORIG_REF_NAME of system_rst_ps7_0_100M_0_proc_sys_reset : entity is "proc_sys_reset";
+end system_rst_ps7_0_100M_0_proc_sys_reset;
 
-architecture STRUCTURE of System_rst_ps7_0_100M_0_proc_sys_reset is
+architecture STRUCTURE of system_rst_ps7_0_100M_0_proc_sys_reset is
   signal Bsr_out : STD_LOGIC;
   signal MB_out : STD_LOGIC;
   signal Pr_out : STD_LOGIC;
@@ -989,7 +989,7 @@ begin
       Q => bus_struct_reset(0),
       R => '0'
     );
-EXT_LPF: entity work.System_rst_ps7_0_100M_0_lpf
+EXT_LPF: entity work.system_rst_ps7_0_100M_0_lpf
      port map (
       aux_reset_in => aux_reset_in,
       dcm_locked => dcm_locked,
@@ -1026,7 +1026,7 @@ FDRE_inst: unisim.vcomponents.FDRE
       Q => peripheral_reset(0),
       R => '0'
     );
-SEQ: entity work.System_rst_ps7_0_100M_0_sequence_psr
+SEQ: entity work.system_rst_ps7_0_100M_0_sequence_psr
      port map (
       \ACTIVE_LOW_BSR_OUT_DFF[0].FDRE_BSR_N\ => SEQ_n_3,
       \ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N\ => SEQ_n_4,
@@ -1041,7 +1041,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity System_rst_ps7_0_100M_0 is
+entity system_rst_ps7_0_100M_0 is
   port (
     slowest_sync_clk : in STD_LOGIC;
     ext_reset_in : in STD_LOGIC;
@@ -1055,16 +1055,16 @@ entity System_rst_ps7_0_100M_0 is
     peripheral_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   attribute NotValidForBitStream : boolean;
-  attribute NotValidForBitStream of System_rst_ps7_0_100M_0 : entity is true;
+  attribute NotValidForBitStream of system_rst_ps7_0_100M_0 : entity is true;
   attribute CHECK_LICENSE_TYPE : string;
-  attribute CHECK_LICENSE_TYPE of System_rst_ps7_0_100M_0 : entity is "System_rst_ps7_0_100M_0,proc_sys_reset,{}";
+  attribute CHECK_LICENSE_TYPE of system_rst_ps7_0_100M_0 : entity is "system_rst_ps7_0_100M_0,proc_sys_reset,{}";
   attribute downgradeipidentifiedwarnings : string;
-  attribute downgradeipidentifiedwarnings of System_rst_ps7_0_100M_0 : entity is "yes";
+  attribute downgradeipidentifiedwarnings of system_rst_ps7_0_100M_0 : entity is "yes";
   attribute x_core_info : string;
-  attribute x_core_info of System_rst_ps7_0_100M_0 : entity is "proc_sys_reset,Vivado 2018.1";
-end System_rst_ps7_0_100M_0;
+  attribute x_core_info of system_rst_ps7_0_100M_0 : entity is "proc_sys_reset,Vivado 2018.1";
+end system_rst_ps7_0_100M_0;
 
-architecture STRUCTURE of System_rst_ps7_0_100M_0 is
+architecture STRUCTURE of system_rst_ps7_0_100M_0 is
   attribute C_AUX_RESET_HIGH : string;
   attribute C_AUX_RESET_HIGH of U0 : label is "1'b0";
   attribute C_AUX_RST_WIDTH : integer;
@@ -1094,7 +1094,7 @@ architecture STRUCTURE of System_rst_ps7_0_100M_0 is
   attribute x_interface_info of mb_reset : signal is "xilinx.com:signal:reset:1.0 mb_rst RST";
   attribute x_interface_parameter of mb_reset : signal is "XIL_INTERFACENAME mb_rst, POLARITY ACTIVE_HIGH, TYPE PROCESSOR";
   attribute x_interface_info of slowest_sync_clk : signal is "xilinx.com:signal:clock:1.0 clock CLK";
-  attribute x_interface_parameter of slowest_sync_clk : signal is "XIL_INTERFACENAME clock, ASSOCIATED_RESET mb_reset:bus_struct_reset:interconnect_aresetn:peripheral_aresetn:peripheral_reset, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN System_processing_system7_0_0_FCLK_CLK0";
+  attribute x_interface_parameter of slowest_sync_clk : signal is "XIL_INTERFACENAME clock, ASSOCIATED_RESET mb_reset:bus_struct_reset:interconnect_aresetn:peripheral_aresetn:peripheral_reset, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0";
   attribute x_interface_info of bus_struct_reset : signal is "xilinx.com:signal:reset:1.0 bus_struct_reset RST";
   attribute x_interface_parameter of bus_struct_reset : signal is "XIL_INTERFACENAME bus_struct_reset, POLARITY ACTIVE_HIGH, TYPE INTERCONNECT";
   attribute x_interface_info of interconnect_aresetn : signal is "xilinx.com:signal:reset:1.0 interconnect_low_rst RST";
@@ -1104,7 +1104,7 @@ architecture STRUCTURE of System_rst_ps7_0_100M_0 is
   attribute x_interface_info of peripheral_reset : signal is "xilinx.com:signal:reset:1.0 peripheral_high_rst RST";
   attribute x_interface_parameter of peripheral_reset : signal is "XIL_INTERFACENAME peripheral_high_rst, POLARITY ACTIVE_HIGH, TYPE PERIPHERAL";
 begin
-U0: entity work.System_rst_ps7_0_100M_0_proc_sys_reset
+U0: entity work.system_rst_ps7_0_100M_0_proc_sys_reset
      port map (
       aux_reset_in => aux_reset_in,
       bus_struct_reset(0) => bus_struct_reset(0),

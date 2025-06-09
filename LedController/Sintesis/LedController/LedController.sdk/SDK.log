@@ -50,3 +50,4 @@ con
 ----------------End of Script----------------
 
 21:25:49 INFO  : Launch script is exported to file 'C:\Xilinx\MyS_workspace\LedController\Sintesis\LedController\LedController.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_system.elf_on_local.tcl'
+21:36:41 INFO  : Disconnected from the channel tcfchan#1.

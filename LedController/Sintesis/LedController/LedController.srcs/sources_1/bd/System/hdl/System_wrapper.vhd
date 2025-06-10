@@ -1,7 +1,7 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
---Date        : Sun Jun  8 21:13:55 2025
+--Date        : Tue Jun 10 19:54:32 2025
 --Host        : NB459408 running 64-bit major release  (build 9200)
 --Command     : generate_target system_wrapper.bd
 --Design      : system_wrapper
@@ -35,7 +35,7 @@ entity system_wrapper is
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     btns_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    led : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    led_out : out STD_LOGIC_VECTOR ( 3 downto 0 );
     sws_2bits_tri_i : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
 end system_wrapper;
@@ -64,9 +64,9 @@ architecture STRUCTURE of system_wrapper is
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
-    led : out STD_LOGIC_VECTOR ( 3 downto 0 );
     btns_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    sws_2bits_tri_i : in STD_LOGIC_VECTOR ( 1 downto 0 )
+    sws_2bits_tri_i : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    led_out : out STD_LOGIC_VECTOR ( 3 downto 0 )
   );
   end component system;
 begin
@@ -94,7 +94,7 @@ system_i: component system
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
       FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
       btns_4bits_tri_i(3 downto 0) => btns_4bits_tri_i(3 downto 0),
-      led(3 downto 0) => led(3 downto 0),
+      led_out(3 downto 0) => led_out(3 downto 0),
       sws_2bits_tri_i(1 downto 0) => sws_2bits_tri_i(1 downto 0)
     );
 end STRUCTURE;

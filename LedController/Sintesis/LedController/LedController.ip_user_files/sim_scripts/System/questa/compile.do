@@ -79,9 +79,9 @@ vlog -work xil_defaultlib -64 "+incdir+../../../../LedController.srcs/sources_1/
 "../../../bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0.v" \
 
 vcom -work xil_defaultlib -64 -93 \
-"../../../bd/system/ipshared/480c/hdl/led_ip_v1_0_S00_AXI.vhd" \
-"../../../bd/system/ipshared/480c/src/lab3_user_logic.vhd" \
-"../../../bd/system/ipshared/480c/hdl/led_ip_v1_0.vhd" \
+"../../../bd/system/ipshared/972b/hdl/led_ip_v1_0_S00_AXI.vhd" \
+"../../../bd/system/ipshared/972b/src/lab3_user_logic.vhd" \
+"../../../bd/system/ipshared/972b/hdl/led_ip_v1_0.vhd" \
 "../../../bd/system/ip/system_led_ip_0_0/sim/system_led_ip_0_0.vhd" \
 
 vcom -work lib_cdc_v1_0_2 -64 -93 \
@@ -130,14 +130,14 @@ vlog -work axi_crossbar_v2_1_17 -64 "+incdir+../../../../LedController.srcs/sour
 vlog -work xil_defaultlib -64 "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/ec67/hdl" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/02c8/hdl/verilog" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/b193/hdl" "+incdir+C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/ec67/hdl" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/02c8/hdl/verilog" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/b193/hdl" "+incdir+C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" \
 "../../../bd/system/ip/system_xbar_0/sim/system_xbar_0.v" \
 
+vcom -work xil_defaultlib -64 -93 \
+"../../../bd/system/sim/system.vhd" \
+
 vlog -work axi_protocol_converter_v2_1_16 -64 "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/ec67/hdl" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/02c8/hdl/verilog" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/b193/hdl" "+incdir+C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/ec67/hdl" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/02c8/hdl/verilog" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/b193/hdl" "+incdir+C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" \
 "../../../../LedController.srcs/sources_1/bd/system/ipshared/1229/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \
 
 vlog -work xil_defaultlib -64 "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/ec67/hdl" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/02c8/hdl/verilog" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/b193/hdl" "+incdir+C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/ec67/hdl" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/02c8/hdl/verilog" "+incdir+../../../../LedController.srcs/sources_1/bd/system/ipshared/b193/hdl" "+incdir+C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" \
 "../../../bd/system/ip/system_auto_pc_0/sim/system_auto_pc_0.v" \
-
-vcom -work xil_defaultlib -64 -93 \
-"../../../bd/system/sim/system.vhd" \
 
 vlog -work xil_defaultlib \
 "glbl.v"

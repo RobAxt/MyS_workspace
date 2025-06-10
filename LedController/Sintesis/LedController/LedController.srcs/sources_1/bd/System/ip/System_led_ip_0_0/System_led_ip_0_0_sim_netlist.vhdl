@@ -1,15 +1,64 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
--- Date        : Sun Jun  8 21:18:08 2025
+-- Date        : Tue Jun 10 19:55:50 2025
 -- Host        : NB459408 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_led_ip_0_0/system_led_ip_0_0_sim_netlist.vhdl
+--               C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_led_ip_0_0/system_led_ip_0_0_sim_netlist.vhdl
 -- Design      : system_led_ip_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
 -- Device      : xc7z010clg400-1
 -- --------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;
+entity system_led_ip_0_0_lab3_user_logic is
+  port (
+    led_o : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    Q : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_aclk : in STD_LOGIC
+  );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of system_led_ip_0_0_lab3_user_logic : entity is "lab3_user_logic";
+end system_led_ip_0_0_lab3_user_logic;
+
+architecture STRUCTURE of system_led_ip_0_0_lab3_user_logic is
+begin
+\led_o_reg[0]\: unisim.vcomponents.FDRE
+     port map (
+      C => s00_axi_aclk,
+      CE => '1',
+      D => Q(0),
+      Q => led_o(0),
+      R => '0'
+    );
+\led_o_reg[1]\: unisim.vcomponents.FDRE
+     port map (
+      C => s00_axi_aclk,
+      CE => '1',
+      D => Q(1),
+      Q => led_o(1),
+      R => '0'
+    );
+\led_o_reg[2]\: unisim.vcomponents.FDRE
+     port map (
+      C => s00_axi_aclk,
+      CE => '1',
+      D => Q(2),
+      Q => led_o(2),
+      R => '0'
+    );
+\led_o_reg[3]\: unisim.vcomponents.FDRE
+     port map (
+      C => s00_axi_aclk,
+      CE => '1',
+      D => Q(3),
+      Q => led_o(3),
+      R => '0'
+    );
+end STRUCTURE;
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
@@ -20,6 +69,7 @@ entity system_led_ip_0_0_led_ip_v1_0_S00_AXI is
     S_AXI_AWREADY : out STD_LOGIC;
     S_AXI_ARREADY : out STD_LOGIC;
     s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    led_o : out STD_LOGIC_VECTOR ( 3 downto 0 );
     s00_axi_rvalid : out STD_LOGIC;
     s00_axi_bvalid : out STD_LOGIC;
     s00_axi_aclk : in STD_LOGIC;
@@ -949,6 +999,12 @@ axi_wready_reg: unisim.vcomponents.FDRE
       D => axi_wready0,
       Q => \^s_axi_wready\,
       R => axi_awready_i_1_n_0
+    );
+lab3_inst: entity work.system_led_ip_0_0_lab3_user_logic
+     port map (
+      Q(3 downto 0) => slv_reg0(3 downto 0),
+      led_o(3 downto 0) => led_o(3 downto 0),
+      s00_axi_aclk => s00_axi_aclk
     );
 \slv_reg0[15]_i_1\: unisim.vcomponents.LUT4
     generic map(
@@ -2172,6 +2228,7 @@ entity system_led_ip_0_0_led_ip_v1_0 is
     S_AXI_AWREADY : out STD_LOGIC;
     S_AXI_ARREADY : out STD_LOGIC;
     s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    led_o : out STD_LOGIC_VECTOR ( 3 downto 0 );
     s00_axi_rvalid : out STD_LOGIC;
     s00_axi_bvalid : out STD_LOGIC;
     s00_axi_aclk : in STD_LOGIC;
@@ -2197,6 +2254,7 @@ led_ip_v1_0_S00_AXI_inst: entity work.system_led_ip_0_0_led_ip_v1_0_S00_AXI
       S_AXI_ARREADY => S_AXI_ARREADY,
       S_AXI_AWREADY => S_AXI_AWREADY,
       S_AXI_WREADY => S_AXI_WREADY,
+      led_o(3 downto 0) => led_o(3 downto 0),
       s00_axi_aclk => s00_axi_aclk,
       s00_axi_araddr(1 downto 0) => s00_axi_araddr(1 downto 0),
       s00_axi_aresetn => s00_axi_aresetn,
@@ -2281,10 +2339,6 @@ architecture STRUCTURE of system_led_ip_0_0 is
   attribute x_interface_info of s00_axi_wdata : signal is "xilinx.com:interface:aximm:1.0 S00_AXI WDATA";
   attribute x_interface_info of s00_axi_wstrb : signal is "xilinx.com:interface:aximm:1.0 S00_AXI WSTRB";
 begin
-  led_o(3) <= \<const0>\;
-  led_o(2) <= \<const0>\;
-  led_o(1) <= \<const0>\;
-  led_o(0) <= \<const0>\;
   s00_axi_bresp(1) <= \<const0>\;
   s00_axi_bresp(0) <= \<const0>\;
   s00_axi_rresp(1) <= \<const0>\;
@@ -2298,6 +2352,7 @@ U0: entity work.system_led_ip_0_0_led_ip_v1_0
       S_AXI_ARREADY => s00_axi_arready,
       S_AXI_AWREADY => s00_axi_awready,
       S_AXI_WREADY => s00_axi_wready,
+      led_o(3 downto 0) => led_o(3 downto 0),
       s00_axi_aclk => s00_axi_aclk,
       s00_axi_araddr(1 downto 0) => s00_axi_araddr(3 downto 2),
       s00_axi_aresetn => s00_axi_aresetn,

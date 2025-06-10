@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-// Date        : Sun Jun  8 21:18:08 2025
+// Date        : Tue Jun 10 19:55:50 2025
 // Host        : NB459408 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_led_ip_0_0/system_led_ip_0_0_sim_netlist.v
+//               C:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_led_ip_0_0/system_led_ip_0_0_sim_netlist.v
 // Design      : system_led_ip_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -61,6 +61,7 @@ module system_led_ip_0_0
   (* x_interface_info = "xilinx.com:signal:reset:1.0 S00_AXI_RST RST" *) (* x_interface_parameter = "XIL_INTERFACENAME S00_AXI_RST, POLARITY ACTIVE_LOW" *) input s00_axi_aresetn;
 
   wire \<const0> ;
+  wire [3:0]led_o;
   wire s00_axi_aclk;
   wire [3:0]s00_axi_araddr;
   wire s00_axi_aresetn;
@@ -79,10 +80,6 @@ module system_led_ip_0_0
   wire [3:0]s00_axi_wstrb;
   wire s00_axi_wvalid;
 
-  assign led_o[3] = \<const0> ;
-  assign led_o[2] = \<const0> ;
-  assign led_o[1] = \<const0> ;
-  assign led_o[0] = \<const0> ;
   assign s00_axi_bresp[1] = \<const0> ;
   assign s00_axi_bresp[0] = \<const0> ;
   assign s00_axi_rresp[1] = \<const0> ;
@@ -93,6 +90,7 @@ module system_led_ip_0_0
        (.S_AXI_ARREADY(s00_axi_arready),
         .S_AXI_AWREADY(s00_axi_awready),
         .S_AXI_WREADY(s00_axi_wready),
+        .led_o(led_o),
         .s00_axi_aclk(s00_axi_aclk),
         .s00_axi_araddr(s00_axi_araddr[3:2]),
         .s00_axi_aresetn(s00_axi_aresetn),
@@ -109,12 +107,52 @@ module system_led_ip_0_0
         .s00_axi_wvalid(s00_axi_wvalid));
 endmodule
 
+(* ORIG_REF_NAME = "lab3_user_logic" *) 
+module system_led_ip_0_0_lab3_user_logic
+   (led_o,
+    Q,
+    s00_axi_aclk);
+  output [3:0]led_o;
+  input [3:0]Q;
+  input s00_axi_aclk;
+
+  wire [3:0]Q;
+  wire [3:0]led_o;
+  wire s00_axi_aclk;
+
+  FDRE \led_o_reg[0] 
+       (.C(s00_axi_aclk),
+        .CE(1'b1),
+        .D(Q[0]),
+        .Q(led_o[0]),
+        .R(1'b0));
+  FDRE \led_o_reg[1] 
+       (.C(s00_axi_aclk),
+        .CE(1'b1),
+        .D(Q[1]),
+        .Q(led_o[1]),
+        .R(1'b0));
+  FDRE \led_o_reg[2] 
+       (.C(s00_axi_aclk),
+        .CE(1'b1),
+        .D(Q[2]),
+        .Q(led_o[2]),
+        .R(1'b0));
+  FDRE \led_o_reg[3] 
+       (.C(s00_axi_aclk),
+        .CE(1'b1),
+        .D(Q[3]),
+        .Q(led_o[3]),
+        .R(1'b0));
+endmodule
+
 (* ORIG_REF_NAME = "led_ip_v1_0" *) 
 module system_led_ip_0_0_led_ip_v1_0
    (S_AXI_WREADY,
     S_AXI_AWREADY,
     S_AXI_ARREADY,
     s00_axi_rdata,
+    led_o,
     s00_axi_rvalid,
     s00_axi_bvalid,
     s00_axi_aclk,
@@ -132,6 +170,7 @@ module system_led_ip_0_0_led_ip_v1_0
   output S_AXI_AWREADY;
   output S_AXI_ARREADY;
   output [31:0]s00_axi_rdata;
+  output [3:0]led_o;
   output s00_axi_rvalid;
   output s00_axi_bvalid;
   input s00_axi_aclk;
@@ -149,6 +188,7 @@ module system_led_ip_0_0_led_ip_v1_0
   wire S_AXI_ARREADY;
   wire S_AXI_AWREADY;
   wire S_AXI_WREADY;
+  wire [3:0]led_o;
   wire s00_axi_aclk;
   wire [1:0]s00_axi_araddr;
   wire s00_axi_aresetn;
@@ -168,6 +208,7 @@ module system_led_ip_0_0_led_ip_v1_0
        (.S_AXI_ARREADY(S_AXI_ARREADY),
         .S_AXI_AWREADY(S_AXI_AWREADY),
         .S_AXI_WREADY(S_AXI_WREADY),
+        .led_o(led_o),
         .s00_axi_aclk(s00_axi_aclk),
         .s00_axi_araddr(s00_axi_araddr),
         .s00_axi_aresetn(s00_axi_aresetn),
@@ -190,6 +231,7 @@ module system_led_ip_0_0_led_ip_v1_0_S00_AXI
     S_AXI_AWREADY,
     S_AXI_ARREADY,
     s00_axi_rdata,
+    led_o,
     s00_axi_rvalid,
     s00_axi_bvalid,
     s00_axi_aclk,
@@ -207,6 +249,7 @@ module system_led_ip_0_0_led_ip_v1_0_S00_AXI
   output S_AXI_AWREADY;
   output S_AXI_ARREADY;
   output [31:0]s00_axi_rdata;
+  output [3:0]led_o;
   output s00_axi_rvalid;
   output s00_axi_bvalid;
   input s00_axi_aclk;
@@ -235,6 +278,7 @@ module system_led_ip_0_0_led_ip_v1_0_S00_AXI
   wire axi_bvalid_i_1_n_0;
   wire axi_rvalid_i_1_n_0;
   wire axi_wready0;
+  wire [3:0]led_o;
   wire [1:0]p_0_in;
   wire [31:7]p_1_in;
   wire [31:0]reg_data_out;
@@ -926,6 +970,10 @@ module system_led_ip_0_0_led_ip_v1_0_S00_AXI
         .D(axi_wready0),
         .Q(S_AXI_WREADY),
         .R(axi_awready_i_1_n_0));
+  system_led_ip_0_0_lab3_user_logic lab3_inst
+       (.Q(slv_reg0[3:0]),
+        .led_o(led_o),
+        .s00_axi_aclk(s00_axi_aclk));
   LUT4 #(
     .INIT(16'h0200)) 
     \slv_reg0[15]_i_1 

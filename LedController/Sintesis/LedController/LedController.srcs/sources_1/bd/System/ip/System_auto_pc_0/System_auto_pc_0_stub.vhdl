@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
--- Date        : Sun Jun  8 21:19:44 2025
+-- Date        : Sun Jun  8 21:19:43 2025
 -- Host        : NB459408 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               c:/Xilinx/MyS_workspace/LedController/Sintesis/LedController/LedController.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top system_auto_pc_0 -prefix
+--               system_auto_pc_0_ system_auto_pc_0_stub.vhdl
 -- Design      : system_auto_pc_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z010clg400-1

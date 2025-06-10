@@ -1,4 +1,4 @@
-21:23:46 **** Build of project system_bsp ****
+20:06:54 **** Build of project system_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
 make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
@@ -100,91 +100,54 @@ make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm
 make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
 "Compiling xadcps"
 'Finished building libraries'
-21:24:45 **** Build of configuration Debug for project system ****
+20:07:55 **** Build of configuration Debug for project system ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-'Building file: ../src/lab3.c'
+'Building file: ../src/system.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab3.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab3.d" -MT"src/lab3.o" -o "src/lab3.o" "../src/lab3.c"
-In file included from ../src/lab3.c:3:0:
-../src/lab3.c: In function 'main':
-../src/lab3.c:29:21: error: 'XPAR_LED_PIN_S_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_LED_IP_0_S00_AXI_BASEADDR'?
-    LED_IP_mWriteReg(XPAR_LED_PIN_S_AXI_BASEADDR, 0, dip_check);
-                     ^
-../../system_bsp/ps7_cortexa9_0/include/led_ip.h:35:15: note: in definition of macro 'LED_IP_mWriteReg'
-    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
-               ^~~~~~~~~~~
-../src/lab3.c:29:21: note: each undeclared identifier is reported only once for each function it appears in
-    LED_IP_mWriteReg(XPAR_LED_PIN_S_AXI_BASEADDR, 0, dip_check);
-                     ^
-../../system_bsp/ps7_cortexa9_0/include/led_ip.h:35:15: note: in definition of macro 'LED_IP_mWriteReg'
-    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
-               ^~~~~~~~~~~
-make: *** [src/lab3.o] Error 1
-21:24:47 **** Auto Build of configuration Debug for project system ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/lab3.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab3.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab3.d" -MT"src/lab3.o" -o "src/lab3.o" "../src/lab3.c"
-In file included from ../src/lab3.c:3:0:
-../src/lab3.c: In function 'main':
-../src/lab3.c:29:21: error: 'XPAR_LED_PIN_S_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_LED_IP_0_S00_AXI_BASEADDR'?
-    LED_IP_mWriteReg(XPAR_LED_PIN_S_AXI_BASEADDR, 0, dip_check);
-                     ^
-../../system_bsp/ps7_cortexa9_0/include/led_ip.h:35:15: note: in definition of macro 'LED_IP_mWriteReg'
-    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
-               ^~~~~~~~~~~
-../src/lab3.c:29:21: note: each undeclared identifier is reported only once for each function it appears in
-    LED_IP_mWriteReg(XPAR_LED_PIN_S_AXI_BASEADDR, 0, dip_check);
-                     ^
-../../system_bsp/ps7_cortexa9_0/include/led_ip.h:35:15: note: in definition of macro 'LED_IP_mWriteReg'
-    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
-               ^~~~~~~~~~~
-make: *** [src/lab3.o] Error 1
-21:25:05 **** Auto Build of configuration Debug for project system ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/lab3.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab3.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab3.d" -MT"src/lab3.o" -o "src/lab3.o" "../src/lab3.c"
-'Finished building: ../src/lab3.c'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/system.d" -MT"src/system.o" -o "src/system.o" "../src/system.c"
+'Finished building: ../src/system.c'
 ' '
 'Building target: system.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "system.elf"  ./src/lab3.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "system.elf"  ./src/system.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../system_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Xilinx\MyS_workspace\LedController\Sintesis\LedController\LedController.sdk\system_bsp\ps7_cortexa9_0\libsrc\standalone_v6_6\src/xil-crt0.S:142: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [system.elf] Error 1
+20:07:58 **** Auto Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: system.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "system.elf"  ./src/system.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../system_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Xilinx\MyS_workspace\LedController\Sintesis\LedController\LedController.sdk\system_bsp\ps7_cortexa9_0\libsrc\standalone_v6_6\src/xil-crt0.S:142: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [system.elf] Error 1
+20:08:03 **** Auto Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/system.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/system.d" -MT"src/system.o" -o "src/system.o" "../src/system.c"
+'Finished building: ../src/system.c'
+' '
+'Building target: system.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "system.elf"  ./src/system.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: system.elf'
 ' '
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size system.elf  |tee "system.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  23428	   1184	  22584	  47196	   b85c	system.elf
+  23456	   1184	  22584	  47224	   b878	system.elf
 'Finished building: system.elf.size'
 ' '
-21:25:21 **** Auto Build of configuration Debug for project system ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-'Building file: ../src/lab3.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab3.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab3.d" -MT"src/lab3.o" -o "src/lab3.o" "../src/lab3.c"
-'Finished building: ../src/lab3.c'
-' '
-'Building target: system.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "system.elf"  ./src/lab3.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: system.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size system.elf  |tee "system.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  23428	   1184	  22584	  47196	   b85c	system.elf
-'Finished building: system.elf.size'
-' '
-21:25:34 **** Incremental Build of configuration Debug for project system ****
+20:08:34 **** Incremental Build of configuration Debug for project system ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '

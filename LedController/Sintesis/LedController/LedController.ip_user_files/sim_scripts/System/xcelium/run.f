@@ -36,9 +36,9 @@
   "../../../bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/system/ipshared/480c/hdl/led_ip_v1_0_S00_AXI.vhd" \
-  "../../../bd/system/ipshared/480c/src/lab3_user_logic.vhd" \
-  "../../../bd/system/ipshared/480c/hdl/led_ip_v1_0.vhd" \
+  "../../../bd/system/ipshared/972b/hdl/led_ip_v1_0_S00_AXI.vhd" \
+  "../../../bd/system/ipshared/972b/src/lab3_user_logic.vhd" \
+  "../../../bd/system/ipshared/972b/hdl/led_ip_v1_0.vhd" \
   "../../../bd/system/ip/system_led_ip_0_0/sim/system_led_ip_0_0.vhd" \
 -endlib
 -makelib xcelium_lib/lib_cdc_v1_0_2 \
@@ -87,14 +87,14 @@
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/system/ip/system_xbar_0/sim/system_xbar_0.v" \
 -endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/system/sim/system.vhd" \
+-endlib
 -makelib xcelium_lib/axi_protocol_converter_v2_1_16 \
   "../../../../LedController.srcs/sources_1/bd/system/ipshared/1229/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/system/ip/system_auto_pc_0/sim/system_auto_pc_0.v" \
--endlib
--makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/system/sim/system.vhd" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   glbl.v

@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date             : Sun Jun  8 21:21:57 2025
+| Date             : Tue Jun 10 19:59:46 2025
 | Host             : NB459408 running 64-bit major release  (build 9200)
 | Command          : report_power -file system_wrapper_power_routed.rpt -pb system_wrapper_power_summary_routed.pb -rpx system_wrapper_power_routed.rpx
 | Design           : system_wrapper
@@ -52,14 +52,14 @@ Table of Contents
 +-------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
-| Clocks                  |     0.004 |        3 |       --- |             --- |
-| Slice Logic             |     0.002 |     2100 |       --- |             --- |
-|   LUT as Logic          |     0.001 |      615 |     17600 |            3.49 |
-|   Register              |    <0.001 |     1011 |     35200 |            2.87 |
+| Clocks                  |     0.005 |        3 |       --- |             --- |
+| Slice Logic             |     0.002 |     2105 |       --- |             --- |
+|   LUT as Logic          |     0.001 |      617 |     17600 |            3.51 |
+|   Register              |    <0.001 |     1015 |     35200 |            2.88 |
 |   CARRY4                |    <0.001 |       18 |      4400 |            0.41 |
 |   LUT as Shift Register |    <0.001 |       62 |      6000 |            1.03 |
-|   Others                |     0.000 |      215 |       --- |             --- |
-| Signals                 |     0.002 |     1584 |       --- |             --- |
+|   Others                |     0.000 |      216 |       --- |             --- |
+| Signals                 |     0.002 |     1587 |       --- |             --- |
 | I/O                     |    <0.001 |       10 |       100 |           10.00 |
 | PS7                     |     1.259 |        1 |       --- |             --- |
 | Static Power            |     0.115 |          |           |                 |
@@ -73,7 +73,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.015 |       0.008 |      0.006 |
+| Vccint    |       1.000 |     0.015 |       0.009 |      0.006 |
 | Vccaux    |       1.800 |     0.008 |       0.000 |      0.008 |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -163,6 +163,7 @@ Table of Contents
 |     led_ip_0                                                                |    <0.001 |
 |       U0                                                                    |    <0.001 |
 |         led_ip_v1_0_S00_AXI_inst                                            |    <0.001 |
+|           lab3_inst                                                         |    <0.001 |
 |     processing_system7_0                                                    |     1.259 |
 |       inst                                                                  |     1.259 |
 |     ps7_0_axi_periph                                                        |     0.006 |
@@ -175,7 +176,7 @@ Table of Contents
 |                 cmd_translator_0                                            |    <0.001 |
 |                   incr_cmd_0                                                |    <0.001 |
 |                   wrap_cmd_0                                                |    <0.001 |
-|               RD.r_channel_0                                                |    <0.001 |
+|               RD.r_channel_0                                                |     0.001 |
 |                 rd_data_fifo_0                                              |    <0.001 |
 |                 transaction_fifo_0                                          |    <0.001 |
 |               SI_REG                                                        |     0.002 |

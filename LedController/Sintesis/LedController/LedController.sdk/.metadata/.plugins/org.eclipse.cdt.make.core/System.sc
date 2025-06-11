@@ -842,6 +842,7 @@
 </instance>
 <instance id="xilinx.gnu.armv7.exe.debug.2008879086;xilinx.gnu.armv7.exe.debug.2008879086.;xilinx.gnu.armv7.c.toolchain.compiler.debug.1733398578;xilinx.gnu.armv7.c.compiler.input.1047054827">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="#undef __ARM_ASM_SYNTAX_UNIFIED__" removed="true"/>
 <includePath path="c:\xilinx\sdk\2018.1\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/include"/>
 <includePath path="c:\xilinx\sdk\2018.1\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
 <includePath path="c:\xilinx\sdk\2018.1\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"/>

@@ -152,3 +152,263 @@ make pre-build main-build
 a9-linaro-pre-build-step
 ' '
 make: No se hace nada para `main-build'.
+20:17:26 **** Incremental Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+20:22:21 **** Auto Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/system.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/system.d" -MT"src/system.o" -o "src/system.o" "../src/system.c"
+../src/system.c: In function 'main':
+../src/system.c:32:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(5);
+    ^~~~~
+    strsep
+../src/system.c:10:8: warning: unused variable 'i' [-Wunused-variable]
+    int i, psb_check, dip_check;
+        ^
+'Finished building: ../src/system.c'
+' '
+'Building target: system.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "system.elf"  ./src/system.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: system.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size system.elf  |tee "system.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23584	   1184	  22584	  47352	   b8f8	system.elf
+'Finished building: system.elf.size'
+' '
+20:22:35 **** Incremental Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+20:24:23 **** Auto Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/system.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/system.d" -MT"src/system.o" -o "src/system.o" "../src/system.c"
+../src/system.c: In function 'main':
+../src/system.c:33:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(5);
+    ^~~~~
+    strsep
+../src/system.c:10:8: warning: unused variable 'i' [-Wunused-variable]
+    int i, psb_check, dip_check;
+        ^
+'Finished building: ../src/system.c'
+' '
+'Building target: system.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "system.elf"  ./src/system.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: system.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size system.elf  |tee "system.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23600	   1184	  22584	  47368	   b908	system.elf
+'Finished building: system.elf.size'
+' '
+20:24:42 **** Incremental Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+20:25:05 **** Auto Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/system.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/system.d" -MT"src/system.o" -o "src/system.o" "../src/system.c"
+../src/system.c: In function 'main':
+../src/system.c:33:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(5);
+    ^~~~~
+    strsep
+../src/system.c:10:8: warning: unused variable 'i' [-Wunused-variable]
+    int i, psb_check, dip_check;
+        ^
+'Finished building: ../src/system.c'
+' '
+'Building target: system.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "system.elf"  ./src/system.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: system.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size system.elf  |tee "system.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23600	   1184	  22584	  47368	   b908	system.elf
+'Finished building: system.elf.size'
+' '
+20:25:14 **** Incremental Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+20:26:46 **** Auto Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/system.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/system.d" -MT"src/system.o" -o "src/system.o" "../src/system.c"
+../src/system.c: In function 'main':
+../src/system.c:33:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(5);
+    ^~~~~
+    strsep
+../src/system.c:10:8: warning: unused variable 'i' [-Wunused-variable]
+    int i, psb_check, dip_check;
+        ^
+'Finished building: ../src/system.c'
+' '
+'Building target: system.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "system.elf"  ./src/system.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: system.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size system.elf  |tee "system.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23664	   1184	  22584	  47432	   b948	system.elf
+'Finished building: system.elf.size'
+' '
+20:27:01 **** Auto Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/system.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/system.d" -MT"src/system.o" -o "src/system.o" "../src/system.c"
+../src/system.c: In function 'main':
+../src/system.c:33:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(5);
+    ^~~~~
+    strsep
+../src/system.c:10:8: warning: unused variable 'i' [-Wunused-variable]
+    int i, psb_check, dip_check;
+        ^
+'Finished building: ../src/system.c'
+' '
+'Building target: system.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "system.elf"  ./src/system.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: system.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size system.elf  |tee "system.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23664	   1184	  22584	  47432	   b948	system.elf
+'Finished building: system.elf.size'
+' '
+20:27:11 **** Incremental Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+20:29:33 **** Incremental Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+20:37:44 **** Auto Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/system.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/system.d" -MT"src/system.o" -o "src/system.o" "../src/system.c"
+../src/system.c: In function 'main':
+../src/system.c:32:12: error: lvalue required as left operand of assignment
+    ++count &= 0x000F;
+            ^~
+../src/system.c:33:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(5);
+    ^~~~~
+    strsep
+../src/system.c:10:8: warning: unused variable 'i' [-Wunused-variable]
+    int i, psb_check, dip_check;
+        ^
+make: *** [src/system.o] Error 1
+20:37:59 **** Incremental Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/system.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/system.d" -MT"src/system.o" -o "src/system.o" "../src/system.c"
+../src/system.c: In function 'main':
+../src/system.c:32:12: error: lvalue required as left operand of assignment
+    ++count &= 0x000F;
+            ^~
+../src/system.c:33:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(5);
+    ^~~~~
+    strsep
+../src/system.c:10:8: warning: unused variable 'i' [-Wunused-variable]
+    int i, psb_check, dip_check;
+        ^
+make: *** [src/system.o] Error 1
+20:40:56 **** Auto Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/system.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/system.d" -MT"src/system.o" -o "src/system.o" "../src/system.c"
+../src/system.c: In function 'main':
+../src/system.c:32:14: error: lvalue required as left operand of assignment
+    (++count) &= 0x000F;
+              ^~
+../src/system.c:33:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(2);
+    ^~~~~
+    strsep
+../src/system.c:10:8: warning: unused variable 'i' [-Wunused-variable]
+    int i, psb_check, dip_check;
+        ^
+make: *** [src/system.o] Error 1
+20:41:23 **** Auto Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/system.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/system.d" -MT"src/system.o" -o "src/system.o" "../src/system.c"
+../src/system.c: In function 'main':
+../src/system.c:33:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(2);
+    ^~~~~
+    strsep
+../src/system.c:10:8: warning: unused variable 'i' [-Wunused-variable]
+    int i, psb_check, dip_check;
+        ^
+'Finished building: ../src/system.c'
+' '
+'Building target: system.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "system.elf"  ./src/system.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: system.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size system.elf  |tee "system.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23664	   1184	  22584	  47432	   b948	system.elf
+'Finished building: system.elf.size'
+' '
+20:42:00 **** Incremental Build of configuration Debug for project system ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.

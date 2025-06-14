@@ -1,0 +1,306 @@
+16:25:10 INFO  : Registering command handlers for SDK TCF services
+16:25:10 INFO  : Launching XSCT server: xsct.bat -interactive C:\Xilinx\MyS_workspace\TPFinal\Sintesis\Transceiver\Transceiver.sdk\temp_xsdb_launch_script.tcl
+16:25:14 INFO  : XSCT server has started successfully.
+16:25:17 INFO  : Successfully done setting XSCT server connection channel  
+16:25:17 INFO  : Processing command line option -hwspec C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper.hdf.
+16:25:17 INFO  : Successfully done setting SDK workspace  
+16:28:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:28:47 INFO  : Jtag cable 'Digilent Arty Z7 003017B7EDF5A' is selected.
+16:28:47 INFO  : 'jtag frequency' command is executed.
+16:28:47 INFO  : Sourcing of 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:28:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==0} -index 1' command is executed.
+16:28:49 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/transceiver_wrapper.bit"
+16:28:50 INFO  : Context for 'APU' is selected.
+16:28:50 INFO  : Hardware design information is loaded from 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/system.hdf'.
+16:28:50 INFO  : 'configparams force-mem-access 1' command is executed.
+16:28:50 INFO  : Context for 'APU' is selected.
+16:28:51 INFO  : 'stop' command is executed.
+16:28:52 INFO  : 'ps7_init' command is executed.
+16:28:52 INFO  : 'ps7_post_config' command is executed.
+16:28:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:28:53 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+16:28:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:28:54 INFO  : The application 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver/Debug/transceiver.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:28:54 INFO  : 'configparams force-mem-access 0' command is executed.
+16:28:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==0} -index 1
+fpga -file C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/transceiver_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+loadhw -hw C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+dow C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver/Debug/transceiver.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:28:54 INFO  : Memory regions updated for context APU
+16:28:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:28:55 INFO  : 'con' command is executed.
+16:28:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+con
+----------------End of Script----------------
+
+16:28:55 INFO  : Launch script is exported to file 'C:\Xilinx\MyS_workspace\TPFinal\Sintesis\Transceiver\Transceiver.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_transceiver.elf_on_local.tcl'
+16:43:52 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1749930141065,  Project:1749929070414
+16:43:52 INFO  : Project transceiver_wrapper_hw_platform_0's source hardware specification located at C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:44:17 INFO  : Copied contents of C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper.hdf into \transceiver_wrapper_hw_platform_0\system.hdf.
+16:44:20 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:44:28 INFO  : 
+16:44:29 INFO  : Updating hardware inferred compiler options for transceiver.
+16:44:29 INFO  : Clearing existing target manager status.
+16:44:29 INFO  : Closing and re-opening the MSS file of ther project transceiver_bsp
+16:44:29 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:44:35 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:47:30 INFO  : Disconnected from the channel tcfchan#1.
+16:47:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:47:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+16:48:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:48:15 INFO  : Jtag cable 'Digilent Arty Z7 003017B7EDF5A' is selected.
+16:48:15 INFO  : 'jtag frequency' command is executed.
+16:48:15 INFO  : Sourcing of 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:48:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==0} -index 1' command is executed.
+16:48:17 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/transceiver_wrapper.bit"
+16:48:17 INFO  : Context for 'APU' is selected.
+16:48:17 INFO  : Hardware design information is loaded from 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/system.hdf'.
+16:48:17 INFO  : 'configparams force-mem-access 1' command is executed.
+16:48:17 INFO  : Context for 'APU' is selected.
+16:48:17 INFO  : 'stop' command is executed.
+16:48:18 INFO  : 'ps7_init' command is executed.
+16:48:18 INFO  : 'ps7_post_config' command is executed.
+16:48:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:48:18 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+16:48:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:48:18 INFO  : The application 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver/Debug/transceiver.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:48:18 INFO  : 'configparams force-mem-access 0' command is executed.
+16:48:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==0} -index 1
+fpga -file C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/transceiver_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+loadhw -hw C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+dow C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver/Debug/transceiver.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:48:18 INFO  : Memory regions updated for context APU
+16:48:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:48:18 INFO  : 'con' command is executed.
+16:48:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+con
+----------------End of Script----------------
+
+16:48:18 INFO  : Launch script is exported to file 'C:\Xilinx\MyS_workspace\TPFinal\Sintesis\Transceiver\Transceiver.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_transceiver.elf_on_local.tcl'
+16:50:24 INFO  : Disconnected from the channel tcfchan#2.
+16:50:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:50:25 INFO  : Jtag cable 'Digilent Arty Z7 003017B7EDF5A' is selected.
+16:50:25 INFO  : 'jtag frequency' command is executed.
+16:50:25 INFO  : Sourcing of 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:50:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==0} -index 1' command is executed.
+16:50:26 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/transceiver_wrapper.bit"
+16:50:27 INFO  : Context for 'APU' is selected.
+16:50:29 INFO  : Hardware design information is loaded from 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/system.hdf'.
+16:50:29 INFO  : 'configparams force-mem-access 1' command is executed.
+16:50:29 INFO  : Context for 'APU' is selected.
+16:50:29 INFO  : 'stop' command is executed.
+16:50:29 INFO  : 'ps7_init' command is executed.
+16:50:29 INFO  : 'ps7_post_config' command is executed.
+16:50:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:50:29 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+16:50:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:50:29 INFO  : The application 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver/Debug/transceiver.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:50:30 INFO  : 'configparams force-mem-access 0' command is executed.
+16:50:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==0} -index 1
+fpga -file C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/transceiver_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+loadhw -hw C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+dow C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver/Debug/transceiver.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:50:30 INFO  : Memory regions updated for context APU
+16:50:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:50:30 INFO  : 'con' command is executed.
+16:50:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+con
+----------------End of Script----------------
+
+16:50:30 INFO  : Launch script is exported to file 'C:\Xilinx\MyS_workspace\TPFinal\Sintesis\Transceiver\Transceiver.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_transceiver.elf_on_local.tcl'
+16:58:40 INFO  : Disconnected from the channel tcfchan#3.
+17:48:29 INFO  : Registering command handlers for SDK TCF services
+17:48:29 INFO  : Launching XSCT server: xsct.bat -interactive C:\Xilinx\MyS_workspace\TPFinal\Sintesis\Transceiver\Transceiver.sdk\temp_xsdb_launch_script.tcl
+17:48:33 INFO  : XSCT server has started successfully.
+17:48:35 INFO  : Processing command line option -hwspec C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper.hdf.
+17:48:35 INFO  : Successfully done setting XSCT server connection channel  
+17:48:35 INFO  : Successfully done setting SDK workspace  
+17:48:35 INFO  : Checking for hwspec changes in the project transceiver_wrapper_hw_platform_0.
+17:49:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:49:43 INFO  : Jtag cable 'Digilent Arty Z7 003017B7EDF5A' is selected.
+17:49:43 INFO  : 'jtag frequency' command is executed.
+17:49:43 INFO  : Sourcing of 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/ps7_init.tcl' is done.
+17:49:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==0} -index 1' command is executed.
+17:49:45 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/transceiver_wrapper.bit"
+17:49:46 INFO  : Context for 'APU' is selected.
+17:49:46 INFO  : Hardware design information is loaded from 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/system.hdf'.
+17:49:46 INFO  : 'configparams force-mem-access 1' command is executed.
+17:49:46 INFO  : Context for 'APU' is selected.
+17:49:46 INFO  : 'stop' command is executed.
+17:49:48 INFO  : 'ps7_init' command is executed.
+17:49:48 INFO  : 'ps7_post_config' command is executed.
+17:49:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:49:49 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+17:49:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:49:50 INFO  : The application 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver/Debug/transceiver.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:49:50 INFO  : 'configparams force-mem-access 0' command is executed.
+17:49:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==0} -index 1
+fpga -file C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/transceiver_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+loadhw -hw C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+dow C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver/Debug/transceiver.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:49:50 INFO  : Memory regions updated for context APU
+17:49:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:49:51 INFO  : 'con' command is executed.
+17:49:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+con
+----------------End of Script----------------
+
+17:49:51 INFO  : Launch script is exported to file 'C:\Xilinx\MyS_workspace\TPFinal\Sintesis\Transceiver\Transceiver.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_transceiver.elf_on_local.tcl'
+17:59:13 INFO  : Disconnected from the channel tcfchan#1.
+17:59:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==0} -index 1' command is executed.
+17:59:14 INFO  : 'fpga -state' command is executed.
+17:59:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:59:15 INFO  : Jtag cable 'Digilent Arty Z7 003017B7EDF5A' is selected.
+17:59:15 INFO  : 'jtag frequency' command is executed.
+17:59:15 INFO  : Sourcing of 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/ps7_init.tcl' is done.
+17:59:15 INFO  : Context for 'APU' is selected.
+17:59:17 INFO  : Hardware design information is loaded from 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/system.hdf'.
+17:59:17 INFO  : 'configparams force-mem-access 1' command is executed.
+17:59:17 INFO  : Context for 'APU' is selected.
+17:59:17 INFO  : 'stop' command is executed.
+17:59:17 INFO  : 'ps7_init' command is executed.
+17:59:17 INFO  : 'ps7_post_config' command is executed.
+17:59:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:59:18 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+17:59:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:59:18 INFO  : The application 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver/Debug/transceiver.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:59:18 INFO  : 'configparams force-mem-access 0' command is executed.
+17:59:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+loadhw -hw C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+dow C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver/Debug/transceiver.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:59:18 INFO  : Memory regions updated for context APU
+17:59:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:59:18 INFO  : 'con' command is executed.
+17:59:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+con
+----------------End of Script----------------
+
+17:59:18 INFO  : Launch script is exported to file 'C:\Xilinx\MyS_workspace\TPFinal\Sintesis\Transceiver\Transceiver.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_transceiver.elf_on_local.tcl'
+18:01:31 INFO  : Disconnected from the channel tcfchan#2.
+18:01:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A" && level==0} -index 1' command is executed.
+18:01:32 INFO  : 'fpga -state' command is executed.
+18:01:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:01:33 INFO  : Jtag cable 'Digilent Arty Z7 003017B7EDF5A' is selected.
+18:01:33 INFO  : 'jtag frequency' command is executed.
+18:01:33 INFO  : Sourcing of 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/ps7_init.tcl' is done.
+18:01:33 INFO  : Context for 'APU' is selected.
+18:01:34 INFO  : Hardware design information is loaded from 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/system.hdf'.
+18:01:34 INFO  : 'configparams force-mem-access 1' command is executed.
+18:01:34 INFO  : Context for 'APU' is selected.
+18:01:35 INFO  : 'stop' command is executed.
+18:01:35 INFO  : 'ps7_init' command is executed.
+18:01:35 INFO  : 'ps7_post_config' command is executed.
+18:01:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:01:35 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+18:01:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:01:35 INFO  : The application 'C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver/Debug/transceiver.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:01:35 INFO  : 'configparams force-mem-access 0' command is executed.
+18:01:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+loadhw -hw C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+dow C:/Xilinx/MyS_workspace/TPFinal/Sintesis/Transceiver/Transceiver.sdk/transceiver/Debug/transceiver.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:01:35 INFO  : Memory regions updated for context APU
+18:01:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:01:36 INFO  : 'con' command is executed.
+18:01:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B7EDF5A"} -index 0
+con
+----------------End of Script----------------
+
+18:01:36 INFO  : Launch script is exported to file 'C:\Xilinx\MyS_workspace\TPFinal\Sintesis\Transceiver\Transceiver.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_transceiver.elf_on_local.tcl'

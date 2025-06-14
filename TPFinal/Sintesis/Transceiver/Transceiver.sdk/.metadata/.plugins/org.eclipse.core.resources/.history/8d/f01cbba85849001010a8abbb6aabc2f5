@@ -1,0 +1,23 @@
+#include "sleep.h"
+#include "xparameters.h"
+#include "xgpio.h"
+
+//====================================================
+
+int main (void)
+{
+  XGpio xbtns;
+  unsigned int btns = 0x0;
+
+  xil_printf("Transceiver Beginning\r\n");
+
+  XGpio_Initialize(&xbtns, XPAR_BUTTONS_DEVICE_ID);
+  XGpio_SetDataDirection(&xbtns, 1, 0xffffffff);
+
+  while (1)
+  {
+	  btns = XGpio_DiscreteRead(&xbtns, 1);
+	  xil_printf("Buttons Status %x\r\n", btns);
+	  sleep(1);
+  }
+}

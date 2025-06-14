@@ -1,0 +1,18 @@
+vhdl xil_defaultlib  \
+"../../../bd/transceiver/ip/transceiver_axi_gpio_0_0/sim/transceiver_axi_gpio_0_0.vhd" \
+"../../../bd/transceiver/ip/transceiver_rst_ps7_0_100M_0/sim/transceiver_rst_ps7_0_100M_0.vhd" \
+"../../../bd/transceiver/sim/transceiver.vhd" \
+"../../../bd/transceiver/ipshared/9ae5/hdl/Transmitter_IP_v1_0_Transmitter.vhd" \
+"../../../bd/transceiver/ipshared/9ae5/src/genEna.vhd" \
+"../../../bd/transceiver/ipshared/9ae5/src/transmitter.vhd" \
+"../../../bd/transceiver/ipshared/9ae5/src/transmitter_ip.vhd" \
+"../../../bd/transceiver/ipshared/9ae5/hdl/Transmitter_IP_v1_0.vhd" \
+"../../../bd/transceiver/ip/transceiver_Transmitter_IP_0_0/sim/transceiver_Transmitter_IP_0_0.vhd" \
+"../../../bd/transceiver/ipshared/1ac6/hdl/Receiver_IP_v1_0_Receiver.vhd" \
+"../../../bd/transceiver/ipshared/1ac6/src/meta_harden.vhd" \
+"../../../bd/transceiver/ipshared/1ac6/src/receiver.vhd" \
+"../../../bd/transceiver/ipshared/1ac6/src/receiver_ip.vhd" \
+"../../../bd/transceiver/ipshared/1ac6/hdl/Receiver_IP_v1_0.vhd" \
+"../../../bd/transceiver/ip/transceiver_Receiver_IP_0_0/sim/transceiver_Receiver_IP_0_0.vhd" \
+
+nosort

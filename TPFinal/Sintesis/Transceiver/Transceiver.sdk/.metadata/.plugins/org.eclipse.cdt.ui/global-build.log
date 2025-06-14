@@ -1,0 +1,535 @@
+16:26:13 **** Build of project transceiver_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_6/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_6/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:54:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+16:27:09 **** Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/transceiver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transceiver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../transceiver_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transceiver.d" -MT"src/transceiver.o" -o "src/transceiver.o" "../src/transceiver.c"
+'Finished building: ../src/transceiver.c'
+' '
+'Building target: transceiver.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../transceiver_bsp/ps7_cortexa9_0/lib -o "transceiver.elf"  ./src/transceiver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../transceiver_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Xilinx\MyS_workspace\TPFinal\Sintesis\Transceiver\Transceiver.sdk\transceiver_bsp\ps7_cortexa9_0\libsrc\standalone_v6_6\src/xil-crt0.S:142: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [transceiver.elf] Error 1
+16:27:15 **** Auto Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: transceiver.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../transceiver_bsp/ps7_cortexa9_0/lib -o "transceiver.elf"  ./src/transceiver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../transceiver_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Xilinx\MyS_workspace\TPFinal\Sintesis\Transceiver\Transceiver.sdk\transceiver_bsp\ps7_cortexa9_0\libsrc\standalone_v6_6\src/xil-crt0.S:142: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [transceiver.elf] Error 1
+16:28:00 **** Auto Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/transceiver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transceiver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../transceiver_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transceiver.d" -MT"src/transceiver.o" -o "src/transceiver.o" "../src/transceiver.c"
+../src/transceiver.c: In function 'main':
+../src/transceiver.c:19:31: error: 'xswt' undeclared (first use in this function)
+    btns = XGpio_DiscreteRead(&xswt, 1);
+                               ^~~~
+../src/transceiver.c:19:31: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/transceiver.o] Error 1
+16:28:16 **** Auto Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/transceiver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transceiver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../transceiver_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transceiver.d" -MT"src/transceiver.o" -o "src/transceiver.o" "../src/transceiver.c"
+'Finished building: ../src/transceiver.c'
+' '
+'Building target: transceiver.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../transceiver_bsp/ps7_cortexa9_0/lib -o "transceiver.elf"  ./src/transceiver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: transceiver.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size transceiver.elf  |tee "transceiver.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23324	   1168	  22584	  47076	   b7e4	transceiver.elf
+'Finished building: transceiver.elf.size'
+' '
+16:28:40 **** Incremental Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+16:44:29 **** Clean-only build of project transceiver_bsp ****
+make -k clean 
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/Receiver_IP_v1_0/src -s clean 
+rm: no se puede efectuar `lstat' sobre «*.o»: Invalid argument
+make[1]: *** [clean] Error 1
+make: *** [ps7_cortexa9_0/libsrc/Receiver_IP_v1_0/src/make.clean] Error 2
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/standalone_v6_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/Transmitter_IP_v1_0/src -s clean 
+rm: no se puede efectuar `lstat' sobre «*.o»: Invalid argument
+make[1]: *** [clean] Error 1
+make: *** [ps7_cortexa9_0/libsrc/Transmitter_IP_v1_0/src/make.clean] Error 2
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s clean 
+make: Debido a los errores, el objetivo `clean' no se reconstruyó.
+16:44:34 **** Clean-only build of configuration Debug for project transceiver ****
+make clean 
+rm -rf  ./src/transceiver.o  ./src/transceiver.d  transceiver.elf.size  transceiver.elf
+' '
+16:44:35 **** Build of project transceiver_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/Receiver_IP_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/Receiver_IP_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_6/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/Transmitter_IP_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/Transmitter_IP_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/Receiver_IP_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/Receiver_IP_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling Receiver_IP..."
+Receiver_IP_selftest.c: In function 'RECEIVER_IP_Reg_SelfTest':
+Receiver_IP_selftest.c:52:60: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( RECEIVER_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                            ^~
+Receiver_IP_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_6/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/Transmitter_IP_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/Transmitter_IP_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling Transmitter_IP..."
+Transmitter_IP_selftest.c: In function 'TRANSMITTER_IP_Reg_SelfTest':
+Transmitter_IP_selftest.c:52:63: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( TRANSMITTER_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                               ^~
+Transmitter_IP_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+16:45:40 **** Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/transceiver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transceiver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../transceiver_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transceiver.d" -MT"src/transceiver.o" -o "src/transceiver.o" "../src/transceiver.c"
+'Finished building: ../src/transceiver.c'
+' '
+'Building target: transceiver.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../transceiver_bsp/ps7_cortexa9_0/lib -o "transceiver.elf"  ./src/transceiver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: transceiver.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size transceiver.elf  |tee "transceiver.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23324	   1168	  22584	  47076	   b7e4	transceiver.elf
+'Finished building: transceiver.elf.size'
+' '
+16:47:27 **** Incremental Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+16:48:13 **** Incremental Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+16:49:18 **** Auto Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/transceiver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transceiver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../transceiver_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transceiver.d" -MT"src/transceiver.o" -o "src/transceiver.o" "../src/transceiver.c"
+In file included from ../src/transceiver.c:5:0:
+../src/transceiver.c: In function 'main':
+../src/transceiver.c:26:29: error: 'XPAR_TRANSMITTER_IP_0_TRANSMITTER_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_TRANSMITTER_TRANSMITTER_BASEADDR'?
+    TRANSMITTER_IP_mWriteReg(XPAR_TRANSMITTER_IP_0_TRANSMITTER_BASEADDR, TRANSMITTER_IP_Transmitter_SLV_REG0_OFFSET, dataOut);
+                             ^
+../../transceiver_bsp/ps7_cortexa9_0/include/Transmitter_IP.h:35:15: note: in definition of macro 'TRANSMITTER_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^~~~~~~~~~~
+../src/transceiver.c:26:29: note: each undeclared identifier is reported only once for each function it appears in
+    TRANSMITTER_IP_mWriteReg(XPAR_TRANSMITTER_IP_0_TRANSMITTER_BASEADDR, TRANSMITTER_IP_Transmitter_SLV_REG0_OFFSET, dataOut);
+                             ^
+../../transceiver_bsp/ps7_cortexa9_0/include/Transmitter_IP.h:35:15: note: in definition of macro 'TRANSMITTER_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^~~~~~~~~~~
+In file included from ../src/transceiver.c:4:0:
+../src/transceiver.c:29:34: error: 'XPAR_RECEIVER_IP_0_RECEIVER_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_RECEIVER_RECEIVER_BASEADDR'?
+    dataIn = RECEIVER_IP_mReadReg(XPAR_RECEIVER_IP_0_RECEIVER_BASEADDR, RECEIVER_IP_Receiver_SLV_REG0_OFFSET);
+                                  ^
+../../transceiver_bsp/ps7_cortexa9_0/include/Receiver_IP.h:55:15: note: in definition of macro 'RECEIVER_IP_mReadReg'
+     Xil_In32((BaseAddress) + (RegOffset))
+               ^~~~~~~~~~~
+make: *** [src/transceiver.o] Error 1
+16:50:01 **** Auto Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/transceiver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transceiver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../transceiver_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transceiver.d" -MT"src/transceiver.o" -o "src/transceiver.o" "../src/transceiver.c"
+'Finished building: ../src/transceiver.c'
+' '
+'Building target: transceiver.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../transceiver_bsp/ps7_cortexa9_0/lib -o "transceiver.elf"  ./src/transceiver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: transceiver.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size transceiver.elf  |tee "transceiver.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23560	   1168	  22584	  47312	   b8d0	transceiver.elf
+'Finished building: transceiver.elf.size'
+' '
+16:50:20 **** Incremental Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+17:49:10 **** Auto Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/transceiver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transceiver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../transceiver_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transceiver.d" -MT"src/transceiver.o" -o "src/transceiver.o" "../src/transceiver.c"
+../src/transceiver.c: In function 'main':
+../src/transceiver.c:27:43: error: 'dataOut' undeclared (first use in this function); did you mean 'dataIn'?
+    xil_printf("Data Transmitted: %x\r\n", dataOut);
+                                           ^~~~~~~
+                                           dataIn
+../src/transceiver.c:27:43: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/transceiver.o] Error 1
+17:49:18 **** Auto Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/transceiver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transceiver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../transceiver_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transceiver.d" -MT"src/transceiver.o" -o "src/transceiver.o" "../src/transceiver.c"
+'Finished building: ../src/transceiver.c'
+' '
+'Building target: transceiver.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../transceiver_bsp/ps7_cortexa9_0/lib -o "transceiver.elf"  ./src/transceiver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: transceiver.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size transceiver.elf  |tee "transceiver.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23496	   1168	  22584	  47248	   b890	transceiver.elf
+'Finished building: transceiver.elf.size'
+' '
+17:49:36 **** Incremental Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+17:58:53 **** Auto Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/transceiver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transceiver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../transceiver_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transceiver.d" -MT"src/transceiver.o" -o "src/transceiver.o" "../src/transceiver.c"
+'Finished building: ../src/transceiver.c'
+' '
+'Building target: transceiver.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../transceiver_bsp/ps7_cortexa9_0/lib -o "transceiver.elf"  ./src/transceiver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: transceiver.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size transceiver.elf  |tee "transceiver.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23620	   1168	  22584	  47372	   b90c	transceiver.elf
+'Finished building: transceiver.elf.size'
+' '
+17:59:10 **** Incremental Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+18:01:00 **** Auto Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/transceiver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transceiver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../transceiver_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transceiver.d" -MT"src/transceiver.o" -o "src/transceiver.o" "../src/transceiver.c"
+'Finished building: ../src/transceiver.c'
+' '
+'Building target: transceiver.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../transceiver_bsp/ps7_cortexa9_0/lib -o "transceiver.elf"  ./src/transceiver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: transceiver.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size transceiver.elf  |tee "transceiver.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23492	   1168	  22584	  47244	   b88c	transceiver.elf
+'Finished building: transceiver.elf.size'
+' '
+18:01:12 **** Auto Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/transceiver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transceiver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../transceiver_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transceiver.d" -MT"src/transceiver.o" -o "src/transceiver.o" "../src/transceiver.c"
+'Finished building: ../src/transceiver.c'
+' '
+'Building target: transceiver.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../transceiver_bsp/ps7_cortexa9_0/lib -o "transceiver.elf"  ./src/transceiver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: transceiver.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size transceiver.elf  |tee "transceiver.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23620	   1168	  22584	  47372	   b90c	transceiver.elf
+'Finished building: transceiver.elf.size'
+' '
+18:01:27 **** Incremental Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+18:03:04 **** Auto Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/transceiver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transceiver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../transceiver_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transceiver.d" -MT"src/transceiver.o" -o "src/transceiver.o" "../src/transceiver.c"
+'Finished building: ../src/transceiver.c'
+' '
+'Building target: transceiver.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../transceiver_bsp/ps7_cortexa9_0/lib -o "transceiver.elf"  ./src/transceiver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: transceiver.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size transceiver.elf  |tee "transceiver.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23620	   1168	  22584	  47372	   b90c	transceiver.elf
+'Finished building: transceiver.elf.size'
+' '
+18:03:11 **** Auto Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/transceiver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transceiver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../transceiver_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transceiver.d" -MT"src/transceiver.o" -o "src/transceiver.o" "../src/transceiver.c"
+'Finished building: ../src/transceiver.c'
+' '
+'Building target: transceiver.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../transceiver_bsp/ps7_cortexa9_0/lib -o "transceiver.elf"  ./src/transceiver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: transceiver.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size transceiver.elf  |tee "transceiver.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23620	   1168	  22584	  47372	   b90c	transceiver.elf
+'Finished building: transceiver.elf.size'
+' '
+18:03:45 **** Auto Build of configuration Debug for project transceiver ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/transceiver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/transceiver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../transceiver_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/transceiver.d" -MT"src/transceiver.o" -o "src/transceiver.o" "../src/transceiver.c"
+'Finished building: ../src/transceiver.c'
+' '
+'Building target: transceiver.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../transceiver_bsp/ps7_cortexa9_0/lib -o "transceiver.elf"  ./src/transceiver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: transceiver.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size transceiver.elf  |tee "transceiver.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23620	   1168	  22584	  47372	   b90c	transceiver.elf
+'Finished building: transceiver.elf.size'
+' '
